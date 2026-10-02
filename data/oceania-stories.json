@@ -1,0 +1,70 @@
+{
+  "continent": "Oceania",
+  "generated": "2026-10-01",
+  "source": "Adapted from CRS_Subnational_Oceania.md and CRS_Time_Oceania.md",
+  "stories": [
+    {
+      "id": "australia-spread",
+      "title": "Australia: Few Campers, Spread Across the Country",
+      "countryIso3": "AUS",
+      "paragraphs": [
+        "Australia is the only country in Oceania with any campers in the directory. Of its 12 campers, 11 list a usable location, and they come from five of Australia's eight states and territories, in rough proportion to population. The only cluster is small: three campers from Maroubra, in Sydney.",
+        "With so few campers, there is little subnational pattern to find. Victoria, home to about a quarter of Australians, has sent one camper."
+      ],
+      "table": {
+        "headers": [
+          "State",
+          "Campers",
+          "Share of campers",
+          "Approx. share of population"
+        ],
+        "rows": [
+          [
+            "New South Wales",
+            "5",
+            "45%",
+            "31%"
+          ],
+          [
+            "Queensland",
+            "3",
+            "27%",
+            "21%"
+          ],
+          [
+            "Western Australia",
+            "1",
+            "9%",
+            "11%"
+          ],
+          [
+            "Tasmania",
+            "1",
+            "9%",
+            "2%"
+          ],
+          [
+            "Victoria",
+            "1",
+            "9%",
+            "26%"
+          ]
+        ]
+      },
+      "chartHint": {
+        "type": "yearDistribution",
+        "iso3": "AUS"
+      }
+    },
+    {
+      "id": "oceania-trickle",
+      "title": "A Small but Steady Trickle Since 1956",
+      "section": "time-trends",
+      "paragraphs": [
+        "Australia's 12 campers span almost the whole history of camp, from 1956 to 2024, but never more than a few per decade. The busiest stretch was 1987–1991, with five campers, three of them from Queensland. Oceania has never supplied more than about 1% of campers in any period.",
+        "No other country in Oceania has ever sent a camper. That includes New Zealand (5.3 million people) and Papua New Guinea (10.8 million), along with the Pacific island nations. The main story for Oceania is not a change over time but the need for more campers from across the region."
+      ],
+      "chartHint": null
+    }
+  ]
+}

@@ -1,0 +1,1048 @@
+{
+  "continent": "Oceania",
+  "generated": "2026-09-30",
+  "meta": {
+    "countriesInScope": 14,
+    "windows": [
+      25,
+      20,
+      15,
+      10,
+      5
+    ],
+    "choroplethWindowYears": 40,
+    "capacityModel": {
+      "window": "2010-2024",
+      "annualCap": 4,
+      "capacityOverWindow": 60
+    }
+  },
+  "summary": {
+    "representedEver": {
+      "count": 1,
+      "pct": 0.07142857142857142
+    },
+    "representedPast": {
+      "25": {
+        "count": 1,
+        "pct": 0.07142857142857142
+      },
+      "20": {
+        "count": 1,
+        "pct": 0.07142857142857142
+      },
+      "15": {
+        "count": 1,
+        "pct": 0.07142857142857142
+      },
+      "10": {
+        "count": 1,
+        "pct": 0.07142857142857142
+      },
+      "5": {
+        "count": 1,
+        "pct": 0.07142857142857142
+      }
+    },
+    "top3MostRepresentedLast40Yrs": [
+      {
+        "iso3": "AUS",
+        "name": "Australia",
+        "camperCount": 10
+      }
+    ],
+    "top3LeastRepresented": [
+      {
+        "iso3": "PNG",
+        "name": "Papua New Guinea",
+        "capacityAwareGap": 0.8994484829913298,
+        "capacityAwareRatio": 0
+      },
+      {
+        "iso3": "NZL",
+        "name": "New Zealand",
+        "capacityAwareGap": 0.4449851128551136,
+        "capacityAwareRatio": 0
+      },
+      {
+        "iso3": "FJI",
+        "name": "Fiji",
+        "capacityAwareGap": 0.07798366818810461,
+        "capacityAwareRatio": 0
+      }
+    ]
+  },
+  "countries": [
+    {
+      "iso3": "AUS",
+      "name": "Australia",
+      "sourceName": "Australia",
+      "subRegion": "Australia and New Zealand",
+      "population": 27614411,
+      "onGlobe": true,
+      "camperCountAllTime": 12,
+      "camperCountLast40Yrs": 10,
+      "mostRecentCampYear": 2024,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": true,
+        "15": true,
+        "10": true,
+        "5": true
+      },
+      "underrepresentation": {
+        "recentActual": 3,
+        "capacityCappedExpected": 2.307735984236199,
+        "capacityAwareRatio": 1.299975396012609,
+        "capacityAwareGap": -0.6922640157638011,
+        "quotaUtilization": 0.05
+      },
+      "yearDistribution": [
+        {
+          "year": 1956,
+          "camperCount": 1
+        },
+        {
+          "year": 1957,
+          "camperCount": 0
+        },
+        {
+          "year": 1958,
+          "camperCount": 0
+        },
+        {
+          "year": 1959,
+          "camperCount": 0
+        },
+        {
+          "year": 1960,
+          "camperCount": 0
+        },
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 1
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 1
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 1
+        },
+        {
+          "year": 1990,
+          "camperCount": 1
+        },
+        {
+          "year": 1991,
+          "camperCount": 2
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 0
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 1
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 1
+        },
+        {
+          "year": 2005,
+          "camperCount": 0
+        },
+        {
+          "year": 2006,
+          "camperCount": 1
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 1
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 0
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 0
+        },
+        {
+          "year": 2019,
+          "camperCount": 1
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 1
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "PNG",
+      "name": "Papua New Guinea",
+      "sourceName": "Papua New Guinea",
+      "subRegion": "Melanesia",
+      "population": 10762817,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.8994484829913298,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.8994484829913298,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "NZL",
+      "name": "New Zealand",
+      "sourceName": "New Zealand",
+      "subRegion": "Australia and New Zealand",
+      "population": 5324700,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.4449851128551136,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.4449851128551136,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "FJI",
+      "name": "Fiji",
+      "sourceName": "Fiji",
+      "subRegion": "Melanesia",
+      "population": 933154,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.07798366818810461,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.07798366818810461,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "SLB",
+      "name": "Solomon Islands",
+      "sourceName": "Solomon Islands",
+      "subRegion": "Melanesia",
+      "population": 838645,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.07008555223212137,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.07008555223212137,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "VUT",
+      "name": "Vanuatu",
+      "sourceName": "Vanuatu",
+      "subRegion": "Melanesia",
+      "population": 335169,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.02801006916643859,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.02801006916643859,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "WSM",
+      "name": "Samoa",
+      "sourceName": "Samoa",
+      "subRegion": "Polynesia",
+      "population": 219306,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.01832739969572061,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.01832739969572061,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "KIR",
+      "name": "Kiribati",
+      "sourceName": "Kiribati",
+      "subRegion": "Micronesia",
+      "population": 136488,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.01140630046450856,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.01140630046450856,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "FSM",
+      "name": "Micronesia",
+      "sourceName": "Micronesia",
+      "subRegion": "Micronesia",
+      "population": 113683,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.009500486897798538,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.009500486897798538,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "TON",
+      "name": "Tonga",
+      "sourceName": "Tonga",
+      "subRegion": "Polynesia",
+      "population": 103742,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.00866971765128837,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.00866971765128837,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "MHL",
+      "name": "Marshall Islands",
+      "sourceName": "Marshall Islands",
+      "subRegion": "Micronesia",
+      "population": 36282,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.003032086289295027,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.003032086289295027,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "PLW",
+      "name": "Palau",
+      "sourceName": "Palau",
+      "subRegion": "Micronesia",
+      "population": 17663,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.00147609669058536,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.00147609669058536,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "NRU",
+      "name": "Nauru",
+      "sourceName": "Nauru",
+      "subRegion": "Micronesia",
+      "population": 12000,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.001004929100622146,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.001004929100622146,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "TUV",
+      "name": "Tuvalu",
+      "sourceName": "Tuvalu",
+      "subRegion": "Polynesia",
+      "population": 9492,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.0007932463220877678,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.0007932463220877678,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    }
+  ],
+  "subRegions": {
+    "Australia and New Zealand": {
+      "countriesInScope": 2,
+      "representedEver": {
+        "count": 1,
+        "pct": 0.5
+      },
+      "representedPast": {
+        "25": {
+          "count": 1,
+          "pct": 0.5
+        },
+        "20": {
+          "count": 1,
+          "pct": 0.5
+        },
+        "15": {
+          "count": 1,
+          "pct": 0.5
+        },
+        "10": {
+          "count": 1,
+          "pct": 0.5
+        },
+        "5": {
+          "count": 1,
+          "pct": 0.5
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [
+        {
+          "iso3": "AUS",
+          "name": "Australia",
+          "camperCount": 10
+        }
+      ],
+      "top3LeastRepresented": [
+        {
+          "iso3": "NZL",
+          "name": "New Zealand",
+          "capacityAwareGap": 0.4449851128551136,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "AUS",
+          "name": "Australia",
+          "capacityAwareGap": -0.6922640157638011,
+          "capacityAwareRatio": 1.299975396012609
+        }
+      ],
+      "top3MostRepresentedAllTime": [
+        {
+          "iso3": "AUS",
+          "name": "Australia",
+          "camperCount": 12
+        }
+      ],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "NZL",
+          "name": "New Zealand",
+          "camperCount": 0,
+          "population": 5324700
+        },
+        {
+          "iso3": "AUS",
+          "name": "Australia",
+          "camperCount": 12,
+          "population": 27614411
+        }
+      ],
+      "countryIso3List": [
+        "AUS",
+        "NZL"
+      ]
+    },
+    "Melanesia": {
+      "countriesInScope": 4,
+      "representedEver": {
+        "count": 0,
+        "pct": 0
+      },
+      "representedPast": {
+        "25": {
+          "count": 0,
+          "pct": 0
+        },
+        "20": {
+          "count": 0,
+          "pct": 0
+        },
+        "15": {
+          "count": 0,
+          "pct": 0
+        },
+        "10": {
+          "count": 0,
+          "pct": 0
+        },
+        "5": {
+          "count": 0,
+          "pct": 0
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [],
+      "top3LeastRepresented": [
+        {
+          "iso3": "PNG",
+          "name": "Papua New Guinea",
+          "capacityAwareGap": 0.8994484829913298,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "FJI",
+          "name": "Fiji",
+          "capacityAwareGap": 0.07798366818810461,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "SLB",
+          "name": "Solomon Islands",
+          "capacityAwareGap": 0.07008555223212137,
+          "capacityAwareRatio": 0
+        }
+      ],
+      "top3MostRepresentedAllTime": [],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "PNG",
+          "name": "Papua New Guinea",
+          "camperCount": 0,
+          "population": 10762817
+        },
+        {
+          "iso3": "FJI",
+          "name": "Fiji",
+          "camperCount": 0,
+          "population": 933154
+        },
+        {
+          "iso3": "SLB",
+          "name": "Solomon Islands",
+          "camperCount": 0,
+          "population": 838645
+        }
+      ],
+      "countryIso3List": [
+        "PNG",
+        "FJI",
+        "SLB",
+        "VUT"
+      ]
+    },
+    "Micronesia": {
+      "countriesInScope": 5,
+      "representedEver": {
+        "count": 0,
+        "pct": 0
+      },
+      "representedPast": {
+        "25": {
+          "count": 0,
+          "pct": 0
+        },
+        "20": {
+          "count": 0,
+          "pct": 0
+        },
+        "15": {
+          "count": 0,
+          "pct": 0
+        },
+        "10": {
+          "count": 0,
+          "pct": 0
+        },
+        "5": {
+          "count": 0,
+          "pct": 0
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [],
+      "top3LeastRepresented": [
+        {
+          "iso3": "KIR",
+          "name": "Kiribati",
+          "capacityAwareGap": 0.01140630046450856,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "FSM",
+          "name": "Micronesia",
+          "capacityAwareGap": 0.009500486897798538,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "MHL",
+          "name": "Marshall Islands",
+          "capacityAwareGap": 0.003032086289295027,
+          "capacityAwareRatio": 0
+        }
+      ],
+      "top3MostRepresentedAllTime": [],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "KIR",
+          "name": "Kiribati",
+          "camperCount": 0,
+          "population": 136488
+        },
+        {
+          "iso3": "FSM",
+          "name": "Micronesia",
+          "camperCount": 0,
+          "population": 113683
+        },
+        {
+          "iso3": "MHL",
+          "name": "Marshall Islands",
+          "camperCount": 0,
+          "population": 36282
+        }
+      ],
+      "countryIso3List": [
+        "KIR",
+        "FSM",
+        "MHL",
+        "PLW",
+        "NRU"
+      ]
+    },
+    "Polynesia": {
+      "countriesInScope": 3,
+      "representedEver": {
+        "count": 0,
+        "pct": 0
+      },
+      "representedPast": {
+        "25": {
+          "count": 0,
+          "pct": 0
+        },
+        "20": {
+          "count": 0,
+          "pct": 0
+        },
+        "15": {
+          "count": 0,
+          "pct": 0
+        },
+        "10": {
+          "count": 0,
+          "pct": 0
+        },
+        "5": {
+          "count": 0,
+          "pct": 0
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [],
+      "top3LeastRepresented": [
+        {
+          "iso3": "WSM",
+          "name": "Samoa",
+          "capacityAwareGap": 0.01832739969572061,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "TON",
+          "name": "Tonga",
+          "capacityAwareGap": 0.00866971765128837,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "TUV",
+          "name": "Tuvalu",
+          "capacityAwareGap": 0.0007932463220877678,
+          "capacityAwareRatio": 0
+        }
+      ],
+      "top3MostRepresentedAllTime": [],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "WSM",
+          "name": "Samoa",
+          "camperCount": 0,
+          "population": 219306
+        },
+        {
+          "iso3": "TON",
+          "name": "Tonga",
+          "camperCount": 0,
+          "population": 103742
+        },
+        {
+          "iso3": "TUV",
+          "name": "Tuvalu",
+          "camperCount": 0,
+          "population": 9492
+        }
+      ],
+      "countryIso3List": [
+        "WSM",
+        "TON",
+        "TUV"
+      ]
+    }
+  }
+}

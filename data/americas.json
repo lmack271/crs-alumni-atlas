@@ -1,0 +1,6417 @@
+{
+  "continent": "Americas",
+  "generated": "2026-09-30",
+  "meta": {
+    "countriesInScope": 34,
+    "windows": [
+      25,
+      20,
+      15,
+      10,
+      5
+    ],
+    "choroplethWindowYears": 40,
+    "capacityModel": {
+      "window": "2010-2024",
+      "annualCap": 4,
+      "capacityOverWindow": 60
+    }
+  },
+  "summary": {
+    "representedEver": {
+      "count": 14,
+      "pct": 0.4117647058823529
+    },
+    "representedPast": {
+      "25": {
+        "count": 10,
+        "pct": 0.2941176470588235
+      },
+      "20": {
+        "count": 9,
+        "pct": 0.2647058823529412
+      },
+      "15": {
+        "count": 9,
+        "pct": 0.2647058823529412
+      },
+      "10": {
+        "count": 8,
+        "pct": 0.2352941176470588
+      },
+      "5": {
+        "count": 4,
+        "pct": 0.1176470588235294
+      }
+    },
+    "top3MostRepresentedLast40Yrs": [
+      {
+        "iso3": "PER",
+        "name": "Peru",
+        "camperCount": 47
+      },
+      {
+        "iso3": "ECU",
+        "name": "Ecuador",
+        "camperCount": 43
+      },
+      {
+        "iso3": "BRB",
+        "name": "Barbados",
+        "camperCount": 36
+      }
+    ],
+    "top3LeastRepresented": [
+      {
+        "iso3": "BRA",
+        "name": "Brazil",
+        "capacityAwareGap": 14.78473004223583,
+        "capacityAwareRatio": 0.1686840335993568
+      },
+      {
+        "iso3": "MEX",
+        "name": "Mexico",
+        "capacityAwareGap": 11.02680079391935,
+        "capacityAwareRatio": 0
+      },
+      {
+        "iso3": "VEN",
+        "name": "Venezuela",
+        "capacityAwareGap": 2.383156644475282,
+        "capacityAwareRatio": 0
+      }
+    ]
+  },
+  "countries": [
+    {
+      "iso3": "BRA",
+      "name": "Brazil",
+      "sourceName": "Brazil (the largest country by land area and population)",
+      "subRegion": "South America",
+      "population": 212812405,
+      "onGlobe": true,
+      "camperCountAllTime": 27,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": 2024,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": true,
+        "15": true,
+        "10": true,
+        "5": true
+      },
+      "underrepresentation": {
+        "recentActual": 3,
+        "capacityCappedExpected": 17.78473004223583,
+        "capacityAwareRatio": 0.1686840335993568,
+        "capacityAwareGap": 14.78473004223583,
+        "quotaUtilization": 0.05
+      },
+      "yearDistribution": [
+        {
+          "year": 1938,
+          "camperCount": 1
+        },
+        {
+          "year": 1939,
+          "camperCount": 0
+        },
+        {
+          "year": 1940,
+          "camperCount": 0
+        },
+        {
+          "year": 1941,
+          "camperCount": 0
+        },
+        {
+          "year": 1942,
+          "camperCount": 0
+        },
+        {
+          "year": 1943,
+          "camperCount": 0
+        },
+        {
+          "year": 1944,
+          "camperCount": 0
+        },
+        {
+          "year": 1945,
+          "camperCount": 0
+        },
+        {
+          "year": 1946,
+          "camperCount": 0
+        },
+        {
+          "year": 1947,
+          "camperCount": 0
+        },
+        {
+          "year": 1948,
+          "camperCount": 0
+        },
+        {
+          "year": 1949,
+          "camperCount": 0
+        },
+        {
+          "year": 1950,
+          "camperCount": 0
+        },
+        {
+          "year": 1951,
+          "camperCount": 0
+        },
+        {
+          "year": 1952,
+          "camperCount": 0
+        },
+        {
+          "year": 1953,
+          "camperCount": 0
+        },
+        {
+          "year": 1954,
+          "camperCount": 0
+        },
+        {
+          "year": 1955,
+          "camperCount": 0
+        },
+        {
+          "year": 1956,
+          "camperCount": 0
+        },
+        {
+          "year": 1957,
+          "camperCount": 0
+        },
+        {
+          "year": 1958,
+          "camperCount": 1
+        },
+        {
+          "year": 1959,
+          "camperCount": 1
+        },
+        {
+          "year": 1960,
+          "camperCount": 0
+        },
+        {
+          "year": 1961,
+          "camperCount": 1
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 1
+        },
+        {
+          "year": 1966,
+          "camperCount": 1
+        },
+        {
+          "year": 1967,
+          "camperCount": 1
+        },
+        {
+          "year": 1968,
+          "camperCount": 1
+        },
+        {
+          "year": 1969,
+          "camperCount": 1
+        },
+        {
+          "year": 1970,
+          "camperCount": 1
+        },
+        {
+          "year": 1971,
+          "camperCount": 1
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 1
+        },
+        {
+          "year": 1974,
+          "camperCount": 1
+        },
+        {
+          "year": 1975,
+          "camperCount": 1
+        },
+        {
+          "year": 1976,
+          "camperCount": 2
+        },
+        {
+          "year": 1977,
+          "camperCount": 1
+        },
+        {
+          "year": 1978,
+          "camperCount": 1
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 0
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 0
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 1
+        },
+        {
+          "year": 2005,
+          "camperCount": 2
+        },
+        {
+          "year": 2006,
+          "camperCount": 1
+        },
+        {
+          "year": 2007,
+          "camperCount": 2
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 1
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 0
+        },
+        {
+          "year": 2013,
+          "camperCount": 1
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 1
+        },
+        {
+          "year": 2016,
+          "camperCount": 0
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 0
+        },
+        {
+          "year": 2019,
+          "camperCount": 0
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 1
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "MEX",
+      "name": "Mexico",
+      "sourceName": "Mexico",
+      "subRegion": "North America",
+      "population": 131946900,
+      "onGlobe": true,
+      "camperCountAllTime": 17,
+      "camperCountLast40Yrs": 3,
+      "mostRecentCampYear": 2012,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": true,
+        "15": true,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 11.02680079391935,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 11.02680079391935,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": [
+        {
+          "year": 1938,
+          "camperCount": 0
+        },
+        {
+          "year": 1939,
+          "camperCount": 0
+        },
+        {
+          "year": 1940,
+          "camperCount": 0
+        },
+        {
+          "year": 1941,
+          "camperCount": 0
+        },
+        {
+          "year": 1942,
+          "camperCount": 0
+        },
+        {
+          "year": 1943,
+          "camperCount": 0
+        },
+        {
+          "year": 1944,
+          "camperCount": 0
+        },
+        {
+          "year": 1945,
+          "camperCount": 1
+        },
+        {
+          "year": 1946,
+          "camperCount": 1
+        },
+        {
+          "year": 1947,
+          "camperCount": 1
+        },
+        {
+          "year": 1948,
+          "camperCount": 0
+        },
+        {
+          "year": 1949,
+          "camperCount": 1
+        },
+        {
+          "year": 1950,
+          "camperCount": 0
+        },
+        {
+          "year": 1951,
+          "camperCount": 1
+        },
+        {
+          "year": 1952,
+          "camperCount": 0
+        },
+        {
+          "year": 1953,
+          "camperCount": 1
+        },
+        {
+          "year": 1954,
+          "camperCount": 1
+        },
+        {
+          "year": 1955,
+          "camperCount": 1
+        },
+        {
+          "year": 1956,
+          "camperCount": 0
+        },
+        {
+          "year": 1957,
+          "camperCount": 0
+        },
+        {
+          "year": 1958,
+          "camperCount": 1
+        },
+        {
+          "year": 1959,
+          "camperCount": 0
+        },
+        {
+          "year": 1960,
+          "camperCount": 1
+        },
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 1
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 1
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 1
+        },
+        {
+          "year": 1984,
+          "camperCount": 1
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 0
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 0
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 2
+        },
+        {
+          "year": 2005,
+          "camperCount": 2
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 1
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 1
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 0
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 0
+        },
+        {
+          "year": 2019,
+          "camperCount": 0
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "COL",
+      "name": "Colombia",
+      "sourceName": "Colombia",
+      "subRegion": "South America",
+      "population": 53425635,
+      "onGlobe": true,
+      "camperCountAllTime": 4,
+      "camperCountLast40Yrs": 4,
+      "mostRecentCampYear": 2019,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": true,
+        "15": true,
+        "10": true,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 4,
+        "capacityCappedExpected": 4.464779653282082,
+        "capacityAwareRatio": 0.8959008754350464,
+        "capacityAwareGap": 0.4647796532820818,
+        "quotaUtilization": 0.06666666666666667
+      },
+      "yearDistribution": [
+        {
+          "year": 1938,
+          "camperCount": 0
+        },
+        {
+          "year": 1939,
+          "camperCount": 0
+        },
+        {
+          "year": 1940,
+          "camperCount": 0
+        },
+        {
+          "year": 1941,
+          "camperCount": 0
+        },
+        {
+          "year": 1942,
+          "camperCount": 0
+        },
+        {
+          "year": 1943,
+          "camperCount": 0
+        },
+        {
+          "year": 1944,
+          "camperCount": 0
+        },
+        {
+          "year": 1945,
+          "camperCount": 0
+        },
+        {
+          "year": 1946,
+          "camperCount": 0
+        },
+        {
+          "year": 1947,
+          "camperCount": 0
+        },
+        {
+          "year": 1948,
+          "camperCount": 0
+        },
+        {
+          "year": 1949,
+          "camperCount": 0
+        },
+        {
+          "year": 1950,
+          "camperCount": 0
+        },
+        {
+          "year": 1951,
+          "camperCount": 0
+        },
+        {
+          "year": 1952,
+          "camperCount": 0
+        },
+        {
+          "year": 1953,
+          "camperCount": 0
+        },
+        {
+          "year": 1954,
+          "camperCount": 0
+        },
+        {
+          "year": 1955,
+          "camperCount": 0
+        },
+        {
+          "year": 1956,
+          "camperCount": 0
+        },
+        {
+          "year": 1957,
+          "camperCount": 0
+        },
+        {
+          "year": 1958,
+          "camperCount": 0
+        },
+        {
+          "year": 1959,
+          "camperCount": 0
+        },
+        {
+          "year": 1960,
+          "camperCount": 0
+        },
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 0
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 0
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 0
+        },
+        {
+          "year": 2005,
+          "camperCount": 0
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 0
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 2
+        },
+        {
+          "year": 2017,
+          "camperCount": 1
+        },
+        {
+          "year": 2018,
+          "camperCount": 2
+        },
+        {
+          "year": 2019,
+          "camperCount": 1
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "ARG",
+      "name": "Argentina",
+      "sourceName": "Argentina",
+      "subRegion": "South America",
+      "population": 45851378,
+      "onGlobe": true,
+      "camperCountAllTime": 11,
+      "camperCountLast40Yrs": 11,
+      "mostRecentCampYear": 2018,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": true,
+        "15": true,
+        "10": true,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 10,
+        "capacityCappedExpected": 3.831799089881584,
+        "capacityAwareRatio": 2.609740167851294,
+        "capacityAwareGap": -6.168200910118416,
+        "quotaUtilization": 0.1666666666666667
+      },
+      "yearDistribution": [
+        {
+          "year": 1938,
+          "camperCount": 0
+        },
+        {
+          "year": 1939,
+          "camperCount": 0
+        },
+        {
+          "year": 1940,
+          "camperCount": 0
+        },
+        {
+          "year": 1941,
+          "camperCount": 0
+        },
+        {
+          "year": 1942,
+          "camperCount": 0
+        },
+        {
+          "year": 1943,
+          "camperCount": 0
+        },
+        {
+          "year": 1944,
+          "camperCount": 0
+        },
+        {
+          "year": 1945,
+          "camperCount": 0
+        },
+        {
+          "year": 1946,
+          "camperCount": 0
+        },
+        {
+          "year": 1947,
+          "camperCount": 0
+        },
+        {
+          "year": 1948,
+          "camperCount": 0
+        },
+        {
+          "year": 1949,
+          "camperCount": 0
+        },
+        {
+          "year": 1950,
+          "camperCount": 0
+        },
+        {
+          "year": 1951,
+          "camperCount": 0
+        },
+        {
+          "year": 1952,
+          "camperCount": 0
+        },
+        {
+          "year": 1953,
+          "camperCount": 0
+        },
+        {
+          "year": 1954,
+          "camperCount": 0
+        },
+        {
+          "year": 1955,
+          "camperCount": 0
+        },
+        {
+          "year": 1956,
+          "camperCount": 0
+        },
+        {
+          "year": 1957,
+          "camperCount": 0
+        },
+        {
+          "year": 1958,
+          "camperCount": 0
+        },
+        {
+          "year": 1959,
+          "camperCount": 0
+        },
+        {
+          "year": 1960,
+          "camperCount": 0
+        },
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 1
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 0
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 0
+        },
+        {
+          "year": 2005,
+          "camperCount": 0
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 1
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 1
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 1
+        },
+        {
+          "year": 2015,
+          "camperCount": 4
+        },
+        {
+          "year": 2016,
+          "camperCount": 1
+        },
+        {
+          "year": 2017,
+          "camperCount": 1
+        },
+        {
+          "year": 2018,
+          "camperCount": 2
+        },
+        {
+          "year": 2019,
+          "camperCount": 0
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "CAN",
+      "name": "Canada",
+      "sourceName": "Canada",
+      "subRegion": "North America",
+      "population": 41651653,
+      "onGlobe": true,
+      "camperCountAllTime": 35,
+      "camperCountLast40Yrs": 22,
+      "mostRecentCampYear": 2023,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": true,
+        "15": true,
+        "10": true,
+        "5": true
+      },
+      "underrepresentation": {
+        "recentActual": 6,
+        "capacityCappedExpected": 3.480828123801722,
+        "capacityAwareRatio": 1.723727741387836,
+        "capacityAwareGap": -2.519171876198278,
+        "quotaUtilization": 0.1
+      },
+      "yearDistribution": [
+        {
+          "year": 1938,
+          "camperCount": 0
+        },
+        {
+          "year": 1939,
+          "camperCount": 0
+        },
+        {
+          "year": 1940,
+          "camperCount": 0
+        },
+        {
+          "year": 1941,
+          "camperCount": 0
+        },
+        {
+          "year": 1942,
+          "camperCount": 0
+        },
+        {
+          "year": 1943,
+          "camperCount": 0
+        },
+        {
+          "year": 1944,
+          "camperCount": 0
+        },
+        {
+          "year": 1945,
+          "camperCount": 0
+        },
+        {
+          "year": 1946,
+          "camperCount": 0
+        },
+        {
+          "year": 1947,
+          "camperCount": 0
+        },
+        {
+          "year": 1948,
+          "camperCount": 0
+        },
+        {
+          "year": 1949,
+          "camperCount": 0
+        },
+        {
+          "year": 1950,
+          "camperCount": 0
+        },
+        {
+          "year": 1951,
+          "camperCount": 1
+        },
+        {
+          "year": 1952,
+          "camperCount": 0
+        },
+        {
+          "year": 1953,
+          "camperCount": 0
+        },
+        {
+          "year": 1954,
+          "camperCount": 0
+        },
+        {
+          "year": 1955,
+          "camperCount": 1
+        },
+        {
+          "year": 1956,
+          "camperCount": 0
+        },
+        {
+          "year": 1957,
+          "camperCount": 0
+        },
+        {
+          "year": 1958,
+          "camperCount": 1
+        },
+        {
+          "year": 1959,
+          "camperCount": 0
+        },
+        {
+          "year": 1960,
+          "camperCount": 0
+        },
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 2
+        },
+        {
+          "year": 1964,
+          "camperCount": 3
+        },
+        {
+          "year": 1965,
+          "camperCount": 1
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 1
+        },
+        {
+          "year": 1971,
+          "camperCount": 1
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 1
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 1
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 1
+        },
+        {
+          "year": 1982,
+          "camperCount": 1
+        },
+        {
+          "year": 1983,
+          "camperCount": 1
+        },
+        {
+          "year": 1984,
+          "camperCount": 1
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 1
+        },
+        {
+          "year": 1993,
+          "camperCount": 1
+        },
+        {
+          "year": 1994,
+          "camperCount": 1
+        },
+        {
+          "year": 1995,
+          "camperCount": 1
+        },
+        {
+          "year": 1996,
+          "camperCount": 1
+        },
+        {
+          "year": 1997,
+          "camperCount": 1
+        },
+        {
+          "year": 1998,
+          "camperCount": 1
+        },
+        {
+          "year": 1999,
+          "camperCount": 1
+        },
+        {
+          "year": 2000,
+          "camperCount": 3
+        },
+        {
+          "year": 2001,
+          "camperCount": 1
+        },
+        {
+          "year": 2002,
+          "camperCount": 1
+        },
+        {
+          "year": 2003,
+          "camperCount": 2
+        },
+        {
+          "year": 2004,
+          "camperCount": 1
+        },
+        {
+          "year": 2005,
+          "camperCount": 2
+        },
+        {
+          "year": 2006,
+          "camperCount": 2
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 3
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 1
+        },
+        {
+          "year": 2011,
+          "camperCount": 1
+        },
+        {
+          "year": 2012,
+          "camperCount": 0
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 2
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 1
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 1
+        },
+        {
+          "year": 2019,
+          "camperCount": 0
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 1
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "PER",
+      "name": "Peru",
+      "sourceName": "Peru",
+      "subRegion": "South America",
+      "population": 34576665,
+      "onGlobe": true,
+      "camperCountAllTime": 53,
+      "camperCountLast40Yrs": 47,
+      "mostRecentCampYear": 2019,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": true,
+        "15": true,
+        "10": true,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 12,
+        "capacityCappedExpected": 2.889571464529166,
+        "capacityAwareRatio": 4.152864930771078,
+        "capacityAwareGap": -9.110428535470835,
+        "quotaUtilization": 0.2
+      },
+      "yearDistribution": [
+        {
+          "year": 1938,
+          "camperCount": 0
+        },
+        {
+          "year": 1939,
+          "camperCount": 0
+        },
+        {
+          "year": 1940,
+          "camperCount": 0
+        },
+        {
+          "year": 1941,
+          "camperCount": 0
+        },
+        {
+          "year": 1942,
+          "camperCount": 0
+        },
+        {
+          "year": 1943,
+          "camperCount": 0
+        },
+        {
+          "year": 1944,
+          "camperCount": 0
+        },
+        {
+          "year": 1945,
+          "camperCount": 0
+        },
+        {
+          "year": 1946,
+          "camperCount": 0
+        },
+        {
+          "year": 1947,
+          "camperCount": 0
+        },
+        {
+          "year": 1948,
+          "camperCount": 0
+        },
+        {
+          "year": 1949,
+          "camperCount": 0
+        },
+        {
+          "year": 1950,
+          "camperCount": 0
+        },
+        {
+          "year": 1951,
+          "camperCount": 0
+        },
+        {
+          "year": 1952,
+          "camperCount": 0
+        },
+        {
+          "year": 1953,
+          "camperCount": 0
+        },
+        {
+          "year": 1954,
+          "camperCount": 0
+        },
+        {
+          "year": 1955,
+          "camperCount": 0
+        },
+        {
+          "year": 1956,
+          "camperCount": 0
+        },
+        {
+          "year": 1957,
+          "camperCount": 0
+        },
+        {
+          "year": 1958,
+          "camperCount": 0
+        },
+        {
+          "year": 1959,
+          "camperCount": 0
+        },
+        {
+          "year": 1960,
+          "camperCount": 0
+        },
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 1
+        },
+        {
+          "year": 1983,
+          "camperCount": 1
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 1
+        },
+        {
+          "year": 1986,
+          "camperCount": 1
+        },
+        {
+          "year": 1987,
+          "camperCount": 1
+        },
+        {
+          "year": 1988,
+          "camperCount": 1
+        },
+        {
+          "year": 1989,
+          "camperCount": 1
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 1
+        },
+        {
+          "year": 1992,
+          "camperCount": 1
+        },
+        {
+          "year": 1993,
+          "camperCount": 2
+        },
+        {
+          "year": 1994,
+          "camperCount": 1
+        },
+        {
+          "year": 1995,
+          "camperCount": 1
+        },
+        {
+          "year": 1996,
+          "camperCount": 3
+        },
+        {
+          "year": 1997,
+          "camperCount": 1
+        },
+        {
+          "year": 1998,
+          "camperCount": 2
+        },
+        {
+          "year": 1999,
+          "camperCount": 1
+        },
+        {
+          "year": 2000,
+          "camperCount": 1
+        },
+        {
+          "year": 2001,
+          "camperCount": 2
+        },
+        {
+          "year": 2002,
+          "camperCount": 3
+        },
+        {
+          "year": 2003,
+          "camperCount": 3
+        },
+        {
+          "year": 2004,
+          "camperCount": 2
+        },
+        {
+          "year": 2005,
+          "camperCount": 1
+        },
+        {
+          "year": 2006,
+          "camperCount": 3
+        },
+        {
+          "year": 2007,
+          "camperCount": 4
+        },
+        {
+          "year": 2008,
+          "camperCount": 2
+        },
+        {
+          "year": 2009,
+          "camperCount": 1
+        },
+        {
+          "year": 2010,
+          "camperCount": 2
+        },
+        {
+          "year": 2011,
+          "camperCount": 1
+        },
+        {
+          "year": 2012,
+          "camperCount": 1
+        },
+        {
+          "year": 2013,
+          "camperCount": 1
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 1
+        },
+        {
+          "year": 2016,
+          "camperCount": 2
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 2
+        },
+        {
+          "year": 2019,
+          "camperCount": 3
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "VEN",
+      "name": "Venezuela",
+      "sourceName": "Venezuela",
+      "subRegion": "South America",
+      "population": 28516896,
+      "onGlobe": true,
+      "camperCountAllTime": 3,
+      "camperCountLast40Yrs": 1,
+      "mostRecentCampYear": 1991,
+      "representedEver": true,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 2.383156644475282,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 2.383156644475282,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": [
+        {
+          "year": 1938,
+          "camperCount": 0
+        },
+        {
+          "year": 1939,
+          "camperCount": 0
+        },
+        {
+          "year": 1940,
+          "camperCount": 0
+        },
+        {
+          "year": 1941,
+          "camperCount": 0
+        },
+        {
+          "year": 1942,
+          "camperCount": 0
+        },
+        {
+          "year": 1943,
+          "camperCount": 0
+        },
+        {
+          "year": 1944,
+          "camperCount": 0
+        },
+        {
+          "year": 1945,
+          "camperCount": 0
+        },
+        {
+          "year": 1946,
+          "camperCount": 0
+        },
+        {
+          "year": 1947,
+          "camperCount": 1
+        },
+        {
+          "year": 1948,
+          "camperCount": 0
+        },
+        {
+          "year": 1949,
+          "camperCount": 0
+        },
+        {
+          "year": 1950,
+          "camperCount": 0
+        },
+        {
+          "year": 1951,
+          "camperCount": 0
+        },
+        {
+          "year": 1952,
+          "camperCount": 0
+        },
+        {
+          "year": 1953,
+          "camperCount": 0
+        },
+        {
+          "year": 1954,
+          "camperCount": 0
+        },
+        {
+          "year": 1955,
+          "camperCount": 0
+        },
+        {
+          "year": 1956,
+          "camperCount": 0
+        },
+        {
+          "year": 1957,
+          "camperCount": 0
+        },
+        {
+          "year": 1958,
+          "camperCount": 0
+        },
+        {
+          "year": 1959,
+          "camperCount": 0
+        },
+        {
+          "year": 1960,
+          "camperCount": 0
+        },
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 1
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 1
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 0
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 0
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 0
+        },
+        {
+          "year": 2005,
+          "camperCount": 0
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 0
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 0
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 0
+        },
+        {
+          "year": 2019,
+          "camperCount": 0
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "CHL",
+      "name": "Chile",
+      "sourceName": "Chile",
+      "subRegion": "South America",
+      "population": 19859921,
+      "onGlobe": true,
+      "camperCountAllTime": 10,
+      "camperCountLast40Yrs": 8,
+      "mostRecentCampYear": 2005,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 1.659693351264604,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 1.659693351264604,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": [
+        {
+          "year": 1938,
+          "camperCount": 0
+        },
+        {
+          "year": 1939,
+          "camperCount": 0
+        },
+        {
+          "year": 1940,
+          "camperCount": 0
+        },
+        {
+          "year": 1941,
+          "camperCount": 0
+        },
+        {
+          "year": 1942,
+          "camperCount": 0
+        },
+        {
+          "year": 1943,
+          "camperCount": 0
+        },
+        {
+          "year": 1944,
+          "camperCount": 0
+        },
+        {
+          "year": 1945,
+          "camperCount": 0
+        },
+        {
+          "year": 1946,
+          "camperCount": 0
+        },
+        {
+          "year": 1947,
+          "camperCount": 0
+        },
+        {
+          "year": 1948,
+          "camperCount": 0
+        },
+        {
+          "year": 1949,
+          "camperCount": 0
+        },
+        {
+          "year": 1950,
+          "camperCount": 0
+        },
+        {
+          "year": 1951,
+          "camperCount": 0
+        },
+        {
+          "year": 1952,
+          "camperCount": 0
+        },
+        {
+          "year": 1953,
+          "camperCount": 0
+        },
+        {
+          "year": 1954,
+          "camperCount": 0
+        },
+        {
+          "year": 1955,
+          "camperCount": 0
+        },
+        {
+          "year": 1956,
+          "camperCount": 0
+        },
+        {
+          "year": 1957,
+          "camperCount": 0
+        },
+        {
+          "year": 1958,
+          "camperCount": 0
+        },
+        {
+          "year": 1959,
+          "camperCount": 0
+        },
+        {
+          "year": 1960,
+          "camperCount": 0
+        },
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 1
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 1
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 1
+        },
+        {
+          "year": 1988,
+          "camperCount": 1
+        },
+        {
+          "year": 1989,
+          "camperCount": 1
+        },
+        {
+          "year": 1990,
+          "camperCount": 2
+        },
+        {
+          "year": 1991,
+          "camperCount": 2
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 0
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 0
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 0
+        },
+        {
+          "year": 2005,
+          "camperCount": 1
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 0
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 0
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 0
+        },
+        {
+          "year": 2019,
+          "camperCount": 0
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "GTM",
+      "name": "Guatemala",
+      "sourceName": "Guatemala",
+      "subRegion": "Central America",
+      "population": 18687881,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 1.561745983024007,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 1.561745983024007,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "ECU",
+      "name": "Ecuador",
+      "sourceName": "Ecuador",
+      "subRegion": "South America",
+      "population": 18289896,
+      "onGlobe": true,
+      "camperCountAllTime": 44,
+      "camperCountLast40Yrs": 43,
+      "mostRecentCampYear": 2023,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": true,
+        "15": true,
+        "10": true,
+        "5": true
+      },
+      "underrepresentation": {
+        "recentActual": 25,
+        "capacityCappedExpected": 1.528486381517886,
+        "capacityAwareRatio": 16.35605020907898,
+        "capacityAwareGap": -23.47151361848211,
+        "quotaUtilization": 0.4166666666666667
+      },
+      "yearDistribution": [
+        {
+          "year": 1938,
+          "camperCount": 0
+        },
+        {
+          "year": 1939,
+          "camperCount": 0
+        },
+        {
+          "year": 1940,
+          "camperCount": 0
+        },
+        {
+          "year": 1941,
+          "camperCount": 0
+        },
+        {
+          "year": 1942,
+          "camperCount": 0
+        },
+        {
+          "year": 1943,
+          "camperCount": 0
+        },
+        {
+          "year": 1944,
+          "camperCount": 0
+        },
+        {
+          "year": 1945,
+          "camperCount": 0
+        },
+        {
+          "year": 1946,
+          "camperCount": 0
+        },
+        {
+          "year": 1947,
+          "camperCount": 0
+        },
+        {
+          "year": 1948,
+          "camperCount": 0
+        },
+        {
+          "year": 1949,
+          "camperCount": 0
+        },
+        {
+          "year": 1950,
+          "camperCount": 0
+        },
+        {
+          "year": 1951,
+          "camperCount": 0
+        },
+        {
+          "year": 1952,
+          "camperCount": 0
+        },
+        {
+          "year": 1953,
+          "camperCount": 0
+        },
+        {
+          "year": 1954,
+          "camperCount": 0
+        },
+        {
+          "year": 1955,
+          "camperCount": 0
+        },
+        {
+          "year": 1956,
+          "camperCount": 0
+        },
+        {
+          "year": 1957,
+          "camperCount": 0
+        },
+        {
+          "year": 1958,
+          "camperCount": 0
+        },
+        {
+          "year": 1959,
+          "camperCount": 0
+        },
+        {
+          "year": 1960,
+          "camperCount": 0
+        },
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 1
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 0
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 1
+        },
+        {
+          "year": 1999,
+          "camperCount": 2
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 2
+        },
+        {
+          "year": 2002,
+          "camperCount": 3
+        },
+        {
+          "year": 2003,
+          "camperCount": 5
+        },
+        {
+          "year": 2004,
+          "camperCount": 2
+        },
+        {
+          "year": 2005,
+          "camperCount": 1
+        },
+        {
+          "year": 2006,
+          "camperCount": 2
+        },
+        {
+          "year": 2007,
+          "camperCount": 1
+        },
+        {
+          "year": 2008,
+          "camperCount": 1
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 3
+        },
+        {
+          "year": 2013,
+          "camperCount": 2
+        },
+        {
+          "year": 2014,
+          "camperCount": 3
+        },
+        {
+          "year": 2015,
+          "camperCount": 3
+        },
+        {
+          "year": 2016,
+          "camperCount": 3
+        },
+        {
+          "year": 2017,
+          "camperCount": 3
+        },
+        {
+          "year": 2018,
+          "camperCount": 3
+        },
+        {
+          "year": 2019,
+          "camperCount": 4
+        },
+        {
+          "year": 2020,
+          "camperCount": 1
+        },
+        {
+          "year": 2021,
+          "camperCount": 2
+        },
+        {
+          "year": 2022,
+          "camperCount": 2
+        },
+        {
+          "year": 2023,
+          "camperCount": 1
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "BOL",
+      "name": "Bolivia",
+      "sourceName": "Bolivia",
+      "subRegion": "South America",
+      "population": 12581843,
+      "onGlobe": true,
+      "camperCountAllTime": 1,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": 1950,
+      "representedEver": true,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 1.051464463214889,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 1.051464463214889,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": [
+        {
+          "year": 1938,
+          "camperCount": 0
+        },
+        {
+          "year": 1939,
+          "camperCount": 0
+        },
+        {
+          "year": 1940,
+          "camperCount": 0
+        },
+        {
+          "year": 1941,
+          "camperCount": 0
+        },
+        {
+          "year": 1942,
+          "camperCount": 0
+        },
+        {
+          "year": 1943,
+          "camperCount": 0
+        },
+        {
+          "year": 1944,
+          "camperCount": 0
+        },
+        {
+          "year": 1945,
+          "camperCount": 0
+        },
+        {
+          "year": 1946,
+          "camperCount": 0
+        },
+        {
+          "year": 1947,
+          "camperCount": 0
+        },
+        {
+          "year": 1948,
+          "camperCount": 0
+        },
+        {
+          "year": 1949,
+          "camperCount": 0
+        },
+        {
+          "year": 1950,
+          "camperCount": 1
+        },
+        {
+          "year": 1951,
+          "camperCount": 0
+        },
+        {
+          "year": 1952,
+          "camperCount": 0
+        },
+        {
+          "year": 1953,
+          "camperCount": 0
+        },
+        {
+          "year": 1954,
+          "camperCount": 0
+        },
+        {
+          "year": 1955,
+          "camperCount": 0
+        },
+        {
+          "year": 1956,
+          "camperCount": 0
+        },
+        {
+          "year": 1957,
+          "camperCount": 0
+        },
+        {
+          "year": 1958,
+          "camperCount": 0
+        },
+        {
+          "year": 1959,
+          "camperCount": 0
+        },
+        {
+          "year": 1960,
+          "camperCount": 0
+        },
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 0
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 0
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 0
+        },
+        {
+          "year": 2005,
+          "camperCount": 0
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 0
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 0
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 0
+        },
+        {
+          "year": 2019,
+          "camperCount": 0
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "HTI",
+      "name": "Haiti",
+      "sourceName": "Haiti",
+      "subRegion": "Caribbean Island Nations",
+      "population": 11906095,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.9949922112492164,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.9949922112492164,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "DOM",
+      "name": "Dominican Republic",
+      "sourceName": "Dominican Republic",
+      "subRegion": "Caribbean Island Nations",
+      "population": 11520487,
+      "onGlobe": true,
+      "camperCountAllTime": 2,
+      "camperCountLast40Yrs": 2,
+      "mostRecentCampYear": 2017,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": true,
+        "15": true,
+        "10": true,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 2,
+        "capacityCappedExpected": 0.962766955479345,
+        "capacityAwareRatio": 2.077345912858252,
+        "capacityAwareGap": -1.037233044520655,
+        "quotaUtilization": 0.03333333333333333
+      },
+      "yearDistribution": [
+        {
+          "year": 1938,
+          "camperCount": 0
+        },
+        {
+          "year": 1939,
+          "camperCount": 0
+        },
+        {
+          "year": 1940,
+          "camperCount": 0
+        },
+        {
+          "year": 1941,
+          "camperCount": 0
+        },
+        {
+          "year": 1942,
+          "camperCount": 0
+        },
+        {
+          "year": 1943,
+          "camperCount": 0
+        },
+        {
+          "year": 1944,
+          "camperCount": 0
+        },
+        {
+          "year": 1945,
+          "camperCount": 0
+        },
+        {
+          "year": 1946,
+          "camperCount": 0
+        },
+        {
+          "year": 1947,
+          "camperCount": 0
+        },
+        {
+          "year": 1948,
+          "camperCount": 0
+        },
+        {
+          "year": 1949,
+          "camperCount": 0
+        },
+        {
+          "year": 1950,
+          "camperCount": 0
+        },
+        {
+          "year": 1951,
+          "camperCount": 0
+        },
+        {
+          "year": 1952,
+          "camperCount": 0
+        },
+        {
+          "year": 1953,
+          "camperCount": 0
+        },
+        {
+          "year": 1954,
+          "camperCount": 0
+        },
+        {
+          "year": 1955,
+          "camperCount": 0
+        },
+        {
+          "year": 1956,
+          "camperCount": 0
+        },
+        {
+          "year": 1957,
+          "camperCount": 0
+        },
+        {
+          "year": 1958,
+          "camperCount": 0
+        },
+        {
+          "year": 1959,
+          "camperCount": 0
+        },
+        {
+          "year": 1960,
+          "camperCount": 0
+        },
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 0
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 0
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 0
+        },
+        {
+          "year": 2005,
+          "camperCount": 0
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 1
+        },
+        {
+          "year": 2013,
+          "camperCount": 1
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 1
+        },
+        {
+          "year": 2017,
+          "camperCount": 1
+        },
+        {
+          "year": 2018,
+          "camperCount": 0
+        },
+        {
+          "year": 2019,
+          "camperCount": 0
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "HND",
+      "name": "Honduras",
+      "sourceName": "Honduras",
+      "subRegion": "Central America",
+      "population": 11005850,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.9197587477823072,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.9197587477823072,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "CUB",
+      "name": "Cuba",
+      "sourceName": "Cuba",
+      "subRegion": "Caribbean Island Nations",
+      "population": 10937203,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.914021918845059,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.914021918845059,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "PRY",
+      "name": "Paraguay",
+      "sourceName": "Paraguay",
+      "subRegion": "South America",
+      "population": 7013078,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.5860828413416181,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.5860828413416181,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "NIC",
+      "name": "Nicaragua",
+      "sourceName": "Nicaragua",
+      "subRegion": "Central America",
+      "population": 7007502,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.5856168550908847,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.5856168550908847,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "SLV",
+      "name": "El Salvador",
+      "sourceName": "El Salvador",
+      "subRegion": "Central America",
+      "population": 6365503,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.5319650066359727,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.5319650066359727,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "CRI",
+      "name": "Costa Rica",
+      "sourceName": "Costa Rica",
+      "subRegion": "Central America",
+      "population": 5152950,
+      "onGlobe": true,
+      "camperCountAllTime": 4,
+      "camperCountLast40Yrs": 4,
+      "mostRecentCampYear": 1996,
+      "representedEver": true,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.4306319674886392,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.4306319674886392,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": [
+        {
+          "year": 1938,
+          "camperCount": 0
+        },
+        {
+          "year": 1939,
+          "camperCount": 0
+        },
+        {
+          "year": 1940,
+          "camperCount": 0
+        },
+        {
+          "year": 1941,
+          "camperCount": 0
+        },
+        {
+          "year": 1942,
+          "camperCount": 0
+        },
+        {
+          "year": 1943,
+          "camperCount": 0
+        },
+        {
+          "year": 1944,
+          "camperCount": 0
+        },
+        {
+          "year": 1945,
+          "camperCount": 0
+        },
+        {
+          "year": 1946,
+          "camperCount": 0
+        },
+        {
+          "year": 1947,
+          "camperCount": 0
+        },
+        {
+          "year": 1948,
+          "camperCount": 0
+        },
+        {
+          "year": 1949,
+          "camperCount": 0
+        },
+        {
+          "year": 1950,
+          "camperCount": 0
+        },
+        {
+          "year": 1951,
+          "camperCount": 0
+        },
+        {
+          "year": 1952,
+          "camperCount": 0
+        },
+        {
+          "year": 1953,
+          "camperCount": 0
+        },
+        {
+          "year": 1954,
+          "camperCount": 0
+        },
+        {
+          "year": 1955,
+          "camperCount": 0
+        },
+        {
+          "year": 1956,
+          "camperCount": 0
+        },
+        {
+          "year": 1957,
+          "camperCount": 0
+        },
+        {
+          "year": 1958,
+          "camperCount": 0
+        },
+        {
+          "year": 1959,
+          "camperCount": 0
+        },
+        {
+          "year": 1960,
+          "camperCount": 0
+        },
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 1
+        },
+        {
+          "year": 1994,
+          "camperCount": 1
+        },
+        {
+          "year": 1995,
+          "camperCount": 1
+        },
+        {
+          "year": 1996,
+          "camperCount": 2
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 0
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 0
+        },
+        {
+          "year": 2005,
+          "camperCount": 0
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 0
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 0
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 0
+        },
+        {
+          "year": 2019,
+          "camperCount": 0
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "PAN",
+      "name": "Panama",
+      "sourceName": "Panama",
+      "subRegion": "Central America",
+      "population": 4571189,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.3820142079454342,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.3820142079454342,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "URY",
+      "name": "Uruguay",
+      "sourceName": "Uruguay",
+      "subRegion": "South America",
+      "population": 3384688,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.2828583341144756,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.2828583341144756,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "JAM",
+      "name": "Jamaica",
+      "sourceName": "Jamaica",
+      "subRegion": "Caribbean Island Nations",
+      "population": 2837077,
+      "onGlobe": true,
+      "camperCountAllTime": 4,
+      "camperCountLast40Yrs": 1,
+      "mostRecentCampYear": 1987,
+      "representedEver": true,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.2370944896470499,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.2370944896470499,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": [
+        {
+          "year": 1938,
+          "camperCount": 0
+        },
+        {
+          "year": 1939,
+          "camperCount": 0
+        },
+        {
+          "year": 1940,
+          "camperCount": 0
+        },
+        {
+          "year": 1941,
+          "camperCount": 0
+        },
+        {
+          "year": 1942,
+          "camperCount": 0
+        },
+        {
+          "year": 1943,
+          "camperCount": 0
+        },
+        {
+          "year": 1944,
+          "camperCount": 0
+        },
+        {
+          "year": 1945,
+          "camperCount": 0
+        },
+        {
+          "year": 1946,
+          "camperCount": 0
+        },
+        {
+          "year": 1947,
+          "camperCount": 0
+        },
+        {
+          "year": 1948,
+          "camperCount": 0
+        },
+        {
+          "year": 1949,
+          "camperCount": 0
+        },
+        {
+          "year": 1950,
+          "camperCount": 0
+        },
+        {
+          "year": 1951,
+          "camperCount": 0
+        },
+        {
+          "year": 1952,
+          "camperCount": 0
+        },
+        {
+          "year": 1953,
+          "camperCount": 0
+        },
+        {
+          "year": 1954,
+          "camperCount": 0
+        },
+        {
+          "year": 1955,
+          "camperCount": 0
+        },
+        {
+          "year": 1956,
+          "camperCount": 0
+        },
+        {
+          "year": 1957,
+          "camperCount": 0
+        },
+        {
+          "year": 1958,
+          "camperCount": 0
+        },
+        {
+          "year": 1959,
+          "camperCount": 0
+        },
+        {
+          "year": 1960,
+          "camperCount": 0
+        },
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 1
+        },
+        {
+          "year": 1983,
+          "camperCount": 1
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 1
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 1
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 0
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 0
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 0
+        },
+        {
+          "year": 2005,
+          "camperCount": 0
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 0
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 0
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 0
+        },
+        {
+          "year": 2019,
+          "camperCount": 0
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "TTO",
+      "name": "Trinidad and Tobago",
+      "sourceName": "Trinidad and Tobago",
+      "subRegion": "Caribbean Island Nations",
+      "population": 1367764,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.1143040204892598,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.1143040204892598,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "GUY",
+      "name": "Guyana",
+      "sourceName": "Guyana",
+      "subRegion": "South America",
+      "population": 835986,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.06986333963515219,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.06986333963515219,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "SUR",
+      "name": "Suriname",
+      "sourceName": "Suriname",
+      "subRegion": "South America",
+      "population": 639850,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.05347225655160748,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.05347225655160748,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "BLZ",
+      "name": "Belize",
+      "sourceName": "Belize",
+      "subRegion": "Central America",
+      "population": 422924,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.03534375342632186,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.03534375342632186,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "BHS",
+      "name": "Bahamas",
+      "sourceName": "Bahamas",
+      "subRegion": "Caribbean Island Nations",
+      "population": 403033,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.03368146280341333,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.03368146280341333,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "BRB",
+      "name": "Barbados",
+      "sourceName": "Barbados",
+      "subRegion": "Caribbean Island Nations",
+      "population": 282623,
+      "onGlobe": false,
+      "camperCountAllTime": 38,
+      "camperCountLast40Yrs": 36,
+      "mostRecentCampYear": 2024,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": true,
+        "15": true,
+        "10": true,
+        "5": true
+      },
+      "underrepresentation": {
+        "recentActual": 23,
+        "capacityCappedExpected": 0.02361880059917944,
+        "capacityAwareRatio": 973.8005070756668,
+        "capacityAwareGap": -22.97638119940082,
+        "quotaUtilization": 0.3833333333333334
+      },
+      "yearDistribution": [
+        {
+          "year": 1938,
+          "camperCount": 0
+        },
+        {
+          "year": 1939,
+          "camperCount": 0
+        },
+        {
+          "year": 1940,
+          "camperCount": 0
+        },
+        {
+          "year": 1941,
+          "camperCount": 0
+        },
+        {
+          "year": 1942,
+          "camperCount": 0
+        },
+        {
+          "year": 1943,
+          "camperCount": 0
+        },
+        {
+          "year": 1944,
+          "camperCount": 0
+        },
+        {
+          "year": 1945,
+          "camperCount": 0
+        },
+        {
+          "year": 1946,
+          "camperCount": 0
+        },
+        {
+          "year": 1947,
+          "camperCount": 0
+        },
+        {
+          "year": 1948,
+          "camperCount": 0
+        },
+        {
+          "year": 1949,
+          "camperCount": 0
+        },
+        {
+          "year": 1950,
+          "camperCount": 0
+        },
+        {
+          "year": 1951,
+          "camperCount": 0
+        },
+        {
+          "year": 1952,
+          "camperCount": 0
+        },
+        {
+          "year": 1953,
+          "camperCount": 0
+        },
+        {
+          "year": 1954,
+          "camperCount": 0
+        },
+        {
+          "year": 1955,
+          "camperCount": 0
+        },
+        {
+          "year": 1956,
+          "camperCount": 0
+        },
+        {
+          "year": 1957,
+          "camperCount": 0
+        },
+        {
+          "year": 1958,
+          "camperCount": 0
+        },
+        {
+          "year": 1959,
+          "camperCount": 0
+        },
+        {
+          "year": 1960,
+          "camperCount": 0
+        },
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 1
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 1
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 1
+        },
+        {
+          "year": 1992,
+          "camperCount": 1
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 1
+        },
+        {
+          "year": 1995,
+          "camperCount": 1
+        },
+        {
+          "year": 1996,
+          "camperCount": 1
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 1
+        },
+        {
+          "year": 1999,
+          "camperCount": 2
+        },
+        {
+          "year": 2000,
+          "camperCount": 2
+        },
+        {
+          "year": 2001,
+          "camperCount": 1
+        },
+        {
+          "year": 2002,
+          "camperCount": 1
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 1
+        },
+        {
+          "year": 2005,
+          "camperCount": 1
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 1
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 2
+        },
+        {
+          "year": 2011,
+          "camperCount": 3
+        },
+        {
+          "year": 2012,
+          "camperCount": 2
+        },
+        {
+          "year": 2013,
+          "camperCount": 2
+        },
+        {
+          "year": 2014,
+          "camperCount": 2
+        },
+        {
+          "year": 2015,
+          "camperCount": 3
+        },
+        {
+          "year": 2016,
+          "camperCount": 1
+        },
+        {
+          "year": 2017,
+          "camperCount": 2
+        },
+        {
+          "year": 2018,
+          "camperCount": 3
+        },
+        {
+          "year": 2019,
+          "camperCount": 2
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 2
+        },
+        {
+          "year": 2024,
+          "camperCount": 1
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "LCA",
+      "name": "Saint Lucia",
+      "sourceName": "Saint Lucia",
+      "subRegion": "Caribbean Island Nations",
+      "population": 180149,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.01505504969213962,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.01505504969213962,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "GRD",
+      "name": "Grenada",
+      "sourceName": "Grenada",
+      "subRegion": "Caribbean Island Nations",
+      "population": 117303,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.009803010252829902,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.009803010252829902,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "VCT",
+      "name": "Saint Vincent and the Grenadines",
+      "sourceName": "Saint Vincent and the Grenadines",
+      "subRegion": "Caribbean Island Nations",
+      "population": 99924,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.008350647438716616,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.008350647438716616,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "ATG",
+      "name": "Antigua and Barbuda",
+      "sourceName": "Antigua and Barbuda",
+      "subRegion": "Caribbean Island Nations",
+      "population": 94209,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.007873044959709917,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.007873044959709917,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "DMA",
+      "name": "Dominica",
+      "sourceName": "Dominica",
+      "subRegion": "Caribbean Island Nations",
+      "population": 65871,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.005504838651732338,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.005504838651732338,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "KNA",
+      "name": "Saint Kitts and Nevis",
+      "sourceName": "Saint Kitts and Nevis",
+      "subRegion": "Caribbean Island Nations",
+      "population": 46922,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.003921270957122023,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.003921270957122023,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    }
+  ],
+  "subRegions": {
+    "Caribbean Island Nations": {
+      "countriesInScope": 13,
+      "representedEver": {
+        "count": 3,
+        "pct": 0.2307692307692308
+      },
+      "representedPast": {
+        "25": {
+          "count": 2,
+          "pct": 0.1538461538461539
+        },
+        "20": {
+          "count": 2,
+          "pct": 0.1538461538461539
+        },
+        "15": {
+          "count": 2,
+          "pct": 0.1538461538461539
+        },
+        "10": {
+          "count": 2,
+          "pct": 0.1538461538461539
+        },
+        "5": {
+          "count": 1,
+          "pct": 0.07692307692307693
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [
+        {
+          "iso3": "BRB",
+          "name": "Barbados",
+          "camperCount": 36
+        },
+        {
+          "iso3": "DOM",
+          "name": "Dominican Republic",
+          "camperCount": 2
+        },
+        {
+          "iso3": "JAM",
+          "name": "Jamaica",
+          "camperCount": 1
+        }
+      ],
+      "top3LeastRepresented": [
+        {
+          "iso3": "HTI",
+          "name": "Haiti",
+          "capacityAwareGap": 0.9949922112492164,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "CUB",
+          "name": "Cuba",
+          "capacityAwareGap": 0.914021918845059,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "JAM",
+          "name": "Jamaica",
+          "capacityAwareGap": 0.2370944896470499,
+          "capacityAwareRatio": 0
+        }
+      ],
+      "top3MostRepresentedAllTime": [
+        {
+          "iso3": "BRB",
+          "name": "Barbados",
+          "camperCount": 38
+        },
+        {
+          "iso3": "JAM",
+          "name": "Jamaica",
+          "camperCount": 4
+        },
+        {
+          "iso3": "DOM",
+          "name": "Dominican Republic",
+          "camperCount": 2
+        }
+      ],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "HTI",
+          "name": "Haiti",
+          "camperCount": 0,
+          "population": 11906095
+        },
+        {
+          "iso3": "CUB",
+          "name": "Cuba",
+          "camperCount": 0,
+          "population": 10937203
+        },
+        {
+          "iso3": "TTO",
+          "name": "Trinidad and Tobago",
+          "camperCount": 0,
+          "population": 1367764
+        }
+      ],
+      "countryIso3List": [
+        "HTI",
+        "DOM",
+        "CUB",
+        "JAM",
+        "TTO",
+        "BHS",
+        "BRB",
+        "LCA",
+        "GRD",
+        "VCT",
+        "ATG",
+        "DMA",
+        "KNA"
+      ]
+    },
+    "Central America": {
+      "countriesInScope": 7,
+      "representedEver": {
+        "count": 1,
+        "pct": 0.1428571428571428
+      },
+      "representedPast": {
+        "25": {
+          "count": 0,
+          "pct": 0
+        },
+        "20": {
+          "count": 0,
+          "pct": 0
+        },
+        "15": {
+          "count": 0,
+          "pct": 0
+        },
+        "10": {
+          "count": 0,
+          "pct": 0
+        },
+        "5": {
+          "count": 0,
+          "pct": 0
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [
+        {
+          "iso3": "CRI",
+          "name": "Costa Rica",
+          "camperCount": 4
+        }
+      ],
+      "top3LeastRepresented": [
+        {
+          "iso3": "GTM",
+          "name": "Guatemala",
+          "capacityAwareGap": 1.561745983024007,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "HND",
+          "name": "Honduras",
+          "capacityAwareGap": 0.9197587477823072,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "NIC",
+          "name": "Nicaragua",
+          "capacityAwareGap": 0.5856168550908847,
+          "capacityAwareRatio": 0
+        }
+      ],
+      "top3MostRepresentedAllTime": [
+        {
+          "iso3": "CRI",
+          "name": "Costa Rica",
+          "camperCount": 4
+        }
+      ],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "GTM",
+          "name": "Guatemala",
+          "camperCount": 0,
+          "population": 18687881
+        },
+        {
+          "iso3": "HND",
+          "name": "Honduras",
+          "camperCount": 0,
+          "population": 11005850
+        },
+        {
+          "iso3": "NIC",
+          "name": "Nicaragua",
+          "camperCount": 0,
+          "population": 7007502
+        }
+      ],
+      "countryIso3List": [
+        "GTM",
+        "HND",
+        "NIC",
+        "SLV",
+        "CRI",
+        "PAN",
+        "BLZ"
+      ]
+    },
+    "North America": {
+      "countriesInScope": 2,
+      "representedEver": {
+        "count": 2,
+        "pct": 1
+      },
+      "representedPast": {
+        "25": {
+          "count": 2,
+          "pct": 1
+        },
+        "20": {
+          "count": 2,
+          "pct": 1
+        },
+        "15": {
+          "count": 2,
+          "pct": 1
+        },
+        "10": {
+          "count": 1,
+          "pct": 0.5
+        },
+        "5": {
+          "count": 1,
+          "pct": 0.5
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [
+        {
+          "iso3": "CAN",
+          "name": "Canada",
+          "camperCount": 22
+        },
+        {
+          "iso3": "MEX",
+          "name": "Mexico",
+          "camperCount": 3
+        }
+      ],
+      "top3LeastRepresented": [
+        {
+          "iso3": "MEX",
+          "name": "Mexico",
+          "capacityAwareGap": 11.02680079391935,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "CAN",
+          "name": "Canada",
+          "capacityAwareGap": -2.519171876198278,
+          "capacityAwareRatio": 1.723727741387836
+        }
+      ],
+      "top3MostRepresentedAllTime": [
+        {
+          "iso3": "CAN",
+          "name": "Canada",
+          "camperCount": 35
+        },
+        {
+          "iso3": "MEX",
+          "name": "Mexico",
+          "camperCount": 17
+        }
+      ],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "MEX",
+          "name": "Mexico",
+          "camperCount": 17,
+          "population": 131946900
+        },
+        {
+          "iso3": "CAN",
+          "name": "Canada",
+          "camperCount": 35,
+          "population": 41651653
+        }
+      ],
+      "countryIso3List": [
+        "MEX",
+        "CAN"
+      ]
+    },
+    "South America": {
+      "countriesInScope": 12,
+      "representedEver": {
+        "count": 8,
+        "pct": 0.6666666666666666
+      },
+      "representedPast": {
+        "25": {
+          "count": 6,
+          "pct": 0.5
+        },
+        "20": {
+          "count": 5,
+          "pct": 0.4166666666666667
+        },
+        "15": {
+          "count": 5,
+          "pct": 0.4166666666666667
+        },
+        "10": {
+          "count": 5,
+          "pct": 0.4166666666666667
+        },
+        "5": {
+          "count": 2,
+          "pct": 0.1666666666666667
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [
+        {
+          "iso3": "PER",
+          "name": "Peru",
+          "camperCount": 47
+        },
+        {
+          "iso3": "ECU",
+          "name": "Ecuador",
+          "camperCount": 43
+        },
+        {
+          "iso3": "ARG",
+          "name": "Argentina",
+          "camperCount": 11
+        }
+      ],
+      "top3LeastRepresented": [
+        {
+          "iso3": "BRA",
+          "name": "Brazil",
+          "capacityAwareGap": 14.78473004223583,
+          "capacityAwareRatio": 0.1686840335993568
+        },
+        {
+          "iso3": "VEN",
+          "name": "Venezuela",
+          "capacityAwareGap": 2.383156644475282,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "CHL",
+          "name": "Chile",
+          "capacityAwareGap": 1.659693351264604,
+          "capacityAwareRatio": 0
+        }
+      ],
+      "top3MostRepresentedAllTime": [
+        {
+          "iso3": "PER",
+          "name": "Peru",
+          "camperCount": 53
+        },
+        {
+          "iso3": "ECU",
+          "name": "Ecuador",
+          "camperCount": 44
+        },
+        {
+          "iso3": "BRA",
+          "name": "Brazil",
+          "camperCount": 27
+        }
+      ],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "PRY",
+          "name": "Paraguay",
+          "camperCount": 0,
+          "population": 7013078
+        },
+        {
+          "iso3": "URY",
+          "name": "Uruguay",
+          "camperCount": 0,
+          "population": 3384688
+        },
+        {
+          "iso3": "GUY",
+          "name": "Guyana",
+          "camperCount": 0,
+          "population": 835986
+        }
+      ],
+      "countryIso3List": [
+        "BRA",
+        "COL",
+        "ARG",
+        "PER",
+        "VEN",
+        "CHL",
+        "ECU",
+        "BOL",
+        "PRY",
+        "URY",
+        "GUY",
+        "SUR"
+      ]
+    }
+  }
+}

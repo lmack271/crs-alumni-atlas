@@ -1,0 +1,4985 @@
+{
+  "continent": "Africa",
+  "generated": "2026-09-30",
+  "meta": {
+    "countriesInScope": 54,
+    "windows": [
+      25,
+      20,
+      15,
+      10,
+      5
+    ],
+    "choroplethWindowYears": 40,
+    "capacityModel": {
+      "window": "2010-2024",
+      "annualCap": 4,
+      "capacityOverWindow": 60
+    }
+  },
+  "summary": {
+    "representedEver": {
+      "count": 11,
+      "pct": 0.2037037037037037
+    },
+    "representedPast": {
+      "25": {
+        "count": 8,
+        "pct": 0.1481481481481481
+      },
+      "20": {
+        "count": 7,
+        "pct": 0.1296296296296296
+      },
+      "15": {
+        "count": 7,
+        "pct": 0.1296296296296296
+      },
+      "10": {
+        "count": 6,
+        "pct": 0.1111111111111111
+      },
+      "5": {
+        "count": 5,
+        "pct": 0.09259259259259259
+      }
+    },
+    "top3MostRepresentedLast40Yrs": [
+      {
+        "iso3": "ZAF",
+        "name": "South Africa",
+        "camperCount": 53
+      },
+      {
+        "iso3": "ZMB",
+        "name": "Zambia",
+        "camperCount": 31
+      },
+      {
+        "iso3": "GHA",
+        "name": "Ghana",
+        "camperCount": 30
+      }
+    ],
+    "top3LeastRepresented": [
+      {
+        "iso3": "NGA",
+        "name": "Nigeria",
+        "capacityAwareGap": 19.85019379110463,
+        "capacityAwareRatio": 0
+      },
+      {
+        "iso3": "ETH",
+        "name": "Ethiopia",
+        "capacityAwareGap": 11.32139761919896,
+        "capacityAwareRatio": 0
+      },
+      {
+        "iso3": "COD",
+        "name": "DRC",
+        "capacityAwareGap": 9.429408366974018,
+        "capacityAwareRatio": 0
+      }
+    ]
+  },
+  "countries": [
+    {
+      "iso3": "NGA",
+      "name": "Nigeria",
+      "sourceName": "Nigeria",
+      "subRegion": "Western Africa",
+      "population": 237527782,
+      "onGlobe": true,
+      "camperCountAllTime": 18,
+      "camperCountLast40Yrs": 10,
+      "mostRecentCampYear": 2002,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 19.85019379110463,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 19.85019379110463,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": [
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 1
+        },
+        {
+          "year": 1963,
+          "camperCount": 1
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 1
+        },
+        {
+          "year": 1966,
+          "camperCount": 1
+        },
+        {
+          "year": 1967,
+          "camperCount": 1
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 1
+        },
+        {
+          "year": 1972,
+          "camperCount": 1
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 1
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 1
+        },
+        {
+          "year": 1990,
+          "camperCount": 1
+        },
+        {
+          "year": 1991,
+          "camperCount": 1
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 1
+        },
+        {
+          "year": 1995,
+          "camperCount": 1
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 1
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 1
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 1
+        },
+        {
+          "year": 2002,
+          "camperCount": 2
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 0
+        },
+        {
+          "year": 2005,
+          "camperCount": 0
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 0
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 0
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 0
+        },
+        {
+          "year": 2019,
+          "camperCount": 0
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "ETH",
+      "name": "Ethiopia",
+      "sourceName": "Ethiopia",
+      "subRegion": "Eastern Africa",
+      "population": 135472051,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 11.32139761919896,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 11.32139761919896,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "EGY",
+      "name": "Egypt",
+      "sourceName": "Egypt",
+      "subRegion": "Northern Africa",
+      "population": 118365995,
+      "onGlobe": true,
+      "camperCountAllTime": 31,
+      "camperCountLast40Yrs": 19,
+      "mostRecentCampYear": 2023,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": true,
+        "15": true,
+        "10": true,
+        "5": true
+      },
+      "underrepresentation": {
+        "recentActual": 10,
+        "capacityCappedExpected": 9.891844731775086,
+        "capacityAwareRatio": 1.010933781428806,
+        "capacityAwareGap": -0.1081552682249143,
+        "quotaUtilization": 0.1666666666666667
+      },
+      "yearDistribution": [
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 1
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 1
+        },
+        {
+          "year": 1966,
+          "camperCount": 1
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 1
+        },
+        {
+          "year": 1976,
+          "camperCount": 1
+        },
+        {
+          "year": 1977,
+          "camperCount": 1
+        },
+        {
+          "year": 1978,
+          "camperCount": 1
+        },
+        {
+          "year": 1979,
+          "camperCount": 1
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 1
+        },
+        {
+          "year": 1983,
+          "camperCount": 1
+        },
+        {
+          "year": 1984,
+          "camperCount": 1
+        },
+        {
+          "year": 1985,
+          "camperCount": 1
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 1
+        },
+        {
+          "year": 1990,
+          "camperCount": 1
+        },
+        {
+          "year": 1991,
+          "camperCount": 2
+        },
+        {
+          "year": 1992,
+          "camperCount": 1
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 1
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 2
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 0
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 0
+        },
+        {
+          "year": 2005,
+          "camperCount": 0
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 1
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 1
+        },
+        {
+          "year": 2012,
+          "camperCount": 3
+        },
+        {
+          "year": 2013,
+          "camperCount": 2
+        },
+        {
+          "year": 2014,
+          "camperCount": 2
+        },
+        {
+          "year": 2015,
+          "camperCount": 1
+        },
+        {
+          "year": 2016,
+          "camperCount": 1
+        },
+        {
+          "year": 2017,
+          "camperCount": 1
+        },
+        {
+          "year": 2018,
+          "camperCount": 3
+        },
+        {
+          "year": 2019,
+          "camperCount": 1
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 1
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "COD",
+      "name": "DRC",
+      "sourceName": "Democratic Republic of the Congo",
+      "subRegion": "Central (Middle) Africa",
+      "population": 112832473,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 9.429408366974018,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 9.429408366974018,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "TZA",
+      "name": "Tanzania",
+      "sourceName": "Tanzania",
+      "subRegion": "Eastern Africa",
+      "population": 70545865,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 5.895517061709882,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 5.895517061709882,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "ZAF",
+      "name": "South Africa",
+      "sourceName": "South Africa",
+      "subRegion": "Southern Africa",
+      "population": 64747319,
+      "onGlobe": true,
+      "camperCountAllTime": 54,
+      "camperCountLast40Yrs": 53,
+      "mostRecentCampYear": 2024,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": true,
+        "15": true,
+        "10": true,
+        "5": true
+      },
+      "underrepresentation": {
+        "recentActual": 23,
+        "capacityCappedExpected": 5.410932644521012,
+        "capacityAwareRatio": 4.250653539975087,
+        "capacityAwareGap": -17.58906735547899,
+        "quotaUtilization": 0.3833333333333334
+      },
+      "yearDistribution": [
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 1
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 1
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 1
+        },
+        {
+          "year": 2001,
+          "camperCount": 4
+        },
+        {
+          "year": 2002,
+          "camperCount": 3
+        },
+        {
+          "year": 2003,
+          "camperCount": 3
+        },
+        {
+          "year": 2004,
+          "camperCount": 4
+        },
+        {
+          "year": 2005,
+          "camperCount": 4
+        },
+        {
+          "year": 2006,
+          "camperCount": 3
+        },
+        {
+          "year": 2007,
+          "camperCount": 4
+        },
+        {
+          "year": 2008,
+          "camperCount": 2
+        },
+        {
+          "year": 2009,
+          "camperCount": 1
+        },
+        {
+          "year": 2010,
+          "camperCount": 3
+        },
+        {
+          "year": 2011,
+          "camperCount": 2
+        },
+        {
+          "year": 2012,
+          "camperCount": 3
+        },
+        {
+          "year": 2013,
+          "camperCount": 1
+        },
+        {
+          "year": 2014,
+          "camperCount": 2
+        },
+        {
+          "year": 2015,
+          "camperCount": 3
+        },
+        {
+          "year": 2016,
+          "camperCount": 3
+        },
+        {
+          "year": 2017,
+          "camperCount": 2
+        },
+        {
+          "year": 2018,
+          "camperCount": 3
+        },
+        {
+          "year": 2019,
+          "camperCount": 3
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 4
+        },
+        {
+          "year": 2024,
+          "camperCount": 1
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "KEN",
+      "name": "Kenya",
+      "sourceName": "Kenya",
+      "subRegion": "Eastern Africa",
+      "population": 57532493,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 4.807989725325563,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 4.807989725325563,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "SDN",
+      "name": "Sudan",
+      "sourceName": "Sudan",
+      "subRegion": "Northern Africa",
+      "population": 51662147,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 4.317404983028615,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 4.317404983028615,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "UGA",
+      "name": "Uganda",
+      "sourceName": "Uganda",
+      "subRegion": "Eastern Africa",
+      "population": 51384894,
+      "onGlobe": true,
+      "camperCountAllTime": 1,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": 1975,
+      "representedEver": true,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 4.294234953262728,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 4.294234953262728,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": [
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 1
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 0
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 0
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 0
+        },
+        {
+          "year": 2005,
+          "camperCount": 0
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 0
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 0
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 0
+        },
+        {
+          "year": 2019,
+          "camperCount": 0
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "DZA",
+      "name": "Algeria",
+      "sourceName": "Algeria",
+      "subRegion": "Northern Africa",
+      "population": 47435312,
+      "onGlobe": true,
+      "camperCountAllTime": 1,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": 1979,
+      "representedEver": true,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 3.96416843458552,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 3.96416843458552,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": [
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 1
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 0
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 0
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 0
+        },
+        {
+          "year": 2005,
+          "camperCount": 0
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 0
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 0
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 0
+        },
+        {
+          "year": 2019,
+          "camperCount": 0
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "AGO",
+      "name": "Angola",
+      "sourceName": "Angola",
+      "subRegion": "Southern Africa",
+      "population": 39040039,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 3.262575574263908,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 3.262575574263908,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "MAR",
+      "name": "Morocco",
+      "sourceName": "Morocco",
+      "subRegion": "Northern Africa",
+      "population": 38430770,
+      "onGlobe": true,
+      "camperCountAllTime": 2,
+      "camperCountLast40Yrs": 2,
+      "mostRecentCampYear": 2022,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": true,
+        "15": true,
+        "10": true,
+        "5": true
+      },
+      "underrepresentation": {
+        "recentActual": 1,
+        "capacityCappedExpected": 3.211658971502415,
+        "capacityAwareRatio": 0.3113655618087619,
+        "capacityAwareGap": 2.211658971502415,
+        "quotaUtilization": 0.01666666666666667
+      },
+      "yearDistribution": [
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 0
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 1
+        },
+        {
+          "year": 2001,
+          "camperCount": 0
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 0
+        },
+        {
+          "year": 2005,
+          "camperCount": 0
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 0
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 0
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 0
+        },
+        {
+          "year": 2019,
+          "camperCount": 0
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 1
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "MOZ",
+      "name": "Mozambique",
+      "sourceName": "Mozambique",
+      "subRegion": "Southern Africa",
+      "population": 35631653,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 2.977736798583816,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 2.977736798583816,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "GHA",
+      "name": "Ghana",
+      "sourceName": "Ghana",
+      "subRegion": "Western Africa",
+      "population": 35064272,
+      "onGlobe": true,
+      "camperCountAllTime": 39,
+      "camperCountLast40Yrs": 30,
+      "mostRecentCampYear": 2014,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": true,
+        "15": true,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 5,
+        "capacityCappedExpected": 2.930320775461979,
+        "capacityAwareRatio": 1.706297836697324,
+        "capacityAwareGap": -2.069679224538021,
+        "quotaUtilization": 0.08333333333333333
+      },
+      "yearDistribution": [
+        {
+          "year": 1961,
+          "camperCount": 1
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 1
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 1
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 1
+        },
+        {
+          "year": 1971,
+          "camperCount": 1
+        },
+        {
+          "year": 1972,
+          "camperCount": 1
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 1
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 1
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 1
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 1
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 1
+        },
+        {
+          "year": 1998,
+          "camperCount": 1
+        },
+        {
+          "year": 1999,
+          "camperCount": 2
+        },
+        {
+          "year": 2000,
+          "camperCount": 1
+        },
+        {
+          "year": 2001,
+          "camperCount": 2
+        },
+        {
+          "year": 2002,
+          "camperCount": 3
+        },
+        {
+          "year": 2003,
+          "camperCount": 3
+        },
+        {
+          "year": 2004,
+          "camperCount": 4
+        },
+        {
+          "year": 2005,
+          "camperCount": 3
+        },
+        {
+          "year": 2006,
+          "camperCount": 3
+        },
+        {
+          "year": 2007,
+          "camperCount": 4
+        },
+        {
+          "year": 2008,
+          "camperCount": 1
+        },
+        {
+          "year": 2009,
+          "camperCount": 2
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 1
+        },
+        {
+          "year": 2012,
+          "camperCount": 1
+        },
+        {
+          "year": 2013,
+          "camperCount": 2
+        },
+        {
+          "year": 2014,
+          "camperCount": 1
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 0
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 0
+        },
+        {
+          "year": 2019,
+          "camperCount": 0
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "MDG",
+      "name": "Madagascar",
+      "sourceName": "Madagascar",
+      "subRegion": "Eastern Africa",
+      "population": 32740678,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 2.736138053746302,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 2.736138053746302,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "CIV",
+      "name": "Ivory Coast",
+      "sourceName": "Ivory Coast (C\u00f4te d'Ivoire)",
+      "subRegion": "Western Africa",
+      "population": 32711547,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 2.733703576438175,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 2.733703576438175,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "CMR",
+      "name": "Cameroon",
+      "sourceName": "Cameroon",
+      "subRegion": "Central (Middle) Africa",
+      "population": 29879337,
+      "onGlobe": true,
+      "camperCountAllTime": 3,
+      "camperCountLast40Yrs": 3,
+      "mostRecentCampYear": 2024,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": true,
+        "15": true,
+        "10": true,
+        "5": true
+      },
+      "underrepresentation": {
+        "recentActual": 3,
+        "capacityCappedExpected": 2.497015821920666,
+        "capacityAwareRatio": 1.201434117342695,
+        "capacityAwareGap": -0.502984178079334,
+        "quotaUtilization": 0.05
+      },
+      "yearDistribution": [
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 0
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 0
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 0
+        },
+        {
+          "year": 2005,
+          "camperCount": 0
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 0
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 0
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 0
+        },
+        {
+          "year": 2019,
+          "camperCount": 2
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 1
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "NER",
+      "name": "Niger",
+      "sourceName": "Niger",
+      "subRegion": "Western Africa",
+      "population": 27917831,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 2.333092789867032,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 2.333092789867032,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "MLI",
+      "name": "Mali",
+      "sourceName": "Mali",
+      "subRegion": "Western Africa",
+      "population": 25198821,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 2.105865157943322,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 2.105865157943322,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "BFA",
+      "name": "Burkina Faso",
+      "sourceName": "Burkina Faso",
+      "subRegion": "Western Africa",
+      "population": 24074580,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 2.011912351538952,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 2.011912351538952,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "MWI",
+      "name": "Malawi",
+      "sourceName": "Malawi",
+      "subRegion": "Southern Africa",
+      "population": 22216120,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 1.856600872425253,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 1.856600872425253,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "ZMB",
+      "name": "Zambia",
+      "sourceName": "Zambia",
+      "subRegion": "Southern Africa",
+      "population": 21913874,
+      "onGlobe": true,
+      "camperCountAllTime": 36,
+      "camperCountLast40Yrs": 31,
+      "mostRecentCampYear": 2023,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": true,
+        "15": true,
+        "10": true,
+        "5": true
+      },
+      "underrepresentation": {
+        "recentActual": 14,
+        "capacityCappedExpected": 1.831342177959836,
+        "capacityAwareRatio": 7.644666391944499,
+        "capacityAwareGap": -12.16865782204016,
+        "quotaUtilization": 0.2333333333333333
+      },
+      "yearDistribution": [
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 1
+        },
+        {
+          "year": 1982,
+          "camperCount": 1
+        },
+        {
+          "year": 1983,
+          "camperCount": 1
+        },
+        {
+          "year": 1984,
+          "camperCount": 1
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 1
+        },
+        {
+          "year": 1987,
+          "camperCount": 1
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 1
+        },
+        {
+          "year": 1990,
+          "camperCount": 1
+        },
+        {
+          "year": 1991,
+          "camperCount": 1
+        },
+        {
+          "year": 1992,
+          "camperCount": 2
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 0
+        },
+        {
+          "year": 1996,
+          "camperCount": 2
+        },
+        {
+          "year": 1997,
+          "camperCount": 1
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 0
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 3
+        },
+        {
+          "year": 2005,
+          "camperCount": 2
+        },
+        {
+          "year": 2006,
+          "camperCount": 3
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 2
+        },
+        {
+          "year": 2012,
+          "camperCount": 1
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 2
+        },
+        {
+          "year": 2016,
+          "camperCount": 1
+        },
+        {
+          "year": 2017,
+          "camperCount": 2
+        },
+        {
+          "year": 2018,
+          "camperCount": 2
+        },
+        {
+          "year": 2019,
+          "camperCount": 2
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 1
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 1
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "TCD",
+      "name": "Chad",
+      "sourceName": "Chad",
+      "subRegion": "Central (Middle) Africa",
+      "population": 21003705,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 1.755279365936205,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 1.755279365936205,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "SOM",
+      "name": "Somalia",
+      "sourceName": "Somalia",
+      "subRegion": "Eastern Africa",
+      "population": 19654739,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 1.642546294073431,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 1.642546294073431,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "SEN",
+      "name": "Senegal",
+      "sourceName": "Senegal",
+      "subRegion": "Western Africa",
+      "population": 18931966,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 1.582144163441916,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 1.582144163441916,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "ZWE",
+      "name": "Zimbabwe",
+      "sourceName": "Zimbabwe",
+      "subRegion": "Southern Africa",
+      "population": 16950795,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 1.416577727582567,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 1.416577727582567,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "GIN",
+      "name": "Guinea",
+      "sourceName": "Guinea",
+      "subRegion": "Western Africa",
+      "population": 15099727,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 1.261883997817042,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 1.261883997817042,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "BEN",
+      "name": "Benin",
+      "sourceName": "Benin",
+      "subRegion": "Western Africa",
+      "population": 14814460,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 1.238044238170707,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 1.238044238170707,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "RWA",
+      "name": "Rwanda",
+      "sourceName": "Rwanda",
+      "subRegion": "Eastern Africa",
+      "population": 14569341,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 1.217559646385643,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 1.217559646385643,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "BDI",
+      "name": "Burundi",
+      "sourceName": "Burundi",
+      "subRegion": "Eastern Africa",
+      "population": 14390003,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 1.202572371953429,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 1.202572371953429,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "TUN",
+      "name": "Tunisia",
+      "sourceName": "Tunisia",
+      "subRegion": "Northern Africa",
+      "population": 12348573,
+      "onGlobe": true,
+      "camperCountAllTime": 2,
+      "camperCountLast40Yrs": 2,
+      "mostRecentCampYear": 2001,
+      "representedEver": true,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 1.031970092212633,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 1.031970092212633,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": [
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 0
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 2
+        },
+        {
+          "year": 2001,
+          "camperCount": 1
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 0
+        },
+        {
+          "year": 2005,
+          "camperCount": 0
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 0
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 0
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 0
+        },
+        {
+          "year": 2019,
+          "camperCount": 0
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "SSD",
+      "name": "South Sudan",
+      "sourceName": "South Sudan",
+      "subRegion": "Eastern Africa",
+      "population": 12188788,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 1.018616861747526,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 1.018616861747526,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "SLE",
+      "name": "Sierra Leone",
+      "sourceName": "Sierra Leone",
+      "subRegion": "Western Africa",
+      "population": 8819794,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.7370700750180955,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.7370700750180955,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "TGO",
+      "name": "Togo",
+      "sourceName": "Togo",
+      "subRegion": "Western Africa",
+      "population": 8591626,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.7180020780924611,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.7180020780924611,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "LBY",
+      "name": "Libya",
+      "sourceName": "Libya",
+      "subRegion": "Northern Africa",
+      "population": 7458555,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.6233113486977804,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.6233113486977804,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "COG",
+      "name": "Republic of the Congo",
+      "sourceName": "Republic of the Congo",
+      "subRegion": "Central (Middle) Africa",
+      "population": 6484437,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.5419043195385418,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.5419043195385418,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "LBR",
+      "name": "Liberia",
+      "sourceName": "Liberia",
+      "subRegion": "Western Africa",
+      "population": 5731206,
+      "onGlobe": true,
+      "camperCountAllTime": 1,
+      "camperCountLast40Yrs": 1,
+      "mostRecentCampYear": 2018,
+      "representedEver": true,
+      "representedPast": {
+        "25": true,
+        "20": true,
+        "15": true,
+        "10": true,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 1,
+        "capacityCappedExpected": 0.4789568142253843,
+        "capacityAwareRatio": 2.0878709109031,
+        "capacityAwareGap": -0.5210431857746156,
+        "quotaUtilization": 0.01666666666666667
+      },
+      "yearDistribution": [
+        {
+          "year": 1961,
+          "camperCount": 0
+        },
+        {
+          "year": 1962,
+          "camperCount": 0
+        },
+        {
+          "year": 1963,
+          "camperCount": 0
+        },
+        {
+          "year": 1964,
+          "camperCount": 0
+        },
+        {
+          "year": 1965,
+          "camperCount": 0
+        },
+        {
+          "year": 1966,
+          "camperCount": 0
+        },
+        {
+          "year": 1967,
+          "camperCount": 0
+        },
+        {
+          "year": 1968,
+          "camperCount": 0
+        },
+        {
+          "year": 1969,
+          "camperCount": 0
+        },
+        {
+          "year": 1970,
+          "camperCount": 0
+        },
+        {
+          "year": 1971,
+          "camperCount": 0
+        },
+        {
+          "year": 1972,
+          "camperCount": 0
+        },
+        {
+          "year": 1973,
+          "camperCount": 0
+        },
+        {
+          "year": 1974,
+          "camperCount": 0
+        },
+        {
+          "year": 1975,
+          "camperCount": 0
+        },
+        {
+          "year": 1976,
+          "camperCount": 0
+        },
+        {
+          "year": 1977,
+          "camperCount": 0
+        },
+        {
+          "year": 1978,
+          "camperCount": 0
+        },
+        {
+          "year": 1979,
+          "camperCount": 0
+        },
+        {
+          "year": 1980,
+          "camperCount": 0
+        },
+        {
+          "year": 1981,
+          "camperCount": 0
+        },
+        {
+          "year": 1982,
+          "camperCount": 0
+        },
+        {
+          "year": 1983,
+          "camperCount": 0
+        },
+        {
+          "year": 1984,
+          "camperCount": 0
+        },
+        {
+          "year": 1985,
+          "camperCount": 0
+        },
+        {
+          "year": 1986,
+          "camperCount": 0
+        },
+        {
+          "year": 1987,
+          "camperCount": 0
+        },
+        {
+          "year": 1988,
+          "camperCount": 0
+        },
+        {
+          "year": 1989,
+          "camperCount": 0
+        },
+        {
+          "year": 1990,
+          "camperCount": 0
+        },
+        {
+          "year": 1991,
+          "camperCount": 0
+        },
+        {
+          "year": 1992,
+          "camperCount": 0
+        },
+        {
+          "year": 1993,
+          "camperCount": 0
+        },
+        {
+          "year": 1994,
+          "camperCount": 0
+        },
+        {
+          "year": 1995,
+          "camperCount": 0
+        },
+        {
+          "year": 1996,
+          "camperCount": 0
+        },
+        {
+          "year": 1997,
+          "camperCount": 0
+        },
+        {
+          "year": 1998,
+          "camperCount": 0
+        },
+        {
+          "year": 1999,
+          "camperCount": 0
+        },
+        {
+          "year": 2000,
+          "camperCount": 0
+        },
+        {
+          "year": 2001,
+          "camperCount": 0
+        },
+        {
+          "year": 2002,
+          "camperCount": 0
+        },
+        {
+          "year": 2003,
+          "camperCount": 0
+        },
+        {
+          "year": 2004,
+          "camperCount": 0
+        },
+        {
+          "year": 2005,
+          "camperCount": 0
+        },
+        {
+          "year": 2006,
+          "camperCount": 0
+        },
+        {
+          "year": 2007,
+          "camperCount": 0
+        },
+        {
+          "year": 2008,
+          "camperCount": 0
+        },
+        {
+          "year": 2009,
+          "camperCount": 0
+        },
+        {
+          "year": 2010,
+          "camperCount": 0
+        },
+        {
+          "year": 2011,
+          "camperCount": 0
+        },
+        {
+          "year": 2012,
+          "camperCount": 0
+        },
+        {
+          "year": 2013,
+          "camperCount": 0
+        },
+        {
+          "year": 2014,
+          "camperCount": 0
+        },
+        {
+          "year": 2015,
+          "camperCount": 0
+        },
+        {
+          "year": 2016,
+          "camperCount": 0
+        },
+        {
+          "year": 2017,
+          "camperCount": 0
+        },
+        {
+          "year": 2018,
+          "camperCount": 1
+        },
+        {
+          "year": 2019,
+          "camperCount": 0
+        },
+        {
+          "year": 2020,
+          "camperCount": 0
+        },
+        {
+          "year": 2021,
+          "camperCount": 0
+        },
+        {
+          "year": 2022,
+          "camperCount": 0
+        },
+        {
+          "year": 2023,
+          "camperCount": 0
+        },
+        {
+          "year": 2024,
+          "camperCount": 0
+        },
+        {
+          "year": 2025,
+          "camperCount": 0
+        },
+        {
+          "year": 2026,
+          "camperCount": 0
+        }
+      ]
+    },
+    {
+      "iso3": "CAF",
+      "name": "Central African Republic",
+      "sourceName": "Central African Republic",
+      "subRegion": "Central (Middle) Africa",
+      "population": 5513282,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.4607449082524961,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.4607449082524961,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "MRT",
+      "name": "Mauritania",
+      "sourceName": "Mauritania",
+      "subRegion": "Western Africa",
+      "population": 5315065,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.4441799160248021,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.4441799160248021,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "ERI",
+      "name": "Eritrea",
+      "sourceName": "Eritrea",
+      "subRegion": "Eastern Africa",
+      "population": 3607003,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.3014371959028176,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.3014371959028176,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "NAM",
+      "name": "Namibia",
+      "sourceName": "Namibia",
+      "subRegion": "Southern Africa",
+      "population": 3092816,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.2584665947001898,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.2584665947001898,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "GMB",
+      "name": "Gambia",
+      "sourceName": "Gambia",
+      "subRegion": "Western Africa",
+      "population": 2822093,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.2358422769531853,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.2358422769531853,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "GAB",
+      "name": "Gabon",
+      "sourceName": "Gabon",
+      "subRegion": "Central (Middle) Africa",
+      "population": 2593130,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.2167078418874266,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.2167078418874266,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "BWA",
+      "name": "Botswana",
+      "sourceName": "Botswana",
+      "subRegion": "Southern Africa",
+      "population": 2562122,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.2141165037126165,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.2141165037126165,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "LSO",
+      "name": "Lesotho",
+      "sourceName": "Lesotho",
+      "subRegion": "Southern Africa",
+      "population": 2363325,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.1975030408921275,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.1975030408921275,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "GNB",
+      "name": "Guinea-Bissau",
+      "sourceName": "Guinea-Bissau",
+      "subRegion": "Western Africa",
+      "population": 2249515,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.1879919406059066,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.1879919406059066,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "GNQ",
+      "name": "Equatorial Guinea",
+      "sourceName": "Equatorial Guinea",
+      "subRegion": "Central (Middle) Africa",
+      "population": 1938431,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.1619946545902775,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.1619946545902775,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "SWZ",
+      "name": "Eswatini",
+      "sourceName": "Eswatini",
+      "subRegion": "Southern Africa",
+      "population": 1256174,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.1049784455754614,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.1049784455754614,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "MUS",
+      "name": "Mauritius",
+      "sourceName": "Mauritius",
+      "subRegion": "Eastern Africa",
+      "population": 1243741,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.1039394199199076,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.1039394199199076,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "DJI",
+      "name": "Djibouti",
+      "sourceName": "Djibouti",
+      "subRegion": "Eastern Africa",
+      "population": 1184076,
+      "onGlobe": true,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.09895321661108257,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.09895321661108257,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "COM",
+      "name": "Comoros",
+      "sourceName": "Comoros",
+      "subRegion": "Eastern Africa",
+      "population": 882847,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.07377951282303198,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.07377951282303198,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "CPV",
+      "name": "Cape Verde",
+      "sourceName": "Cape Verde (Cabo Verde)",
+      "subRegion": "Western Africa",
+      "population": 527326,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.04406862726941153,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.04406862726941153,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "STP",
+      "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+      "sourceName": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+      "subRegion": "Central (Middle) Africa",
+      "population": 240254,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.0200780237954988,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.0200780237954988,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    },
+    {
+      "iso3": "SYC",
+      "name": "Seychelles",
+      "sourceName": "Seychelles",
+      "subRegion": "Eastern Africa",
+      "population": 122730,
+      "onGlobe": false,
+      "camperCountAllTime": 0,
+      "camperCountLast40Yrs": 0,
+      "mostRecentCampYear": null,
+      "representedEver": false,
+      "representedPast": {
+        "25": false,
+        "20": false,
+        "15": false,
+        "10": false,
+        "5": false
+      },
+      "underrepresentation": {
+        "recentActual": 0,
+        "capacityCappedExpected": 0.01025654457541422,
+        "capacityAwareRatio": 0,
+        "capacityAwareGap": 0.01025654457541422,
+        "quotaUtilization": 0
+      },
+      "yearDistribution": []
+    }
+  ],
+  "subRegions": {
+    "Central (Middle) Africa": {
+      "countriesInScope": 8,
+      "representedEver": {
+        "count": 1,
+        "pct": 0.125
+      },
+      "representedPast": {
+        "25": {
+          "count": 1,
+          "pct": 0.125
+        },
+        "20": {
+          "count": 1,
+          "pct": 0.125
+        },
+        "15": {
+          "count": 1,
+          "pct": 0.125
+        },
+        "10": {
+          "count": 1,
+          "pct": 0.125
+        },
+        "5": {
+          "count": 1,
+          "pct": 0.125
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [
+        {
+          "iso3": "CMR",
+          "name": "Cameroon",
+          "camperCount": 3
+        }
+      ],
+      "top3LeastRepresented": [
+        {
+          "iso3": "COD",
+          "name": "DRC",
+          "capacityAwareGap": 9.429408366974018,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "TCD",
+          "name": "Chad",
+          "capacityAwareGap": 1.755279365936205,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "COG",
+          "name": "Republic of the Congo",
+          "capacityAwareGap": 0.5419043195385418,
+          "capacityAwareRatio": 0
+        }
+      ],
+      "top3MostRepresentedAllTime": [
+        {
+          "iso3": "CMR",
+          "name": "Cameroon",
+          "camperCount": 3
+        }
+      ],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "COD",
+          "name": "DRC",
+          "camperCount": 0,
+          "population": 112832473
+        },
+        {
+          "iso3": "TCD",
+          "name": "Chad",
+          "camperCount": 0,
+          "population": 21003705
+        },
+        {
+          "iso3": "COG",
+          "name": "Republic of the Congo",
+          "camperCount": 0,
+          "population": 6484437
+        }
+      ],
+      "countryIso3List": [
+        "COD",
+        "CMR",
+        "TCD",
+        "COG",
+        "CAF",
+        "GAB",
+        "GNQ",
+        "STP"
+      ]
+    },
+    "Eastern Africa": {
+      "countriesInScope": 14,
+      "representedEver": {
+        "count": 1,
+        "pct": 0.07142857142857142
+      },
+      "representedPast": {
+        "25": {
+          "count": 0,
+          "pct": 0
+        },
+        "20": {
+          "count": 0,
+          "pct": 0
+        },
+        "15": {
+          "count": 0,
+          "pct": 0
+        },
+        "10": {
+          "count": 0,
+          "pct": 0
+        },
+        "5": {
+          "count": 0,
+          "pct": 0
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [],
+      "top3LeastRepresented": [
+        {
+          "iso3": "ETH",
+          "name": "Ethiopia",
+          "capacityAwareGap": 11.32139761919896,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "TZA",
+          "name": "Tanzania",
+          "capacityAwareGap": 5.895517061709882,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "KEN",
+          "name": "Kenya",
+          "capacityAwareGap": 4.807989725325563,
+          "capacityAwareRatio": 0
+        }
+      ],
+      "top3MostRepresentedAllTime": [
+        {
+          "iso3": "UGA",
+          "name": "Uganda",
+          "camperCount": 1
+        }
+      ],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "ETH",
+          "name": "Ethiopia",
+          "camperCount": 0,
+          "population": 135472051
+        },
+        {
+          "iso3": "TZA",
+          "name": "Tanzania",
+          "camperCount": 0,
+          "population": 70545865
+        },
+        {
+          "iso3": "KEN",
+          "name": "Kenya",
+          "camperCount": 0,
+          "population": 57532493
+        }
+      ],
+      "countryIso3List": [
+        "ETH",
+        "TZA",
+        "KEN",
+        "UGA",
+        "MDG",
+        "SOM",
+        "RWA",
+        "BDI",
+        "SSD",
+        "ERI",
+        "MUS",
+        "DJI",
+        "COM",
+        "SYC"
+      ]
+    },
+    "Northern Africa": {
+      "countriesInScope": 6,
+      "representedEver": {
+        "count": 4,
+        "pct": 0.6666666666666666
+      },
+      "representedPast": {
+        "25": {
+          "count": 2,
+          "pct": 0.3333333333333333
+        },
+        "20": {
+          "count": 2,
+          "pct": 0.3333333333333333
+        },
+        "15": {
+          "count": 2,
+          "pct": 0.3333333333333333
+        },
+        "10": {
+          "count": 2,
+          "pct": 0.3333333333333333
+        },
+        "5": {
+          "count": 2,
+          "pct": 0.3333333333333333
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [
+        {
+          "iso3": "EGY",
+          "name": "Egypt",
+          "camperCount": 19
+        },
+        {
+          "iso3": "MAR",
+          "name": "Morocco",
+          "camperCount": 2
+        },
+        {
+          "iso3": "TUN",
+          "name": "Tunisia",
+          "camperCount": 2
+        }
+      ],
+      "top3LeastRepresented": [
+        {
+          "iso3": "SDN",
+          "name": "Sudan",
+          "capacityAwareGap": 4.317404983028615,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "DZA",
+          "name": "Algeria",
+          "capacityAwareGap": 3.96416843458552,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "MAR",
+          "name": "Morocco",
+          "capacityAwareGap": 2.211658971502415,
+          "capacityAwareRatio": 0.3113655618087619
+        }
+      ],
+      "top3MostRepresentedAllTime": [
+        {
+          "iso3": "EGY",
+          "name": "Egypt",
+          "camperCount": 31
+        },
+        {
+          "iso3": "MAR",
+          "name": "Morocco",
+          "camperCount": 2
+        },
+        {
+          "iso3": "TUN",
+          "name": "Tunisia",
+          "camperCount": 2
+        }
+      ],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "SDN",
+          "name": "Sudan",
+          "camperCount": 0,
+          "population": 51662147
+        },
+        {
+          "iso3": "LBY",
+          "name": "Libya",
+          "camperCount": 0,
+          "population": 7458555
+        },
+        {
+          "iso3": "DZA",
+          "name": "Algeria",
+          "camperCount": 1,
+          "population": 47435312
+        }
+      ],
+      "countryIso3List": [
+        "EGY",
+        "SDN",
+        "DZA",
+        "MAR",
+        "TUN",
+        "LBY"
+      ]
+    },
+    "Southern Africa": {
+      "countriesInScope": 10,
+      "representedEver": {
+        "count": 2,
+        "pct": 0.2
+      },
+      "representedPast": {
+        "25": {
+          "count": 2,
+          "pct": 0.2
+        },
+        "20": {
+          "count": 2,
+          "pct": 0.2
+        },
+        "15": {
+          "count": 2,
+          "pct": 0.2
+        },
+        "10": {
+          "count": 2,
+          "pct": 0.2
+        },
+        "5": {
+          "count": 2,
+          "pct": 0.2
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [
+        {
+          "iso3": "ZAF",
+          "name": "South Africa",
+          "camperCount": 53
+        },
+        {
+          "iso3": "ZMB",
+          "name": "Zambia",
+          "camperCount": 31
+        }
+      ],
+      "top3LeastRepresented": [
+        {
+          "iso3": "AGO",
+          "name": "Angola",
+          "capacityAwareGap": 3.262575574263908,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "MOZ",
+          "name": "Mozambique",
+          "capacityAwareGap": 2.977736798583816,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "MWI",
+          "name": "Malawi",
+          "capacityAwareGap": 1.856600872425253,
+          "capacityAwareRatio": 0
+        }
+      ],
+      "top3MostRepresentedAllTime": [
+        {
+          "iso3": "ZAF",
+          "name": "South Africa",
+          "camperCount": 54
+        },
+        {
+          "iso3": "ZMB",
+          "name": "Zambia",
+          "camperCount": 36
+        }
+      ],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "AGO",
+          "name": "Angola",
+          "camperCount": 0,
+          "population": 39040039
+        },
+        {
+          "iso3": "MOZ",
+          "name": "Mozambique",
+          "camperCount": 0,
+          "population": 35631653
+        },
+        {
+          "iso3": "MWI",
+          "name": "Malawi",
+          "camperCount": 0,
+          "population": 22216120
+        }
+      ],
+      "countryIso3List": [
+        "ZAF",
+        "AGO",
+        "MOZ",
+        "MWI",
+        "ZMB",
+        "ZWE",
+        "NAM",
+        "BWA",
+        "LSO",
+        "SWZ"
+      ]
+    },
+    "Western Africa": {
+      "countriesInScope": 16,
+      "representedEver": {
+        "count": 3,
+        "pct": 0.1875
+      },
+      "representedPast": {
+        "25": {
+          "count": 3,
+          "pct": 0.1875
+        },
+        "20": {
+          "count": 2,
+          "pct": 0.125
+        },
+        "15": {
+          "count": 2,
+          "pct": 0.125
+        },
+        "10": {
+          "count": 1,
+          "pct": 0.0625
+        },
+        "5": {
+          "count": 0,
+          "pct": 0
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [
+        {
+          "iso3": "GHA",
+          "name": "Ghana",
+          "camperCount": 30
+        },
+        {
+          "iso3": "NGA",
+          "name": "Nigeria",
+          "camperCount": 10
+        },
+        {
+          "iso3": "LBR",
+          "name": "Liberia",
+          "camperCount": 1
+        }
+      ],
+      "top3LeastRepresented": [
+        {
+          "iso3": "NGA",
+          "name": "Nigeria",
+          "capacityAwareGap": 19.85019379110463,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "CIV",
+          "name": "Ivory Coast",
+          "capacityAwareGap": 2.733703576438175,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "NER",
+          "name": "Niger",
+          "capacityAwareGap": 2.333092789867032,
+          "capacityAwareRatio": 0
+        }
+      ],
+      "top3MostRepresentedAllTime": [
+        {
+          "iso3": "GHA",
+          "name": "Ghana",
+          "camperCount": 39
+        },
+        {
+          "iso3": "NGA",
+          "name": "Nigeria",
+          "camperCount": 18
+        },
+        {
+          "iso3": "LBR",
+          "name": "Liberia",
+          "camperCount": 1
+        }
+      ],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "CIV",
+          "name": "Ivory Coast",
+          "camperCount": 0,
+          "population": 32711547
+        },
+        {
+          "iso3": "NER",
+          "name": "Niger",
+          "camperCount": 0,
+          "population": 27917831
+        },
+        {
+          "iso3": "MLI",
+          "name": "Mali",
+          "camperCount": 0,
+          "population": 25198821
+        }
+      ],
+      "countryIso3List": [
+        "NGA",
+        "GHA",
+        "CIV",
+        "NER",
+        "MLI",
+        "BFA",
+        "SEN",
+        "GIN",
+        "BEN",
+        "SLE",
+        "TGO",
+        "LBR",
+        "MRT",
+        "GMB",
+        "GNB",
+        "CPV"
+      ]
+    }
+  }
+}

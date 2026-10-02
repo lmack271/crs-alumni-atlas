@@ -1,0 +1,115 @@
+<meta charset="utf-8" />
+<title>Africa — CRS Alumni Atlas</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="css/tokens.css" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/nav.css" />
+<link rel="stylesheet" href="css/home.css" />
+<link rel="stylesheet" href="css/region.css" />
+
+<body data-page="africa" data-continent="africa">
+
+<div id="nav-mount"></div>
+
+<div class="wrap">
+  <div class="region-hero" id="region-hero" data-progress-label="Overview"></div>
+</div>
+
+<div id="region-stub" class="wrap" hidden></div>
+
+<div class="tooltip" id="region-tooltip"></div>
+
+<main class="scrolly" id="subregion-scrolly" data-progress-label="By subregion" hidden>
+  <div class="scrolly-stage">
+    <div class="globe-wrap">
+      <canvas id="region-globe" aria-label="Interactive rotatable map of this continent's sub-regions"></canvas>
+      <div class="globe-hint">click &amp; drag to turn</div>
+    </div>
+    <div class="subregion-jump-bar">
+      <label for="subregion-jump-select">Jump to sub-region</label>
+      <select class="select" id="subregion-jump-select"></select>
+    </div>
+  </div>
+
+  <div class="scrolly-steps" id="subregion-steps"></div>
+</main>
+
+<div id="region-content" class="wrap" hidden>
+    <section class="section" id="sec-campers" data-progress-label="Campers by country">
+      <div class="section-head">
+        <h2>Campers by country</h2>
+        <span class="section-count" id="bar-count"></span>
+      </div>
+      <div class="control-row">
+        <label>Time period</label>
+        <div class="pill-group" id="time-filter"></div>
+      </div>
+      <div class="table-scroll" id="camper-bar-chart"></div>
+    </section>
+
+    <section class="section" id="sec-distribution" data-progress-label="Distribution by year">
+      <div class="section-head">
+        <h2>Camper distribution by year</h2>
+      </div>
+      <p class="section-caption">Select a country, or click one of the cards below, to see its full year-by-year history.</p>
+      <div class="control-row">
+        <label>Country</label>
+        <select class="select" id="country-picker"></select>
+      </div>
+      <div id="expanded-chart-mount"></div>
+      <div class="sparkline-grid" id="sparkline-grid"></div>
+    </section>
+
+    <section class="section" id="sec-population" data-progress-label="Countries by population">
+      <div class="section-head">
+        <h2>Countries by population</h2>
+      </div>
+      <p class="section-caption">All <span id="population-count"></span> countries, ranked by population. Two colors show whether that country has ever sent a camper.</p>
+      <div class="hbar-legend">
+        <span class="legend-item"><span class="legend-dot rep-yes"></span> Represented</span>
+        <span class="legend-item"><span class="legend-dot rep-no"></span> Not yet represented</span>
+      </div>
+      <div class="hbar-col-heading">National population</div>
+      <div class="table-scroll" id="population-bar-chart"></div>
+    </section>
+
+    <section class="section" id="sec-underrep" data-progress-label="Most underrepresented">
+      <div class="section-head">
+        <h2>Most underrepresented countries</h2>
+      </div>
+      <p class="section-caption">Ranked by capacity-aware recruitment gap — expected minus actual campers under CRS's ~4-per-country-per-year guideline, 2010–2024.</p>
+      <div class="table-scroll" id="underrep-list"></div>
+    </section>
+
+    <section class="section" id="sec-stories" data-progress-label="Subnational patterns">
+      <div class="section-head">
+        <h2>Subnational Patterns: Notable Stories</h2>
+      </div>
+      <div id="stories"></div>
+    </section>
+
+    <section class="section" id="sec-time-trends" data-progress-label="Time trends">
+      <div class="section-head">
+        <h2>Time Trends</h2>
+      </div>
+      <div id="stories-time-trends"></div>
+    </section>
+</div>
+
+<footer class="wrap">
+  Population figures: World Bank, indicator SP.POP.TOTL, 2025 estimates.
+  Camper data drawn from CRS Alumni Directory, largely from the &ldquo;Country&rdquo; and &ldquo;City&rdquo; fields. Underrepresentation model: capacity-aware, 2010–2024, ~4 campers/country/year guideline.
+  <a href="disclaimers.html">Data disclaimers &amp; caveats</a>.
+</footer>
+
+<script src="js/vendor/d3-array.js"></script>
+<script src="js/vendor/d3-geo.js"></script>
+<script src="js/vendor/versor.js"></script>
+<script src="js/data-loader.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/color-scale.js"></script>
+<script src="js/globe.js"></script>
+<script src="js/charts.js"></script>
+<script src="js/region-scrolly.js"></script>
+<script src="js/section-progress.js"></script>
+<script src="js/region-page.js"></script>

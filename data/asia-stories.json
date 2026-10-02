@@ -1,0 +1,189 @@
+{
+  "continent": "Asia",
+  "generated": "2026-10-01",
+  "source": "Adapted from CRS_Subnational_Asia.md and CRS_Time_Asia.md",
+  "stories": [
+    {
+      "id": "china-tianjin-shanghai",
+      "title": "China: Two Cities, 88% of Campers",
+      "countryIso3": "CHN",
+      "paragraphs": [
+        "China has sent 73 campers. Of these, 64 came from just two cities: Tianjin (34) and Shanghai (30). Together these cities hold about 3% of China's population. Beijing has sent six campers, and only three have come from anywhere else in the country.",
+        "Tianjin stands out. It isn't one of China's largest cities, yet it has supplied almost half of China's campers since its first in 1995. The most likely explanation is a single school or partner organization there, with a link to the alumni network that selects China's campers, rather than any broader big-city pattern.",
+        "Both clusters are recent: the median first camp year is 2010 for Tianjin campers and 2012 for Shanghai campers. Beijing supplied China's earliest campers (1971, 1986 and 1994), but only one since 2000. Shanghai's share rose from 23% of campers before 2000 to 49% after.",
+        "Because Tianjin and Shanghai campers kept coming over two decades, these are almost certainly the places campers lived when they attended, not just where alumni moved later."
+      ],
+      "table": {
+        "headers": ["Region", "Campers", "Share of campers", "Approx. share of population"],
+        "rows": [
+          ["Tianjin", "34", "47%", "1%"],
+          ["Shanghai", "30", "41%", "2%"],
+          ["Beijing", "6", "8%", "1%"],
+          ["Hong Kong, Hubei, Zhejiang", "3", "4%", "9%"]
+        ]
+      },
+      "chartHint": { "type": "yearDistribution", "iso3": "CHN" }
+    },
+    {
+      "id": "east-asia-capitals",
+      "title": "South Korea and Japan: The Capital Regions, Plus One New Cluster",
+      "countryIso3": "JPN",
+      "paragraphs": [
+        "Every one of South Korea's 54 campers lists Seoul, from the first in 1956 to the most recent in 2023. None come from the surrounding Gyeonggi province, home to about a quarter of South Koreans, or from Busan, the country's second city.",
+        "Japan is more spread out, with campers from 15 of its 47 prefectures. Still, Tokyo and neighboring Kanagawa supply 71% of Japanese campers, against about 18% of the population.",
+        "The balance within Japan has shifted. Kanagawa (Yokohama, Kawasaki) sent 15 campers before 2010 but only one since. Over the same years, a new group appeared in eastern Shizuoka: six campers from Numazu, Mishima, Susono and nearby towns between 2008 and 2023, four of them since 2015. Osaka has also sent four campers since 2005. Clusters in smaller cities like Numazu and Mishima are unlikely to reflect alumni who moved there after camp, so they probably point to a newer local contact in Japan's alumni network."
+      ],
+      "table": {
+        "headers": ["Region", "Campers", "Camp years", "Approx. share of population"],
+        "rows": [
+          ["Seoul (South Korea)", "54 of 54", "1956–2023", "19%"],
+          ["Tokyo (Japan)", "41 of 80", "1952–2023", "11%"],
+          ["Kanagawa (Japan)", "16 of 80", "1963–2012", "7%"],
+          ["Shizuoka (Japan)", "6 of 80", "2008–2023", "3%"]
+        ]
+      },
+      "chartHint": null
+    },
+    {
+      "id": "israel-galilee",
+      "title": "Israel: Recruited From the Galilee, Not Tel Aviv",
+      "countryIso3": "ISR",
+      "paragraphs": [
+        "In most countries, campers cluster in the capital or the largest city. Israel is the exception. Its most over-represented region is the Northern District, which supplies 35% of campers against 15% of the population. Most come from smaller Galilee towns: Nof HaGalil (Nazareth Illit), Migdal HaEmek, Acre, Safed, Ma'alot, Tiberias and Karmiel.",
+        "Meanwhile, the Tel Aviv District, home to about 15% of Israelis, has supplied only four campers (6%). None have been listed since 1999.",
+        "The Galilee pipeline was strongest in the 1990s, when 10 of 17 Israeli campers with a known location came from the Northern District. It has continued since, with 12 more campers from 2000 to 2018, though Haifa, the Central District and Jerusalem have grown alongside it.",
+        "Since few people move to small northern towns after camp, this cluster very likely reflects where campers lived when they attended. It suggests that Israel's alumni network has long had strong roots in the north."
+      ],
+      "table": {
+        "headers": ["Region", "Campers", "Share of campers", "Approx. share of population"],
+        "rows": [
+          ["Northern District", "25", "35%", "15%"],
+          ["Haifa", "13", "18%", "12%"],
+          ["Central District", "12", "17%", "23%"],
+          ["Jerusalem", "11", "15%", "14%"],
+          ["Southern District", "7", "10%", "14%"],
+          ["Tel Aviv", "4", "6%", "15%"]
+        ]
+      },
+      "chartHint": { "type": "yearDistribution", "iso3": "ISR" }
+    },
+    {
+      "id": "palestine-ramallah",
+      "title": "Palestine: From Jerusalem to Ramallah",
+      "countryIso3": "PSE",
+      "paragraphs": [
+        "Palestine's first camper on record attended in 1997. Since then it has sent 21 campers, with at least one in every era since the 1990s.",
+        "The source has moved. The five campers listing Jerusalem all attended between 1997 and 2010. From 2006 on, campers came from the West Bank, almost all from Ramallah (13 campers, 2007–2023).",
+        "No campers have come from Gaza, home to about 40% of Palestinians."
+      ],
+      "chartHint": { "type": "yearDistribution", "iso3": "PSE" }
+    },
+    {
+      "id": "asia-one-city",
+      "title": "One City Supplies Most of the Campers",
+      "countryIso3": null,
+      "paragraphs": [
+        "Outside Israel and Japan, most Asian countries draw their campers almost entirely from one city, usually the capital or the largest city. Since each country's campers are selected by a local alumni network, this largely reflects where that network's members live and work.",
+        "Istanbul supplies three-quarters of Turkey's campers. Ankara and İzmir supply most of the rest, and only two campers have come from anywhere else in Anatolia. Tehran supplies three-quarters of Iran's campers, and Jakarta two-thirds of Indonesia's. All of Azerbaijan's eight campers are from Baku, and all four of Afghanistan's are from Kabul.",
+        "The newest senders show the same pattern in smaller places. Iraq's two campers are both from Sulaymaniyah, in the Kurdistan Region. Tajikistan's three campers all come from small towns in Sughd province in the north, rather than from the capital, Dushanbe."
+      ],
+      "table": {
+        "headers": ["Country", "Campers", "Top region", "Share of campers", "Approx. share of population"],
+        "rows": [
+          ["South Korea", "54", "Seoul", "100%", "19%"],
+          ["China", "73", "Tianjin", "47%", "1%"],
+          ["Turkey", "58", "Istanbul", "74%", "19%"],
+          ["Iran", "12", "Tehran", "75%", "17%"],
+          ["Indonesia", "12", "Jakarta", "67%", "4%"],
+          ["Azerbaijan", "8", "Baku", "100%", "22%"],
+          ["Palestine", "21", "Ramallah (West Bank)", "65%", "—"]
+        ]
+      },
+      "chartHint": null
+    },
+    {
+      "id": "asia-rising",
+      "title": "Asia's Growing Share, Driven by East Asia",
+      "section": "time-trends",
+      "countryIso3": null,
+      "paragraphs": [
+        "Asia is the only continent whose share of CRS campers has grown over time. It supplied 17% of campers before 1970 and about 20% through the 2000s. Since 2010 the share has risen to 26–27%.",
+        "Most of that growth came from China and South Korea. China had only two campers before 1990, then grew every decade (11, 19 and 34) to become Asia's largest sender in the 2010s. South Korea had one camper in 1956, then none for 39 years. Since 1995 it has had campers in almost every year.",
+        "Japan and Israel have been the steadiest senders. Japan has had campers since 1950, never going more than four years without one. Israel has had campers in nearly every year since 1980."
+      ],
+      "table": {
+        "headers": ["Country", "Before 1970", "1970–89", "1990–99", "2000–09", "2010–19", "2020+"],
+        "rows": [
+          ["Japan", "11", "10", "16", "23", "18", "4"],
+          ["Israel", "1", "11", "17", "16", "24", "6"],
+          ["China", "0", "2", "11", "19", "34", "2"],
+          ["Turkey", "6", "11", "10", "15", "15", "0"],
+          ["South Korea", "1", "0", "5", "22", "20", "4"],
+          ["Asia's share of all campers", "17%", "19%", "22%", "19%", "26%", "27%"]
+        ]
+      },
+      "chartHint": null
+    },
+    {
+      "id": "southeast-asia-faded",
+      "title": "Southeast Asia: An Early Source That Faded",
+      "section": "time-trends",
+      "countryIso3": "IDN",
+      "paragraphs": [
+        "In CRS's early decades, Southeast Asia was a regular source of campers. Singapore, Malaysia, Thailand and the Philippines all sent campers in the 1950s and 1960s, and their median camp years fall between 1972 and 1997.",
+        "Since then, these pipelines have mostly stopped. Thailand's last camper was in 2001 and the Philippines' in 2009. Indonesia sent seven campers in 2001–2010, mostly from Jakarta, and none since. From 2010 on, the whole subregion has had just four campers: one each from Indonesia, Singapore, Malaysia (its first in 42 years) and Vietnam.",
+        "This matters because Southeast Asia is home to almost 700 million people. Indonesia, the Philippines and Vietnam each have over 100 million, and Myanmar, with 55 million, has never sent a camper. Several of these countries once had working links to CRS, which may make them good starting points for renewed recruitment."
+      ],
+      "table": {
+        "headers": ["Country", "Campers", "Active years", "Most recent camp year", "Population (millions)"],
+        "rows": [
+          ["Indonesia", "12", "1971–2010", "2011", "286"],
+          ["Philippines", "6", "1965–2009", "2009", "117"],
+          ["Vietnam", "2", "2024", "2024", "102"],
+          ["Thailand", "6", "1965–2001", "2001", "72"],
+          ["Malaysia", "8", "1954–1978 (+ 2020)", "2020", "36"],
+          ["Singapore", "10", "1966–2013", "2013", "6"],
+          ["Myanmar", "0", "—", "—", "55"]
+        ]
+      },
+      "chartHint": null
+    },
+    {
+      "id": "turkey-stopped",
+      "title": "Turkey: Five Decades of Campers, None Since 2018",
+      "section": "time-trends",
+      "countryIso3": "TUR",
+      "paragraphs": [
+        "Turkey sent about one camper a year from 1962 to 2018, 58 campers in all. Its busiest stretch was 2007–2011, with 10 campers.",
+        "Over that time, the pipeline narrowed to Istanbul. Istanbul supplied 62% of Turkey's campers before 2000 and 89% after. Ankara, which sent five campers before 1990, has sent none since 2010.",
+        "Turkey has no camper listed after 2018. Recent years are undercounted in the directory, because new alumni take time to register. But Israel, Japan and South Korea all have campers listed since 2020, so the gap stands out for one of Asia's most consistent senders. It may mean the Istanbul contacts who selected campers have moved on."
+      ],
+      "chartHint": { "type": "yearDistribution", "iso3": "TUR" }
+    },
+    {
+      "id": "asia-new-frontiers",
+      "title": "New Senders in Central Asia, the Caucasus and the Middle East",
+      "section": "time-trends",
+      "countryIso3": null,
+      "paragraphs": [
+        "Most of Asia's new senders in the last decade are in Central Asia, the Caucasus and the Middle East. Azerbaijan has sent campers from Baku since 2014, and Afghanistan sent four from Kabul in 2016–2019. Iraq, Tajikistan, Uzbekistan and Vietnam have all sent their first campers since 2018.",
+        "Two older senders have also returned. Iran had one camper in 1974, then none for 32 years. Since 2006 it has sent 10 more, mostly from Tehran, though none are listed after 2017. India sent campers in 1947 and 1962, then only one per decade through the 2000s. Since 2017, five Indian campers have attended.",
+        "Even with this growth, South Asia remains far below its population. India, with about 1.5 billion people, has sent 10 campers in total. Pakistan has sent two and Bangladesh one, in 1952."
+      ],
+      "table": {
+        "headers": ["Country", "Campers", "Camp years", "Where from"],
+        "rows": [
+          ["Iran", "12", "1974, then 2006–2017", "Mostly Tehran"],
+          ["Azerbaijan", "8", "2014–2022", "Baku"],
+          ["Afghanistan", "4", "2016–2019", "Kabul"],
+          ["India", "10", "1947–2023 (5 since 2017)", "Mostly Mumbai, Pune, Delhi"],
+          ["Iraq", "2", "2018, 2024", "Sulaymaniyah"],
+          ["Tajikistan", "3", "2023–2024", "Sughd province"],
+          ["Uzbekistan", "1", "2024", "Tashkent"],
+          ["Vietnam", "2", "2024", "Vũng Tàu, Nghệ An"]
+        ]
+      },
+      "chartHint": null
+    }
+  ]
+}

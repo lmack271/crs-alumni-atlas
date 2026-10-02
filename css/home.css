@@ -1,0 +1,180 @@
+/* Scrollytelling home page. Sticky-stage + overlapping-steps pattern: the
+   globe stage is pinned via `position: sticky`, and `.scrolly-steps` is
+   pulled up by `margin-top: -100vh` so each step's panel visually overlaps
+   the pinned globe instead of pushing it out of the viewport. No scroll-
+   jacking -- this is pure CSS position + native scroll; js/scrollytelling.js
+   only reads scroll position (via IntersectionObserver) to drive the globe,
+   it never calls preventDefault or sets scrollTop itself. */
+
+.home-hero {
+  padding: clamp(28px, 5vw, 56px) clamp(20px, 6vw, 72px) clamp(20px, 4vw, 40px);
+  background: linear-gradient(180deg, #0a0c16 0%, #12162a 100%);
+  color: #f4efe4;
+}
+.home-hero .hero-eyebrow { color: var(--accent, #e0a94a); }
+.home-hero h1 {
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  line-height: 1.05;
+  color: #fbf7ee;
+  max-width: 24ch; /* title breaks after its colon; this wraps the second line into two */
+}
+.home-hero p.lede {
+  font-family: 'EB Garamond', serif;
+  font-size: clamp(1.02rem, 1.5vw, 1.18rem);
+  color: rgba(244, 239, 228, 0.82);
+  max-width: 64ch;
+  margin-top: 16px;
+}
+
+.scrolly {
+  position: relative;
+  background: linear-gradient(180deg, #12162a 0%, #171a24 8%, #171a24 100%);
+}
+
+.scrolly-stage {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 1;
+}
+.scrolly-stage .globe-wrap {
+  /* Oversized relative to the viewport on purpose -- vmax guarantees the
+     circle's diameter exceeds both vw and vh, so it bleeds off all four
+     edges and reads as "looking at a planet" rather than a widget boxed
+     in the middle of the page. .scrolly-stage's overflow:hidden clips it. */
+  max-width: none;
+  width: 128vmax;
+  touch-action: none;
+}
+/* .globe-hint is positioned absolute relative to .globe-wrap in base.css
+   (bottom:-6px), which with the oversized wrap above would land far
+   outside the viewport -- pin it to the stage itself instead
+   (.scrolly-stage's own `position: sticky` above already establishes the
+   positioning context for this to anchor to). */
+.scrolly-stage .globe-hint {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  top: auto;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.scrolly-steps {
+  position: relative;
+  z-index: 2;
+  margin-top: -100vh;
+  pointer-events: none;
+}
+
+.step {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 clamp(20px, 6vw, 64px);
+}
+.step:first-child { align-items: flex-start; padding-top: 12vh; }
+
+.step-panel {
+  pointer-events: auto;
+  max-width: 420px;
+  background: rgba(15, 17, 26, 0.86);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: clamp(20px, 3vw, 32px);
+  color: #f2f0ea;
+  opacity: 0.28;
+  transform: translateY(10px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.step.is-active .step-panel {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  .step-panel { transition: none; }
+}
+
+.step-eyebrow {
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent, #e0a94a);
+  margin-bottom: 10px;
+}
+.step-panel h2 {
+  font-family: 'Cormorant', Georgia, serif;
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  color: #fbf7ee;
+  margin-bottom: 14px;
+}
+
+.step-stat-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 16px 0;
+}
+.step-stat-row .stat-tile {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 10px;
+  box-shadow: none;
+}
+.step-stat-row .num { font-size: 1.4rem; color: var(--accent, #e0a94a); }
+.step-stat-row .label { color: rgba(242, 240, 234, 0.7); font-size: 0.74rem; }
+
+.step-lists {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 16px 0;
+  font-size: 0.86rem;
+}
+.step-lists h3 {
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(242, 240, 234, 0.55);
+  margin-bottom: 6px;
+  font-family: 'EB Garamond', serif;
+  font-weight: 600;
+}
+.step-lists ol {
+  margin: 0;
+  padding-left: 1.1em;
+  color: rgba(242, 240, 234, 0.9);
+}
+.step-lists li { margin-bottom: 2px; }
+.step-empty {
+  margin: 0;
+  font-style: italic;
+  color: rgba(242, 240, 234, 0.6);
+}
+.step-map-note {
+  margin: 0 0 12px;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: rgba(242, 240, 234, 0.6);
+}
+.step-lists-note {
+  margin: 10px 0 0;
+  font-size: 0.74rem;
+  font-style: italic;
+  color: rgba(242, 240, 234, 0.55);
+}
+
+.step-panel .btn { margin-top: 8px; }
+
+@media (max-width: 860px) {
+  .scrolly-stage .globe-wrap { width: min(60vh, 92vw); opacity: 0.55; }
+  .step { justify-content: center; }
+  .step-panel { max-width: 92vw; }
+  .step-lists { grid-template-columns: 1fr; }
+}

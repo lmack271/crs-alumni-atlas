@@ -1,0 +1,90 @@
+/* Shared top navigation bar, rendered into every page by js/nav.js. New
+   component -- doesn't exist in the CRS_African_Alumni_Atlas.html prototype. */
+
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 14px clamp(20px, 6vw, 40px);
+  background: var(--nav-bg);
+  border-bottom: 1px solid var(--nav-line);
+  font-family: 'EB Garamond', serif;
+}
+
+.site-nav__brand {
+  font-family: 'Cormorant', Georgia, serif;
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: var(--ink);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.site-nav__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav__links a {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-size: 0.92rem;
+  letter-spacing: 0.02em;
+  padding: 4px 2px;
+  border-bottom: 2px solid transparent;
+}
+.site-nav__links a:hover,
+.site-nav__links a[aria-current="page"] {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.site-nav__badge {
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 1px 7px;
+}
+
+@media (max-width: 720px) {
+  .site-nav { flex-wrap: wrap; }
+  .site-nav__links { gap: 4px 14px; font-size: 0.86rem; }
+}
+
+/* Shared CTA button (used by home step panels + region page headers) --
+   new component, no prototype equivalent to extract. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'EB Garamond', serif;
+  font-size: 0.92rem;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  background: var(--surface-raised);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 9px 18px;
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.btn:hover { background: var(--accent); color: var(--surface-raised); }
+.btn[aria-disabled="true"] {
+  opacity: 0.55;
+  pointer-events: none;
+}

@@ -1,0 +1,2311 @@
+{
+  "generated": "2026-09-30",
+  "capacityModel": {
+    "window": "2010-2024",
+    "annualCap": 4,
+    "capacityOverWindow": 60
+  },
+  "choroplethWindowYears": 40,
+  "continents": {
+    "africa": {
+      "label": "Africa",
+      "status": "complete",
+      "detailPage": "africa.html",
+      "countriesInScope": 54,
+      "representedEver": {
+        "count": 11,
+        "pct": 0.2037037037037037
+      },
+      "representedPast": {
+        "25": {
+          "count": 8,
+          "pct": 0.1481481481481481
+        },
+        "20": {
+          "count": 7,
+          "pct": 0.1296296296296296
+        },
+        "15": {
+          "count": 7,
+          "pct": 0.1296296296296296
+        },
+        "10": {
+          "count": 6,
+          "pct": 0.1111111111111111
+        },
+        "5": {
+          "count": 5,
+          "pct": 0.09259259259259259
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [
+        {
+          "iso3": "ZAF",
+          "name": "South Africa",
+          "camperCount": 53
+        },
+        {
+          "iso3": "ZMB",
+          "name": "Zambia",
+          "camperCount": 31
+        },
+        {
+          "iso3": "GHA",
+          "name": "Ghana",
+          "camperCount": 30
+        }
+      ],
+      "top3LeastRepresented": [
+        {
+          "iso3": "NGA",
+          "name": "Nigeria",
+          "capacityAwareGap": 19.85019379110463,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "ETH",
+          "name": "Ethiopia",
+          "capacityAwareGap": 11.32139761919896,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "COD",
+          "name": "DRC",
+          "capacityAwareGap": 9.429408366974018,
+          "capacityAwareRatio": 0
+        }
+      ],
+      "top3MostRepresentedAllTime": [
+        {
+          "iso3": "ZAF",
+          "name": "South Africa",
+          "camperCount": 54
+        },
+        {
+          "iso3": "GHA",
+          "name": "Ghana",
+          "camperCount": 39
+        },
+        {
+          "iso3": "ZMB",
+          "name": "Zambia",
+          "camperCount": 36
+        }
+      ],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "ETH",
+          "name": "Ethiopia",
+          "camperCount": 0,
+          "population": 135472051
+        },
+        {
+          "iso3": "COD",
+          "name": "DRC",
+          "camperCount": 0,
+          "population": 112832473
+        },
+        {
+          "iso3": "TZA",
+          "name": "Tanzania",
+          "camperCount": 0,
+          "population": 70545865
+        }
+      ],
+      "populationModel": {
+        "actual": 188,
+        "expected": 418.2693364421416,
+        "totalCampers": 2129
+      },
+      "countries": [
+        {
+          "iso3": "NGA",
+          "name": "Nigeria",
+          "population": 237527782,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 10,
+          "camperCountAllTime": 18,
+          "representedEver": true
+        },
+        {
+          "iso3": "ETH",
+          "name": "Ethiopia",
+          "population": 135472051,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "EGY",
+          "name": "Egypt",
+          "population": 118365995,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 19,
+          "camperCountAllTime": 31,
+          "representedEver": true
+        },
+        {
+          "iso3": "COD",
+          "name": "DRC",
+          "population": 112832473,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "TZA",
+          "name": "Tanzania",
+          "population": 70545865,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "ZAF",
+          "name": "South Africa",
+          "population": 64747319,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 53,
+          "camperCountAllTime": 54,
+          "representedEver": true
+        },
+        {
+          "iso3": "KEN",
+          "name": "Kenya",
+          "population": 57532493,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "SDN",
+          "name": "Sudan",
+          "population": 51662147,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "UGA",
+          "name": "Uganda",
+          "population": 51384894,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 1,
+          "representedEver": true
+        },
+        {
+          "iso3": "DZA",
+          "name": "Algeria",
+          "population": 47435312,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 1,
+          "representedEver": true
+        },
+        {
+          "iso3": "AGO",
+          "name": "Angola",
+          "population": 39040039,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "MAR",
+          "name": "Morocco",
+          "population": 38430770,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 2,
+          "camperCountAllTime": 2,
+          "representedEver": true
+        },
+        {
+          "iso3": "MOZ",
+          "name": "Mozambique",
+          "population": 35631653,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "GHA",
+          "name": "Ghana",
+          "population": 35064272,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 30,
+          "camperCountAllTime": 39,
+          "representedEver": true
+        },
+        {
+          "iso3": "MDG",
+          "name": "Madagascar",
+          "population": 32740678,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "CIV",
+          "name": "Ivory Coast",
+          "population": 32711547,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "CMR",
+          "name": "Cameroon",
+          "population": 29879337,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 3,
+          "camperCountAllTime": 3,
+          "representedEver": true
+        },
+        {
+          "iso3": "NER",
+          "name": "Niger",
+          "population": 27917831,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "MLI",
+          "name": "Mali",
+          "population": 25198821,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "BFA",
+          "name": "Burkina Faso",
+          "population": 24074580,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "MWI",
+          "name": "Malawi",
+          "population": 22216120,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "ZMB",
+          "name": "Zambia",
+          "population": 21913874,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 31,
+          "camperCountAllTime": 36,
+          "representedEver": true
+        },
+        {
+          "iso3": "TCD",
+          "name": "Chad",
+          "population": 21003705,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "SOM",
+          "name": "Somalia",
+          "population": 19654739,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "SEN",
+          "name": "Senegal",
+          "population": 18931966,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "ZWE",
+          "name": "Zimbabwe",
+          "population": 16950795,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "GIN",
+          "name": "Guinea",
+          "population": 15099727,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "BEN",
+          "name": "Benin",
+          "population": 14814460,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "RWA",
+          "name": "Rwanda",
+          "population": 14569341,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "BDI",
+          "name": "Burundi",
+          "population": 14390003,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "TUN",
+          "name": "Tunisia",
+          "population": 12348573,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 2,
+          "camperCountAllTime": 2,
+          "representedEver": true
+        },
+        {
+          "iso3": "SSD",
+          "name": "South Sudan",
+          "population": 12188788,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "SLE",
+          "name": "Sierra Leone",
+          "population": 8819794,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "TGO",
+          "name": "Togo",
+          "population": 8591626,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "LBY",
+          "name": "Libya",
+          "population": 7458555,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "COG",
+          "name": "Republic of the Congo",
+          "population": 6484437,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "LBR",
+          "name": "Liberia",
+          "population": 5731206,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 1,
+          "camperCountAllTime": 1,
+          "representedEver": true
+        },
+        {
+          "iso3": "CAF",
+          "name": "Central African Republic",
+          "population": 5513282,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "MRT",
+          "name": "Mauritania",
+          "population": 5315065,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "ERI",
+          "name": "Eritrea",
+          "population": 3607003,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "NAM",
+          "name": "Namibia",
+          "population": 3092816,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "GMB",
+          "name": "Gambia",
+          "population": 2822093,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "GAB",
+          "name": "Gabon",
+          "population": 2593130,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "BWA",
+          "name": "Botswana",
+          "population": 2562122,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "LSO",
+          "name": "Lesotho",
+          "population": 2363325,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "GNB",
+          "name": "Guinea-Bissau",
+          "population": 2249515,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "GNQ",
+          "name": "Equatorial Guinea",
+          "population": 1938431,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "SWZ",
+          "name": "Eswatini",
+          "population": 1256174,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "MUS",
+          "name": "Mauritius",
+          "population": 1243741,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "DJI",
+          "name": "Djibouti",
+          "population": 1184076,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "COM",
+          "name": "Comoros",
+          "population": 882847,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "CPV",
+          "name": "Cape Verde",
+          "population": 527326,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "STP",
+          "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+          "population": 240254,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "SYC",
+          "name": "Seychelles",
+          "population": 122730,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        }
+      ]
+    },
+    "americas": {
+      "label": "Americas",
+      "status": "complete",
+      "detailPage": "americas.html",
+      "countriesInScope": 34,
+      "representedEver": {
+        "count": 14,
+        "pct": 0.4117647058823529
+      },
+      "representedPast": {
+        "25": {
+          "count": 10,
+          "pct": 0.2941176470588235
+        },
+        "20": {
+          "count": 9,
+          "pct": 0.2647058823529412
+        },
+        "15": {
+          "count": 9,
+          "pct": 0.2647058823529412
+        },
+        "10": {
+          "count": 8,
+          "pct": 0.2352941176470588
+        },
+        "5": {
+          "count": 4,
+          "pct": 0.1176470588235294
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [
+        {
+          "iso3": "PER",
+          "name": "Peru",
+          "camperCount": 47
+        },
+        {
+          "iso3": "ECU",
+          "name": "Ecuador",
+          "camperCount": 43
+        },
+        {
+          "iso3": "BRB",
+          "name": "Barbados",
+          "camperCount": 36
+        }
+      ],
+      "top3LeastRepresented": [
+        {
+          "iso3": "BRA",
+          "name": "Brazil",
+          "capacityAwareGap": 14.78473004223583,
+          "capacityAwareRatio": 0.1686840335993568
+        },
+        {
+          "iso3": "MEX",
+          "name": "Mexico",
+          "capacityAwareGap": 11.02680079391935,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "VEN",
+          "name": "Venezuela",
+          "capacityAwareGap": 2.383156644475282,
+          "capacityAwareRatio": 0
+        }
+      ],
+      "top3MostRepresentedAllTime": [
+        {
+          "iso3": "PER",
+          "name": "Peru",
+          "camperCount": 53
+        },
+        {
+          "iso3": "ECU",
+          "name": "Ecuador",
+          "camperCount": 44
+        },
+        {
+          "iso3": "BRB",
+          "name": "Barbados",
+          "camperCount": 38
+        }
+      ],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "GTM",
+          "name": "Guatemala",
+          "camperCount": 0,
+          "population": 18687881
+        },
+        {
+          "iso3": "HTI",
+          "name": "Haiti",
+          "camperCount": 0,
+          "population": 11906095
+        },
+        {
+          "iso3": "HND",
+          "name": "Honduras",
+          "camperCount": 0,
+          "population": 11005850
+        }
+      ],
+      "populationModel": {
+        "actual": 253,
+        "expected": 190.48289517676903,
+        "totalCampers": 2129
+      },
+      "countries": [
+        {
+          "iso3": "BRA",
+          "name": "Brazil",
+          "population": 212812405,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 27,
+          "representedEver": true
+        },
+        {
+          "iso3": "MEX",
+          "name": "Mexico",
+          "population": 131946900,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 3,
+          "camperCountAllTime": 17,
+          "representedEver": true
+        },
+        {
+          "iso3": "COL",
+          "name": "Colombia",
+          "population": 53425635,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 4,
+          "camperCountAllTime": 4,
+          "representedEver": true
+        },
+        {
+          "iso3": "ARG",
+          "name": "Argentina",
+          "population": 45851378,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 11,
+          "camperCountAllTime": 11,
+          "representedEver": true
+        },
+        {
+          "iso3": "CAN",
+          "name": "Canada",
+          "population": 41651653,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 22,
+          "camperCountAllTime": 35,
+          "representedEver": true
+        },
+        {
+          "iso3": "PER",
+          "name": "Peru",
+          "population": 34576665,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 47,
+          "camperCountAllTime": 53,
+          "representedEver": true
+        },
+        {
+          "iso3": "VEN",
+          "name": "Venezuela",
+          "population": 28516896,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 1,
+          "camperCountAllTime": 3,
+          "representedEver": true
+        },
+        {
+          "iso3": "CHL",
+          "name": "Chile",
+          "population": 19859921,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 8,
+          "camperCountAllTime": 10,
+          "representedEver": true
+        },
+        {
+          "iso3": "GTM",
+          "name": "Guatemala",
+          "population": 18687881,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "ECU",
+          "name": "Ecuador",
+          "population": 18289896,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 43,
+          "camperCountAllTime": 44,
+          "representedEver": true
+        },
+        {
+          "iso3": "BOL",
+          "name": "Bolivia",
+          "population": 12581843,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 1,
+          "representedEver": true
+        },
+        {
+          "iso3": "HTI",
+          "name": "Haiti",
+          "population": 11906095,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "DOM",
+          "name": "Dominican Republic",
+          "population": 11520487,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 2,
+          "camperCountAllTime": 2,
+          "representedEver": true
+        },
+        {
+          "iso3": "HND",
+          "name": "Honduras",
+          "population": 11005850,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "CUB",
+          "name": "Cuba",
+          "population": 10937203,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "PRY",
+          "name": "Paraguay",
+          "population": 7013078,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "NIC",
+          "name": "Nicaragua",
+          "population": 7007502,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "SLV",
+          "name": "El Salvador",
+          "population": 6365503,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "CRI",
+          "name": "Costa Rica",
+          "population": 5152950,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 4,
+          "camperCountAllTime": 4,
+          "representedEver": true
+        },
+        {
+          "iso3": "PAN",
+          "name": "Panama",
+          "population": 4571189,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "URY",
+          "name": "Uruguay",
+          "population": 3384688,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "JAM",
+          "name": "Jamaica",
+          "population": 2837077,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 1,
+          "camperCountAllTime": 4,
+          "representedEver": true
+        },
+        {
+          "iso3": "TTO",
+          "name": "Trinidad and Tobago",
+          "population": 1367764,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "GUY",
+          "name": "Guyana",
+          "population": 835986,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "SUR",
+          "name": "Suriname",
+          "population": 639850,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "BLZ",
+          "name": "Belize",
+          "population": 422924,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "BHS",
+          "name": "Bahamas",
+          "population": 403033,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "BRB",
+          "name": "Barbados",
+          "population": 282623,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 36,
+          "camperCountAllTime": 38,
+          "representedEver": true
+        },
+        {
+          "iso3": "LCA",
+          "name": "Saint Lucia",
+          "population": 180149,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "GRD",
+          "name": "Grenada",
+          "population": 117303,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "VCT",
+          "name": "Saint Vincent and the Grenadines",
+          "population": 99924,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "ATG",
+          "name": "Antigua and Barbuda",
+          "population": 94209,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "DMA",
+          "name": "Dominica",
+          "population": 65871,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "KNA",
+          "name": "Saint Kitts and Nevis",
+          "population": 46922,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        }
+      ]
+    },
+    "asia": {
+      "label": "Asia",
+      "status": "complete",
+      "detailPage": "asia.html",
+      "countriesInScope": 48,
+      "representedEver": {
+        "count": 26,
+        "pct": 0.5416666666666666
+      },
+      "representedPast": {
+        "25": {
+          "count": 21,
+          "pct": 0.4375
+        },
+        "20": {
+          "count": 19,
+          "pct": 0.3958333333333333
+        },
+        "15": {
+          "count": 17,
+          "pct": 0.3541666666666667
+        },
+        "10": {
+          "count": 16,
+          "pct": 0.3333333333333333
+        },
+        "5": {
+          "count": 11,
+          "pct": 0.2291666666666667
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [
+        {
+          "iso3": "CHN",
+          "name": "China",
+          "camperCount": 66
+        },
+        {
+          "iso3": "ISR",
+          "name": "Israel",
+          "camperCount": 66
+        },
+        {
+          "iso3": "JPN",
+          "name": "Japan",
+          "camperCount": 63
+        }
+      ],
+      "top3LeastRepresented": [
+        {
+          "iso3": "IND",
+          "name": "India",
+          "capacityAwareGap": 55,
+          "capacityAwareRatio": 0.08333333333333333
+        },
+        {
+          "iso3": "CHN",
+          "name": "China",
+          "capacityAwareGap": 24,
+          "capacityAwareRatio": 0.6
+        },
+        {
+          "iso3": "IDN",
+          "name": "Indonesia",
+          "capacityAwareGap": 22.8777201432123,
+          "capacityAwareRatio": 0.04188004524729591
+        }
+      ],
+      "top3MostRepresentedAllTime": [
+        {
+          "iso3": "JPN",
+          "name": "Japan",
+          "camperCount": 82
+        },
+        {
+          "iso3": "ISR",
+          "name": "Israel",
+          "camperCount": 76
+        },
+        {
+          "iso3": "CHN",
+          "name": "China",
+          "camperCount": 73
+        }
+      ],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "MMR",
+          "name": "Myanmar",
+          "camperCount": 0,
+          "population": 54850648
+        },
+        {
+          "iso3": "YEM",
+          "name": "Yemen",
+          "camperCount": 0,
+          "population": 41773878
+        },
+        {
+          "iso3": "SAU",
+          "name": "Saudi Arabia",
+          "camperCount": 0,
+          "population": 36973555
+        }
+      ],
+      "populationModel": {
+        "actual": 461,
+        "expected": 1296.0933770771383,
+        "totalCampers": 2129
+      },
+      "countries": [
+        {
+          "iso3": "IND",
+          "name": "India",
+          "population": 1463865525,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 7,
+          "camperCountAllTime": 10,
+          "representedEver": true
+        },
+        {
+          "iso3": "CHN",
+          "name": "China",
+          "population": 1406585000,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 66,
+          "camperCountAllTime": 73,
+          "representedEver": true
+        },
+        {
+          "iso3": "IDN",
+          "name": "Indonesia",
+          "population": 285721236,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 8,
+          "camperCountAllTime": 12,
+          "representedEver": true
+        },
+        {
+          "iso3": "PAK",
+          "name": "Pakistan",
+          "population": 255219554,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 1,
+          "camperCountAllTime": 2,
+          "representedEver": true
+        },
+        {
+          "iso3": "BGD",
+          "name": "Bangladesh",
+          "population": 175686899,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 1,
+          "representedEver": true
+        },
+        {
+          "iso3": "JPN",
+          "name": "Japan",
+          "population": 123366734,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 63,
+          "camperCountAllTime": 82,
+          "representedEver": true
+        },
+        {
+          "iso3": "PHL",
+          "name": "Philippines",
+          "population": 116786962,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 4,
+          "camperCountAllTime": 6,
+          "representedEver": true
+        },
+        {
+          "iso3": "VNM",
+          "name": "Vietnam",
+          "population": 101598527,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 1,
+          "camperCountAllTime": 2,
+          "representedEver": true
+        },
+        {
+          "iso3": "IRN",
+          "name": "Iran",
+          "population": 92417681,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 10,
+          "camperCountAllTime": 12,
+          "representedEver": true
+        },
+        {
+          "iso3": "TUR",
+          "name": "Turkey",
+          "population": 85878556,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 43,
+          "camperCountAllTime": 58,
+          "representedEver": true
+        },
+        {
+          "iso3": "THA",
+          "name": "Thailand",
+          "population": 71619863,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 1,
+          "camperCountAllTime": 6,
+          "representedEver": true
+        },
+        {
+          "iso3": "MMR",
+          "name": "Myanmar",
+          "population": 54850648,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "KOR",
+          "name": "South Korea",
+          "population": 51684564,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 51,
+          "camperCountAllTime": 54,
+          "representedEver": true
+        },
+        {
+          "iso3": "IRQ",
+          "name": "Iraq",
+          "population": 47020774,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 2,
+          "camperCountAllTime": 2,
+          "representedEver": true
+        },
+        {
+          "iso3": "AFG",
+          "name": "Afghanistan",
+          "population": 43844111,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 4,
+          "camperCountAllTime": 4,
+          "representedEver": true
+        },
+        {
+          "iso3": "YEM",
+          "name": "Yemen",
+          "population": 41773878,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "UZB",
+          "name": "Uzbekistan",
+          "population": 37053428,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 1,
+          "camperCountAllTime": 1,
+          "representedEver": true
+        },
+        {
+          "iso3": "SAU",
+          "name": "Saudi Arabia",
+          "population": 36973555,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "MYS",
+          "name": "Malaysia",
+          "population": 35977838,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 1,
+          "camperCountAllTime": 8,
+          "representedEver": true
+        },
+        {
+          "iso3": "NPL",
+          "name": "Nepal",
+          "population": 29618118,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 1,
+          "camperCountAllTime": 1,
+          "representedEver": true
+        },
+        {
+          "iso3": "PRK",
+          "name": "North Korea",
+          "population": 26571036,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "SYR",
+          "name": "Syria",
+          "population": 25620427,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "TWN",
+          "name": "Taiwan",
+          "population": 23400000,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "LKA",
+          "name": "Sri Lanka",
+          "population": 21756000,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 2,
+          "representedEver": true
+        },
+        {
+          "iso3": "KAZ",
+          "name": "Kazakhstan",
+          "population": 20843754,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 1,
+          "camperCountAllTime": 1,
+          "representedEver": true
+        },
+        {
+          "iso3": "KHM",
+          "name": "Cambodia",
+          "population": 17847982,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "JOR",
+          "name": "Jordan",
+          "population": 11520684,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 5,
+          "camperCountAllTime": 5,
+          "representedEver": true
+        },
+        {
+          "iso3": "ARE",
+          "name": "United Arab Emirates",
+          "population": 11513149,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "TJK",
+          "name": "Tajikistan",
+          "population": 10786734,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 2,
+          "camperCountAllTime": 3,
+          "representedEver": true
+        },
+        {
+          "iso3": "AZE",
+          "name": "Azerbaijan",
+          "population": 10246996,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 6,
+          "camperCountAllTime": 8,
+          "representedEver": true
+        },
+        {
+          "iso3": "ISR",
+          "name": "Israel",
+          "population": 10122800,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 66,
+          "camperCountAllTime": 76,
+          "representedEver": true
+        },
+        {
+          "iso3": "LAO",
+          "name": "Laos",
+          "population": 7873046,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "TKM",
+          "name": "Turkmenistan",
+          "population": 7618847,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "KGZ",
+          "name": "Kyrgyzstan",
+          "population": 7343064,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "SGP",
+          "name": "Singapore",
+          "population": 6111175,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 5,
+          "camperCountAllTime": 10,
+          "representedEver": true
+        },
+        {
+          "iso3": "LBN",
+          "name": "Lebanon",
+          "population": 5849421,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 1,
+          "representedEver": true
+        },
+        {
+          "iso3": "OMN",
+          "name": "Oman",
+          "population": 5494691,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "PSE",
+          "name": "Palestine",
+          "population": 5413596,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 20,
+          "camperCountAllTime": 21,
+          "representedEver": true
+        },
+        {
+          "iso3": "KWT",
+          "name": "Kuwait",
+          "population": 4865298,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "GEO",
+          "name": "Georgia",
+          "population": 3935766,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "MNG",
+          "name": "Mongolia",
+          "population": 3568978,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "ARM",
+          "name": "Armenia",
+          "population": 3086700,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "QAT",
+          "name": "Qatar",
+          "population": 2972215,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "BHR",
+          "name": "Bahrain",
+          "population": 1600366,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "TLS",
+          "name": "Timor-Leste",
+          "population": 1418517,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "BTN",
+          "name": "Bhutan",
+          "population": 796682,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "MDV",
+          "name": "Maldives",
+          "population": 529676,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "BRN",
+          "name": "Brunei",
+          "population": 466330,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        }
+      ]
+    },
+    "europe": {
+      "label": "Europe",
+      "status": "complete",
+      "detailPage": "europe.html",
+      "countriesInScope": 45,
+      "representedEver": {
+        "count": 39,
+        "pct": 0.8666666666666667
+      },
+      "representedPast": {
+        "25": {
+          "count": 32,
+          "pct": 0.7111111111111111
+        },
+        "20": {
+          "count": 28,
+          "pct": 0.6222222222222222
+        },
+        "15": {
+          "count": 19,
+          "pct": 0.4222222222222222
+        },
+        "10": {
+          "count": 17,
+          "pct": 0.3777777777777778
+        },
+        "5": {
+          "count": 13,
+          "pct": 0.2888888888888889
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [
+        {
+          "iso3": "NLD",
+          "name": "Netherlands",
+          "camperCount": 86
+        },
+        {
+          "iso3": "DNK",
+          "name": "Denmark",
+          "camperCount": 86
+        },
+        {
+          "iso3": "DEU",
+          "name": "Germany",
+          "camperCount": 72
+        }
+      ],
+      "top3LeastRepresented": [
+        {
+          "iso3": "RUS",
+          "name": "Russia",
+          "capacityAwareGap": 11.99340703819801,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "UKR",
+          "name": "Ukraine",
+          "capacityAwareGap": 2.257589538095059,
+          "capacityAwareRatio": 0.3069754455881419
+        },
+        {
+          "iso3": "ROU",
+          "name": "Romania",
+          "capacityAwareGap": 1.589523811194967,
+          "capacityAwareRatio": 0
+        }
+      ],
+      "top3MostRepresentedAllTime": [
+        {
+          "iso3": "NLD",
+          "name": "Netherlands",
+          "camperCount": 115
+        },
+        {
+          "iso3": "DNK",
+          "name": "Denmark",
+          "camperCount": 114
+        },
+        {
+          "iso3": "GBR",
+          "name": "United Kingdom",
+          "camperCount": 95
+        }
+      ],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "MNE",
+          "name": "Montenegro",
+          "camperCount": 0,
+          "population": 623129
+        },
+        {
+          "iso3": "AND",
+          "name": "Andorra",
+          "camperCount": 0,
+          "population": 82904
+        },
+        {
+          "iso3": "LIE",
+          "name": "Liechtenstein",
+          "camperCount": 0,
+          "population": 41024
+        }
+      ],
+      "populationModel": {
+        "actual": 1215,
+        "expected": 201.26366740002186,
+        "totalCampers": 2129
+      },
+      "countries": [
+        {
+          "iso3": "RUS",
+          "name": "Russia",
+          "population": 143513328,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 13,
+          "camperCountAllTime": 13,
+          "representedEver": true
+        },
+        {
+          "iso3": "DEU",
+          "name": "Germany",
+          "population": 83491249,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 72,
+          "camperCountAllTime": 88,
+          "representedEver": true
+        },
+        {
+          "iso3": "GBR",
+          "name": "United Kingdom",
+          "population": 69487000,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 70,
+          "camperCountAllTime": 95,
+          "representedEver": true
+        },
+        {
+          "iso3": "FRA",
+          "name": "France",
+          "population": 68720337,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 53,
+          "camperCountAllTime": 68,
+          "representedEver": true
+        },
+        {
+          "iso3": "ITA",
+          "name": "Italy",
+          "population": 58915656,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 26,
+          "camperCountAllTime": 40,
+          "representedEver": true
+        },
+        {
+          "iso3": "ESP",
+          "name": "Spain",
+          "population": 49355143,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 59,
+          "camperCountAllTime": 63,
+          "representedEver": true
+        },
+        {
+          "iso3": "UKR",
+          "name": "Ukraine",
+          "population": 38980376,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 3,
+          "camperCountAllTime": 4,
+          "representedEver": true
+        },
+        {
+          "iso3": "POL",
+          "name": "Poland",
+          "population": 36435861,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 70,
+          "camperCountAllTime": 84,
+          "representedEver": true
+        },
+        {
+          "iso3": "ROU",
+          "name": "Romania",
+          "population": 19020271,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 1,
+          "representedEver": true
+        },
+        {
+          "iso3": "NLD",
+          "name": "Netherlands",
+          "population": 18087633,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 86,
+          "camperCountAllTime": 115,
+          "representedEver": true
+        },
+        {
+          "iso3": "BEL",
+          "name": "Belgium",
+          "population": 11941781,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 6,
+          "camperCountAllTime": 8,
+          "representedEver": true
+        },
+        {
+          "iso3": "CZE",
+          "name": "Czech Republic",
+          "population": 10886878,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 3,
+          "camperCountAllTime": 5,
+          "representedEver": true
+        },
+        {
+          "iso3": "PRT",
+          "name": "Portugal",
+          "population": 10804871,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 8,
+          "camperCountAllTime": 8,
+          "representedEver": true
+        },
+        {
+          "iso3": "SWE",
+          "name": "Sweden",
+          "population": 10596620,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 45,
+          "camperCountAllTime": 64,
+          "representedEver": true
+        },
+        {
+          "iso3": "GRC",
+          "name": "Greece",
+          "population": 10413962,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 53,
+          "camperCountAllTime": 76,
+          "representedEver": true
+        },
+        {
+          "iso3": "HUN",
+          "name": "Hungary",
+          "population": 9514251,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 70,
+          "camperCountAllTime": 77,
+          "representedEver": true
+        },
+        {
+          "iso3": "AUT",
+          "name": "Austria",
+          "population": 9208163,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 1,
+          "camperCountAllTime": 1,
+          "representedEver": true
+        },
+        {
+          "iso3": "CHE",
+          "name": "Switzerland",
+          "population": 9092436,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 5,
+          "camperCountAllTime": 7,
+          "representedEver": true
+        },
+        {
+          "iso3": "BLR",
+          "name": "Belarus",
+          "population": 9085991,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 3,
+          "camperCountAllTime": 3,
+          "representedEver": true
+        },
+        {
+          "iso3": "SRB",
+          "name": "Serbia",
+          "population": 6549143,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 1,
+          "camperCountAllTime": 3,
+          "representedEver": true
+        },
+        {
+          "iso3": "BGR",
+          "name": "Bulgaria",
+          "population": 6433302,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 20,
+          "camperCountAllTime": 22,
+          "representedEver": true
+        },
+        {
+          "iso3": "DNK",
+          "name": "Denmark",
+          "population": 6009169,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 86,
+          "camperCountAllTime": 114,
+          "representedEver": true
+        },
+        {
+          "iso3": "FIN",
+          "name": "Finland",
+          "population": 5646436,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 61,
+          "camperCountAllTime": 85,
+          "representedEver": true
+        },
+        {
+          "iso3": "NOR",
+          "name": "Norway",
+          "population": 5610870,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 52,
+          "camperCountAllTime": 73,
+          "representedEver": true
+        },
+        {
+          "iso3": "IRL",
+          "name": "Ireland",
+          "population": 5484367,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 24,
+          "camperCountAllTime": 26,
+          "representedEver": true
+        },
+        {
+          "iso3": "SVK",
+          "name": "Slovakia",
+          "population": 5413813,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 9,
+          "camperCountAllTime": 9,
+          "representedEver": true
+        },
+        {
+          "iso3": "HRV",
+          "name": "Croatia",
+          "population": 3876200,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 1,
+          "representedEver": true
+        },
+        {
+          "iso3": "BIH",
+          "name": "Bosnia and Herzegovina",
+          "population": 3140095,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 3,
+          "camperCountAllTime": 3,
+          "representedEver": true
+        },
+        {
+          "iso3": "LTU",
+          "name": "Lithuania",
+          "population": 2888774,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 7,
+          "camperCountAllTime": 7,
+          "representedEver": true
+        },
+        {
+          "iso3": "MDA",
+          "name": "Moldova",
+          "population": 2360527,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 1,
+          "camperCountAllTime": 1,
+          "representedEver": true
+        },
+        {
+          "iso3": "ALB",
+          "name": "Albania",
+          "population": 2349580,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 1,
+          "camperCountAllTime": 1,
+          "representedEver": true
+        },
+        {
+          "iso3": "SVN",
+          "name": "Slovenia",
+          "population": 2130986,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 8,
+          "camperCountAllTime": 8,
+          "representedEver": true
+        },
+        {
+          "iso3": "LVA",
+          "name": "Latvia",
+          "population": 1847785,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 10,
+          "camperCountAllTime": 10,
+          "representedEver": true
+        },
+        {
+          "iso3": "MKD",
+          "name": "North Macedonia",
+          "population": 1820909,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 1,
+          "representedEver": true
+        },
+        {
+          "iso3": "CYP",
+          "name": "Cyprus",
+          "population": 1370754,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 6,
+          "camperCountAllTime": 6,
+          "representedEver": true
+        },
+        {
+          "iso3": "EST",
+          "name": "Estonia",
+          "population": 1366475,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 7,
+          "camperCountAllTime": 7,
+          "representedEver": true
+        },
+        {
+          "iso3": "LUX",
+          "name": "Luxembourg",
+          "population": 686970,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 2,
+          "camperCountAllTime": 2,
+          "representedEver": true
+        },
+        {
+          "iso3": "MNE",
+          "name": "Montenegro",
+          "population": 623129,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "MLT",
+          "name": "Malta",
+          "population": 579704,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 8,
+          "camperCountAllTime": 8,
+          "representedEver": true
+        },
+        {
+          "iso3": "ISL",
+          "name": "Iceland",
+          "population": 392404,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 8,
+          "camperCountAllTime": 8,
+          "representedEver": true
+        },
+        {
+          "iso3": "AND",
+          "name": "Andorra",
+          "population": 82904,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "LIE",
+          "name": "Liechtenstein",
+          "population": 41024,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "MCO",
+          "name": "Monaco",
+          "population": 38341,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "SMR",
+          "name": "San Marino",
+          "population": 34109,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "VAT",
+          "name": "Vatican City",
+          "population": 764,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        }
+      ]
+    },
+    "oceania": {
+      "label": "Oceania",
+      "status": "complete",
+      "detailPage": "oceania.html",
+      "countriesInScope": 14,
+      "representedEver": {
+        "count": 1,
+        "pct": 0.07142857142857142
+      },
+      "representedPast": {
+        "25": {
+          "count": 1,
+          "pct": 0.07142857142857142
+        },
+        "20": {
+          "count": 1,
+          "pct": 0.07142857142857142
+        },
+        "15": {
+          "count": 1,
+          "pct": 0.07142857142857142
+        },
+        "10": {
+          "count": 1,
+          "pct": 0.07142857142857142
+        },
+        "5": {
+          "count": 1,
+          "pct": 0.07142857142857142
+        }
+      },
+      "top3MostRepresentedLast40Yrs": [
+        {
+          "iso3": "AUS",
+          "name": "Australia",
+          "camperCount": 10
+        }
+      ],
+      "top3LeastRepresented": [
+        {
+          "iso3": "PNG",
+          "name": "Papua New Guinea",
+          "capacityAwareGap": 0.8994484829913298,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "NZL",
+          "name": "New Zealand",
+          "capacityAwareGap": 0.4449851128551136,
+          "capacityAwareRatio": 0
+        },
+        {
+          "iso3": "FJI",
+          "name": "Fiji",
+          "capacityAwareGap": 0.07798366818810461,
+          "capacityAwareRatio": 0
+        }
+      ],
+      "top3MostRepresentedAllTime": [
+        {
+          "iso3": "AUS",
+          "name": "Australia",
+          "camperCount": 12
+        }
+      ],
+      "top3LeastRepresentedAllTime": [
+        {
+          "iso3": "PNG",
+          "name": "Papua New Guinea",
+          "camperCount": 0,
+          "population": 10762817
+        },
+        {
+          "iso3": "NZL",
+          "name": "New Zealand",
+          "camperCount": 0,
+          "population": 5324700
+        },
+        {
+          "iso3": "FJI",
+          "name": "Fiji",
+          "camperCount": 0,
+          "population": 933154
+        }
+      ],
+      "populationModel": {
+        "actual": 12,
+        "expected": 12.561938440260187,
+        "totalCampers": 2129
+      },
+      "countries": [
+        {
+          "iso3": "AUS",
+          "name": "Australia",
+          "population": 27614411,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 10,
+          "camperCountAllTime": 12,
+          "representedEver": true
+        },
+        {
+          "iso3": "PNG",
+          "name": "Papua New Guinea",
+          "population": 10762817,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "NZL",
+          "name": "New Zealand",
+          "population": 5324700,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "FJI",
+          "name": "Fiji",
+          "population": 933154,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "SLB",
+          "name": "Solomon Islands",
+          "population": 838645,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "VUT",
+          "name": "Vanuatu",
+          "population": 335169,
+          "onGlobe": true,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "WSM",
+          "name": "Samoa",
+          "population": 219306,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "KIR",
+          "name": "Kiribati",
+          "population": 136488,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "FSM",
+          "name": "Micronesia",
+          "population": 113683,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "TON",
+          "name": "Tonga",
+          "population": 103742,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "MHL",
+          "name": "Marshall Islands",
+          "population": 36282,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "PLW",
+          "name": "Palau",
+          "population": 17663,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "NRU",
+          "name": "Nauru",
+          "population": 12000,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        },
+        {
+          "iso3": "TUV",
+          "name": "Tuvalu",
+          "population": 9492,
+          "onGlobe": false,
+          "camperCountLast40Yrs": 0,
+          "camperCountAllTime": 0,
+          "representedEver": false
+        }
+      ]
+    }
+  }
+}

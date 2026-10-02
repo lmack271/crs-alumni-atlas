@@ -1,0 +1,131 @@
+{
+  "continent": "Americas",
+  "generated": "2026-10-01",
+  "source": "Adapted from CRS_Subnational_Americas.md and CRS_Time_Americas.md",
+  "stories": [
+    {
+      "id": "peru-copper-corridor",
+      "title": "Peru: Lima, and a Copper Corridor in the Far South",
+      "countryIso3": "PER",
+      "paragraphs": [
+        "Peru has sent 53 campers, more than any other country in the Americas. About 44% came from Lima, close to the capital's share of Peru's population. Almost all the rest came from a small corner of the far south.",
+        "The regions of Moquegua and Tacna hold well under 2% of Peru's population, yet supplied 21 campers (40%). Most came from three towns built around Southern Peru Copper's operations: Ilo (smelter and port, nine campers), Toquepala and Cuajone (open-pit mines, five between them). These campers kept coming steadily from 1986 to 2019.",
+        "The source shifted within the copper belt over time, from Tacna and Arequipa in 1988–1998 to Ilo and Moquegua afterwards. Northern Peru, the central highlands and the Amazon are almost absent: the only camper from outside Lima and the south is one from Trujillo.",
+        "According to a Peruvian alumnus, this goes back to a personal connection. Southern Peru Copper was founded in the 1950s by American mining companies, and an American working there had a link to CRS. When CRS wanted more Peruvian campers, it began recruiting through that contact. In every country, campers are selected by the local alumni network, which tends to select from the places where its own members live and work. That would explain why Peru's recruitment followed the company's towns.",
+        "Because few people move to mining towns after camp, this cluster almost certainly reflects where campers lived when they attended, not where they live now."
+      ],
+      "table": {
+        "headers": ["Region", "Campers", "Share of campers", "Approx. share of population"],
+        "rows": [
+          ["Lima & Callao", "23", "44%", "34%"],
+          ["Moquegua (Ilo, Moquegua, Cuajone)", "14", "27%", "<1%"],
+          ["Arequipa", "7", "13%", "4%"],
+          ["Tacna (Tacna, Toquepala)", "7", "13%", "<1%"],
+          ["La Libertad (Trujillo)", "1", "2%", "6%"]
+        ]
+      },
+      "chartHint": { "type": "yearDistribution", "iso3": "PER" }
+    },
+    {
+      "id": "copper-echoes",
+      "title": "The Copper Pattern Repeats in Chile and Mexico",
+      "countryIso3": "CHL",
+      "paragraphs": [
+        "Peru isn't the only place where campers trace back to copper mining. Six of Chile's 10 campers came from copper towns: four from Rancagua, home to the El Teniente mine, and one each from Calama (Chuquicamata) and Antofagasta. All six attended between 1983 and 1991, and Chile has had only one camper since (2005).",
+        "One of Mexico's campers (1984) also came from a copper town: Nacozari in Sonora, home of the La Caridad mine.",
+        "In Peru, an alumnus has described how recruitment ran through an American contact at the American-founded mining company (see the Peru story above). Nobody has confirmed a similar connection in Chile or Mexico. But because each country's alumni network selects campers from the places where its members are, a single well-placed contact in a mining town is enough to produce a cluster like this."
+      ],
+      "chartHint": null
+    },
+    {
+      "id": "ecuador-quito",
+      "title": "Ecuador: Almost Every Camper Comes From Quito",
+      "countryIso3": "ECU",
+      "paragraphs": [
+        "Ecuador has sent 44 campers. Of the 43 with a known location, 40 (93%) are from the Quito area, in a province holding about 18% of Ecuador's population.",
+        "Guayaquil, Ecuador's largest city with about a quarter of the population in its province, has sent one camper, in 1984. The only other campers are one each from Ambato and Loja.",
+        "The Quito pipeline has run continuously since 1998 and peaked in 2015–2019, which suggests the alumni network that selects Ecuador's campers is based in Quito and draws mainly on its own city."
+      ],
+      "chartHint": { "type": "yearDistribution", "iso3": "ECU" }
+    },
+    {
+      "id": "americas-spread",
+      "title": "Who Recruits Broadly, and Who Recruits From One City",
+      "countryIso3": null,
+      "paragraphs": [
+        "Comparing where campers live with where each country's population lives shows two very different patterns in the Americas. Since each country's campers are selected by a local alumni network, these patterns largely reflect where that network's members are.",
+        "Canada and Barbados draw campers from across the country in close to population proportions: Canada from five provinces, Barbados from six of its 11 parishes. Brazil is the most dispersed Latin American sender, with campers from nine states, though São Paulo state still supplies about twice its population share.",
+        "Elsewhere, one city dominates. Quito supplies 93% of Ecuador's campers, Mexico City 71% of Mexico's and the city of Buenos Aires 73% of Argentina's, against population shares of 18%, 7% and 6%. Colombia's four campers and Venezuela's three all come from their capitals."
+      ],
+      "table": {
+        "headers": ["Country", "Campers", "Top region", "Share of campers", "Approx. share of population"],
+        "rows": [
+          ["Canada", "35", "Ontario", "44%", "38%"],
+          ["Barbados", "38", "Saint Michael", "35%", "32%"],
+          ["Brazil", "27", "São Paulo state", "48%", "22%"],
+          ["Peru", "53", "Lima & Callao", "44%", "34%"],
+          ["Mexico", "17", "Mexico City", "71%", "7%"],
+          ["Argentina", "11", "Buenos Aires (city)", "73%", "6%"],
+          ["Ecuador", "44", "Pichincha (Quito)", "93%", "18%"]
+        ]
+      },
+      "chartHint": null
+    },
+    {
+      "id": "americas-shift",
+      "title": "From Mexico and Brazil to the Andes and the Caribbean",
+      "section": "time-trends",
+      "countryIso3": null,
+      "paragraphs": [
+        "In CRS's early decades, Latin American campers came mainly from Mexico and Brazil. Mexico sent 12 of its 17 campers before 1966, almost all from Mexico City. Brazil sent 17 campers between 1958 and 1978, then none for 26 years.",
+        "Since 2000 the Americas' campers have come mainly from three different places: Peru, Ecuador and Barbados. Together they account for 94 of the 135 Americas campers who first attended in 2000–2019.",
+        "The Americas' share of all campers fell from 16% before 1970 to 9% in the 2000s, then recovered to 14% in the 2010s as Ecuador and Barbados each sent 21 campers that decade."
+      ],
+      "table": {
+        "headers": ["Country", "Before 1970", "1970–89", "1990–99", "2000–09", "2010–19", "2020+"],
+        "rows": [
+          ["Mexico", "12", "2", "0", "3", "0", "0"],
+          ["Brazil", "9", "9", "0", "4", "2", "1"],
+          ["Canada", "8", "5", "6", "10", "5", "1"],
+          ["Peru", "0", "7", "12", "20", "12", "0"],
+          ["Ecuador", "0", "1", "3", "15", "21", "4"],
+          ["Barbados", "0", "2", "7", "5", "21", "2"]
+        ]
+      },
+      "chartHint": null
+    },
+    {
+      "id": "americas-short-pipelines",
+      "title": "Pipelines That Opened, Then Closed",
+      "section": "time-trends",
+      "countryIso3": "ARG",
+      "paragraphs": [
+        "Several countries in the Americas sent campers for a few years and then stopped. Because campers in each country are selected by a local alumni network, a pipeline like this can depend on a handful of people. When a key contact moves on, recruitment from that country can stop.",
+        "Jamaica sent four campers in 1982–1987 and Costa Rica one a year in 1993–1996. Chile's copper-town campers came in 1983–1991. Argentina had one camper in 1995, then a burst of 10 in 2010–2018, eight of them from Buenos Aires, and none since. Colombia's four campers all attended between 2016 and 2019.",
+        "None of these countries has had a camper since 2019. Each is a place where CRS once had a working connection, which may make it a good starting point for renewed recruitment."
+      ],
+      "table": {
+        "headers": ["Country", "Campers", "Active years", "Most recent camp year"],
+        "rows": [
+          ["Jamaica", "4", "1982–1987", "1987"],
+          ["Chile", "10", "1983–1991 (+ 2005)", "2005"],
+          ["Costa Rica", "4", "1993–1996", "1996"],
+          ["Argentina", "11", "2010–2018 (+ 1995)", "2018"],
+          ["Colombia", "4", "2016–2019", "2019"]
+        ]
+      },
+      "chartHint": null
+    },
+    {
+      "id": "peru-steadiest",
+      "title": "Peru: The Americas' Steadiest Sender, Until 2019",
+      "section": "time-trends",
+      "countryIso3": "PER",
+      "paragraphs": [
+        "From 1982 to 2019, Peru never went more than two years without sending a camper, the most consistent record in the Americas. Its busiest stretch was 2006–2010, with 11 campers.",
+        "Peru's most recent camp year on record is 2019. Recent years are undercounted in the directory, because new alumni take time to register. But Ecuador, Barbados, Canada and Brazil all have campers listed since 2020, so the lack of any Peruvian camper since 2019 stands out for the Americas' largest sender."
+      ],
+      "chartHint": null
+    }
+  ]
+}

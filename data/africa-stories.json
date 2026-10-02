@@ -1,0 +1,117 @@
+{
+  "continent": "Africa",
+  "generated": "2026-08-14",
+  "source": "Adapted from 'Interesting findings from regional analysis of CRS alumni.md'",
+  "stories": [
+    {
+      "id": "nigeria-dropoff",
+      "title": "Nigeria's Two Waves and a 22-Year Absence",
+      "countryIso3": "NGA",
+      "paragraphs": [
+        "Nigeria sent 18 campers in CRS's full history, arriving in two distinct waves separated by a long gap — and then stopping altogether.",
+        "The first wave ran from 1962 to 1975 (eight campers). After a 14-year gap with no Nigerian campers, a second wave ran from 1989 to 2002 (10 campers).",
+        "Nigeria's last camper on record attended in 2002 — 22+ years and counting with no representation."
+      ],
+      "chartHint": { "type": "yearDistribution", "iso3": "NGA" }
+    },
+    {
+      "id": "ghana-timeline",
+      "title": "Ghana's Peak Decade, and No Campers Since 2014",
+      "countryIso3": "GHA",
+      "paragraphs": [
+        "Ghana sent 39 campers overall (45 counting people who attended more than once) — more than any African country besides South Africa.",
+        "Most of that came from one decade: the 2000s alone account for 20 of 39 campers (51.3%), peaking at four campers each in 2004 and 2007.",
+        "Ghana echoes Nigeria's pattern of a long silent stretch — a 16-year gap between 1979 and 1995 — before the 2000s surge. But representation has lapsed again: no Ghanaian camper has attended since 2014, a dropoff now running past a decade."
+      ],
+      "table": {
+        "headers": ["Decade", "Campers", "% of total"],
+        "rows": [
+          ["1960s", "3", "7.7%"],
+          ["1970s", "6", "15.4%"],
+          ["1980s", "0", "0%"],
+          ["1990s", "5", "12.8%"],
+          ["2000s", "20", "51.3%"],
+          ["2010s", "5", "12.8%"]
+        ]
+      },
+      "chartHint": { "type": "yearDistribution", "iso3": "GHA" }
+    },
+    {
+      "id": "zambia-copperbelt",
+      "title": "Zambia: A Mining-Belt and Capital Pipeline, Not a National One",
+      "countryIso3": "ZMB",
+      "paragraphs": [
+        "Zambia sent 36 campers — the second-highest African total after South Africa and Ghana — but geographically, that pipeline is narrow.",
+        "Of Zambia's 36 campers, 29 (81%) came from towns in Copperbelt Province: Kitwe, Chingola, Mufulira, Chililabombwe, Kalulushi, Kalumbila, and Luanshya. The remaining seven (19%) came from Lusaka, the capital.",
+        "Zero campers have come from any of Zambia's other eight provinces — Northern, Luapula, Eastern, Southern, Western, North-Western, Central, or Muchinga. A strong headcount for Zambia masks a recruitment pipeline running through essentially two places: a mining region and the capital."
+      ],
+      "table": {
+        "headers": ["City / Town", "Campers"],
+        "rows": [
+          ["Kitwe", "14"],
+          ["Lusaka", "7"],
+          ["Chingola", "4"],
+          ["Mufulira", "4"],
+          ["Copperbelt (unspecified)", "2"],
+          ["Chililabombwe", "1"],
+          ["Kalulushi", "1"],
+          ["Kalumbila", "1"],
+          ["Copperbelt – Kitwe", "1"],
+          ["Luanshya", "1"]
+        ]
+      },
+      "chartHint": null
+    },
+    {
+      "id": "subnational-diversity",
+      "title": "Which Countries Recruit Broadly, and Which Recruit From One City",
+      "countryIso3": null,
+      "paragraphs": [
+        "Looking at unique city/town counts across Africa's 188 campers, the pattern isn't just about headcount — it's about whether that headcount is spread across a country or concentrated in one place.",
+        "South Africa shows the broadest genuine subnational spread: Gauteng (Pretoria, Johannesburg, Centurion, Midrand, Sandton), Eastern Cape (Grahamstown, Mthatha), Northern Cape (Kimberley), KwaZulu-Natal (Dundee), and North West (Brits) are all represented — a real cross-provincial footprint, not just capital-city clustering. Ghana shows similarly solid spread, across Greater Accra, Ashanti, Central, Northern, Volta, Eastern, Western, and Upper East regions.",
+        "Egypt is the opposite case: over 80% of its 31 campers are effectively from one metro area (Cairo, Giza, Nasr City, New Cairo, and Dokki are all Greater Cairo), with only Alexandria and El Behira as outliers. Zambia, as above, is concentrated in Copperbelt and Lusaka alone.",
+        "The overall pattern: larger camper counts tend to come with more genuine subnational diversity — but not automatically. Egypt is a large-sample counterexample that stays capital-centric even at 31 campers."
+      ],
+      "table": {
+        "headers": ["Country", "Campers", "Unique Cities", "Top City", "Top City Share"],
+        "rows": [
+          ["South Africa", "54", "29", "Pretoria", "14.8%"],
+          ["Ghana", "39", "22", "Accra", "23.1%"],
+          ["Zambia", "36", "10", "Kitwe", "38.9%"],
+          ["Egypt", "31", "10", "Cairo", "54.8%"],
+          ["Nigeria", "18", "12", "Lagos", "33.3%"],
+          ["Cameroon", "3", "1", "Yaoundé", "100%"]
+        ]
+      },
+      "chartHint": null
+    },
+    {
+      "id": "recency-25-20yr",
+      "title": "How Many African Countries Are Still Actively Represented?",
+      "section": "time-trends",
+      "countryIso3": null,
+      "paragraphs": [
+        "Of the 11 African countries that have ever sent a camper to CRS, nine (81.8%) sent at least one camper in the past 25 years. Only Algeria and Uganda haven't — and each sent just a single camper, before 2001.",
+        "That share drops at the 20-year mark: only seven of 11 countries (63.6%) have sent a camper since 2006. Nigeria and Tunisia join Algeria and Uganda in dropping off the list.",
+        "Recency is very unevenly distributed even among currently-active countries. South Africa's pipeline is almost entirely recent — 92.6% of its all-time campers came in the past 25 years — while Nigeria sits at the opposite extreme (16.7%), consistent with its 2002 dropoff."
+      ],
+      "table": {
+        "headers": ["Country", "Campers since 2001", "% of country's all-time total"],
+        "rows": [
+          ["South Africa", "50", "92.6%"],
+          ["Ghana", "25", "64.1%"],
+          ["Zambia", "22", "61.1%"],
+          ["Egypt", "12", "38.7%"],
+          ["Cameroon", "3", "100%"],
+          ["Nigeria", "3", "16.7%"],
+          ["Liberia", "1", "100%"],
+          ["Morocco", "1", "50%"],
+          ["Tunisia", "1", "50%"],
+          ["Algeria", "0", "0%"],
+          ["Uganda", "0", "0%"]
+        ]
+      },
+      "chartHint": null
+    }
+  ]
+}

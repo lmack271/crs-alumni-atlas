@@ -1,0 +1,298 @@
+/* Base layout/typography/table/legend/pill styles extracted verbatim
+   from the CRS_African_Alumni_Atlas.html prototype. Continent- and
+   page-specific styles live in nav.css / home.css / region.css. */
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: 'EB Garamond', Georgia, 'Times New Roman', serif;
+  font-size: 18px;
+  line-height: 1.55;
+}
+h1, h2, h3, .num {
+  font-family: 'Cormorant', Georgia, serif;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-wrap: balance;
+  margin: 0;
+}
+a { color: var(--accent); }
+::selection { background: var(--accent-soft); }
+
+/* ---------------- HERO (deliberately fixed dark "dawn" look, both themes) ---------------- */
+.hero {
+  position: relative;
+  background:
+    radial-gradient(120% 90% at 78% 88%, rgba(224, 150, 66, 0.35), transparent 60%),
+    linear-gradient(180deg, #0a0c16 0%, #12162a 42%, #2a2036 70%, #4a2c1c 100%);
+  color: #f4efe4;
+  overflow: hidden;
+  padding: clamp(28px, 5vw, 64px) clamp(20px, 6vw, 72px) clamp(40px, 6vw, 72px);
+  min-height: min(92vh, 920px);
+  display: flex;
+  flex-direction: column;
+}
+.hero-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: 'EB Garamond', serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(244, 239, 228, 0.55);
+}
+.hero-body {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(280px, 460px) 1fr;
+  gap: clamp(16px, 4vw, 48px);
+  align-items: center;
+  margin-top: clamp(18px, 4vh, 48px);
+}
+@media (max-width: 860px) {
+  .hero-body { grid-template-columns: 1fr; }
+  .globe-wrap { order: -1; }
+}
+.hero-eyebrow {
+  font-size: 0.82rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent, #e0a94a);
+  margin-bottom: 14px;
+}
+.hero h1 {
+  font-size: clamp(2.6rem, 6vw, 4.4rem);
+  line-height: 1.03;
+  color: #fbf7ee;
+}
+.hero h1 em {
+  font-style: italic;
+  color: #e0a94a;
+}
+.hero p.lede {
+  font-family: 'EB Garamond', serif;
+  font-size: clamp(1.05rem, 1.6vw, 1.22rem);
+  color: rgba(244, 239, 228, 0.82);
+  max-width: 46ch;
+  margin-top: 20px;
+}
+.hero-scroll {
+  margin-top: 28px;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  color: rgba(244, 239, 228, 0.55);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.hero-scroll svg { animation: bob 2.2s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .hero-scroll svg { animation: none; } }
+@keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(5px); } }
+
+.globe-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-width: min(560px, 86vw);
+  margin: 0 auto;
+  touch-action: none;
+}
+/* Any globe canvas (home #globe, region pages' #region-globe) must be sized
+   by its wrapper. Without this, the canvas's CSS size falls back to its
+   pixel-buffer size, which globe.js sets to wrapper size x devicePixelRatio
+   -- on a 2x (Retina) screen that doubles the wrapper on every resize until
+   the browser gives up drawing it. */
+.globe-wrap canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  cursor: grab;
+}
+.globe-wrap canvas:active { cursor: grabbing; }
+.globe-hint {
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(244, 239, 228, 0.45);
+  white-space: nowrap;
+}
+.tooltip {
+  position: fixed;
+  z-index: 30;
+  pointer-events: none;
+  background: var(--tt-bg);
+  color: var(--tt-ink);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  padding: 10px 13px;
+  font-family: 'EB Garamond', serif;
+  font-size: 0.92rem;
+  line-height: 1.4;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.12s ease, transform 0.12s ease;
+  max-width: 240px;
+}
+.tooltip.visible { opacity: 1; transform: translateY(0); }
+.tooltip strong { font-family: 'Cormorant', serif; font-size: 1.08rem; font-weight: 600; }
+.tt-yes { color: #7db4f0; }
+.tt-no { color: #9b988c; }
+.tt-pop { color: rgba(242,240,234,0.6); font-size: 0.82rem; }
+
+/* ---------------- BODY ---------------- */
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 clamp(20px, 6vw, 40px); }
+
+.stat-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(12px, 2.4vw, 28px);
+  margin-top: clamp(-56px, -6vw, -40px);
+  position: relative;
+  z-index: 2;
+}
+@media (max-width: 720px) { .stat-row { grid-template-columns: repeat(2, 1fr); margin-top: 20px; } }
+.stat-tile {
+  background: var(--surface-raised);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 20px 18px;
+  box-shadow: 0 10px 30px var(--shadow);
+}
+.stat-tile .num {
+  font-size: clamp(1.9rem, 3.4vw, 2.5rem);
+  color: var(--accent);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.stat-tile .label {
+  margin-top: 8px;
+  font-size: 0.86rem;
+  color: var(--ink-soft);
+}
+
+.narrative {
+  max-width: 66ch;
+  margin: clamp(36px, 6vw, 56px) auto 0;
+  font-size: 1.08rem;
+  color: var(--ink-soft);
+}
+.narrative strong { color: var(--ink); font-weight: 600; }
+
+.legend-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 22px;
+  margin: 22px auto 0;
+  max-width: 66ch;
+  font-size: 0.84rem;
+  color: var(--muted);
+}
+.legend-item { display: flex; align-items: center; gap: 8px; }
+.legend-swatch { width: 84px; height: 9px; border-radius: 4px; background: linear-gradient(90deg, #cde2fb, #0d366b); }
+.legend-dot { width: 11px; height: 11px; border-radius: 50%; background: var(--rep-no); flex: none; }
+
+section.section {
+  margin-top: clamp(56px, 8vw, 88px);
+}
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 10px;
+  margin-bottom: 6px;
+}
+.section-head h2 { font-size: clamp(1.5rem, 2.6vw, 1.9rem); }
+.section-count { font-size: 0.86rem; color: var(--muted); white-space: nowrap; }
+.section-caption { font-style: italic; color: var(--muted); font-size: 0.92rem; margin: 10px 0 22px; }
+
+.table-scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 0.98rem; }
+thead th {
+  text-align: left;
+  font-family: 'EB Garamond', serif;
+  font-weight: 600;
+  font-size: 0.76rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--accent);
+  padding: 0 10px 10px;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+tbody td {
+  padding: 11px 10px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: baseline;
+}
+tbody tr:hover td { background: var(--accent-soft); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+td.rank { color: var(--muted); font-size: 0.85rem; width: 1%; }
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.86rem;
+}
+.pill::before {
+  content: '';
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--rep-no);
+}
+.pill.yes { color: var(--rep-yes); font-weight: 600; }
+.pill.yes::before { background: var(--rep-yes); }
+.pill.no { color: var(--muted); }
+
+.not-rep-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+.not-rep-list li {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 9px 12px;
+  border-radius: 6px;
+  overflow: hidden;
+  isolation: isolate;
+}
+.not-rep-list .bar {
+  position: absolute; inset: 0; z-index: -1;
+  background: var(--accent-soft);
+  border-radius: 6px;
+}
+.not-rep-list .name { font-size: 1rem; }
+.not-rep-list .pop { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 0.9rem; }
+.not-rep-list .star { color: var(--muted); font-size: 0.78em; margin-left: 4px; }
+
+footer {
+  margin-top: clamp(64px, 8vw, 100px);
+  padding: 28px 0 60px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+/* Footers also carry .wrap, whose `margin: 0 auto` and `padding: 0 …` would
+   otherwise reset the vertical margin/padding above to 0 — butting the footer
+   against the last section and gluing its text to the border line. */
+footer.wrap {
+  margin-top: clamp(64px, 8vw, 100px);
+  padding-top: clamp(24px, 3vw, 32px);
+  padding-bottom: clamp(48px, 6vw, 72px);
+  line-height: 1.65;
+}
+footer a { color: var(--muted); text-decoration: underline; text-underline-offset: 2px; }
+
+.fade-in { animation: fadeIn 0.7s ease both; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) { .fade-in { animation: none; } }

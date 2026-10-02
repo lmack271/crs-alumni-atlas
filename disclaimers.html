@@ -1,0 +1,140 @@
+<meta charset="utf-8" />
+<title>Disclaimers &amp; caveats — CRS Alumni Atlas</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="css/tokens.css" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/nav.css" />
+<link rel="stylesheet" href="css/region.css" />
+<style>
+  .disclaimers ul { margin: 0; padding-left: 1.3em; color: var(--ink-soft); }
+  .disclaimers li { margin: 0 0 10px; max-width: 68ch; }
+  .disclaimers li:last-child { margin-bottom: 0; }
+  .disclaimers .narrative { max-width: 68ch; margin: 0 0 14px; }
+  .disclaimers .narrative:last-child { margin-bottom: 0; }
+</style>
+
+<body data-page="disclaimers">
+
+<div id="nav-mount"></div>
+
+<div class="wrap disclaimers">
+  <div class="region-hero">
+    <div class="hero-eyebrow">Methodology</div>
+    <h1>Disclaimers &amp; caveats</h1>
+    <p class="lede">This site is an independent analysis built from the CRS Alumni Directory — not an official CRS publication. Every count, ratio, and "underrepresented" label here is a modeling choice, not a fact handed down from clean data. This page explains the choices and where the rough edges are.</p>
+  </div>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>What this data is — and isn't</h2>
+    </div>
+    <div class="narrative">
+      The roster behind this site comes from the online CRS Alumni Directory. For each of 14
+      regions, the directory was filtered to that region's countries and results were exported through PDF downloads between
+      May and September, 2026. Because this analysis focuses on geographic representation among international campers at CRS, U.S. listings were not downloaded. Every entry was then extracted from those PDFs into a single
+      spreadsheet, and each country was assigned to a continent using World Population Review's
+      lists of countries by continent. It's a snapshot of the directory as it appeared on those
+      dates, not a live extract or a guaranteed-complete historical archive.
+    </div>
+    <ul>
+      <li><strong>U.S. alumni are excluded by design.</strong> The analysis examines only entries for CRS's <em>international</em> alumni, so every population comparison on this site — expected campers, representation ratios, "underrepresented" rankings — is calculated against world population minus the U.S.</li>
+      <li>Alumni who attended camp but aren't listed in the directory, who have no listed country in their directory entry, or who were added to the directory after the dates above aren't included. This site only reflects who appeared in the saved PDFs.</li>
+      <li>Population figures are World Bank <code>SP.POP.TOTL</code>, 2025 estimates — a single current-day snapshot compared against camper counts spanning decades. A country's expected share is measured against its population today, not its population in the year a given camper attended.</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>Locations may reflect where alumni live now, not necessarily where they lived at camp</h2>
+    </div>
+    <div class="narrative">
+      Every geographic figure on this site — country counts, city and regional breakdowns,
+      representation ratios — is based on the "Country" and "City" fields of each alumnus's
+      directory listing. These fields hold whatever the alumnus last entered, and are therefore not necessarily a record of where they lived when they
+      attended camp. Many (likely most) alumni don't update their directory information, at
+      least not beyond the first couple of years after camp. But a notable share do, so the data
+      is partly a picture of where alumni live today rather than where they came from. This can bias:
+    </div>
+    <ul>
+      <li><strong>Country-level figures.</strong> An alumnus who moved abroad after Camp and updated the country field in their Alumni Directory listing will be counted under their new country. This can undercount the countries campers originally came from and overcount common destinations for study and work.</li>
+      <li><strong>Within-country figures.</strong> Moving within a country is more common than moving abroad, so city and regional breakdowns are probably affected more. Updated addresses are likely to pull counts toward capitals and large cities, where alumni often move for university or work. As a result, some countries may look more concentrated in their main city, and less connected to their original home towns, than they really were at the time of camp.</li>
+      <li><strong>Older cohorts are affected more.</strong> Alumni who attended decades ago have had more time to move and to update their listings, so locations for earlier camp years are less reliable than for recent ones.</li>    </ul>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>How the roster was extracted and cleaned</h2>
+    </div>
+    <ul>
+      <li>Several name and address entries extracted from the saved PDFs had text errors (garbled accented characters, truncated names). Most were caught and corrected by hand or by a high-confidence AI imputation of the correct spelling; some may remain.</li>
+      <li>City and country fields were also standardized where the listed value was clearly wrong, or was actually a postal code or estate name rather than a city.</li>
+      <li><strong>Missing country or year.</strong> Most directory entries list both a camper's country and camp year, but some don't. Two informal samples of the directory (473 entries in all, taken from the start of the alphabetical listing — meant to approximate a random sample, but not truly random) found about 5% of entries with no year and about 10% with no country or other location. Missing information was handled this way:
+        <ul>
+          <li><strong>Country known</strong> (listed directly, or inferred from the address): included in all geographic figures.</li>
+          <li><strong>No country at all:</strong> left out of the analysis entirely.</li>
+          <li><strong>Country known but no year:</strong> included in the geographic figures, but left out of every time-based figure (year-by-year charts, "past 15/5 years" figures, and time-period filters). In the final roster, 47 of 2,129 alumni (2.2%) fall in this group.</li>
+        </ul>
+      </li>
+      <li>Where an alumnus attended camp in multiple years, they're counted once — in their earliest listed year — everywhere this site reports "campers sent." Return visits and staff years aren't counted as additional recruits.</li>
+      <li><strong>AI assistance.</strong> The roster was extracted from the saved PDFs, cleaned, and analyzed using Claude Code (Anthropic's AI coding assistant), which was also used to design and implement the algorithm calculating underrepresentation, and to build this website. Where an entry had extensive address information, including a zip code, but the city or country field was left blank, Claude inferred the missing country or city using the rest of the listed address: fills it was highly confident about were applied directly, and less certain ones were checked by hand. Fixes are recorded entry by entry in the cleaning code, so each change is traceable. To verify the extraction, a random sample of about 20 rows in the resulting spreadsheet was compared against the source PDFs, and every sampled row matched.</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>"Underrepresented" is a model, not a verdict</h2>
+    </div>
+    <div class="narrative">
+      The underrepresentation rankings compare each country's actual camper count to an
+      <em>expected</em> count scaled by population — capped at roughly four new campers per country
+      per year, over a 2010–2024 window, so that raw population size alone can't push a country
+      like China or India to an unrealistic target. That default (cap and window) is a defensible
+      choice, not the only one.
+    </div>
+    <ul>
+      <li>Loosening or tightening the annual cap, or widening the time window, changes the ranking — most visibly for China, whose recent (last-15-year) sending rate is high enough to flip it between "underrepresented" and "over target" depending on which cap is used. India ranks as the most underrepresented large country under every combination tested; the countries with zero recorded campers (Nigeria, Bangladesh, Ethiopia, DR Congo, and similar) are the most cap/window-invariant findings.</li>
+      <li>The model doesn't correct for small-sample noise — a country with one or two campers isn't statistically distinguishable from a country with none, given how thin the recent camper pool is per country. Rankings based on differences between small counts should therefore be treated as directional, not precise.</li>
+      <li>"Underrepresented" reflects population share only. It says nothing about CRS's actual outreach capacity, partner presence, travel logistics, or historical relationships in a given country — all of which shape where recruitment is realistic.</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>Regional and sub-regional groupings are this analysis's own</h2>
+    </div>
+    <div class="narrative">
+      Sub-region groupings (Northern/Western/Central/Eastern/Southern Africa, and similar splits
+      for Asia, the Americas, Europe, and Oceania) were chosen for this analysis to keep totals
+      non-overlapping. While they follow typical geographic conventions, a few countries could
+      reasonably sit in more than one bucket. Cyprus, for example, is conventionally grouped with both Western Asia and Southern
+      Europe; this analysis places it in Southern Europe only, following World Population
+      Review, so its campers aren't double-counted. Sub-region
+      boundaries should be treated as an analytical convenience, not a geopolitical claim.
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>This is an independent, unofficial analysis</h2>
+    </div>
+    <div class="narrative">
+      This site was built as an independent side project from CRS's own directory data — it
+      hasn't been commissioned, reviewed, or endorsed by CRS. The "notable stories" and
+      priority-area framing throughout the site reflect one analyst's read of the patterns in
+      the data, not an institutional position. Corrections and questions about the underlying
+      data are welcome — the analyst can be reached at
+      <a href="mailto:lilamack271@gmail.com">lilamack271@gmail.com</a>. The numbers and findings
+      presented on this website should be treated as starting points for a conversation, not as
+      final figures or assessments.
+    </div>
+  </section>
+</div>
+
+<footer class="wrap">
+  Population figures: World Bank, indicator SP.POP.TOTL, 2025 estimates. Basemap: Natural Earth
+  1:110m cultural vectors. Camper data drawn from CRS Alumni Directory, largely from the &ldquo;Country&rdquo; and &ldquo;City&rdquo; fields.
+</footer>
+
+<script src="js/data-loader.js"></script>
+<script src="js/nav.js"></script>
+</body>

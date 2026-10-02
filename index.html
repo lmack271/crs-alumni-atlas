@@ -1,0 +1,60 @@
+<meta charset="utf-8" />
+<title>CRS Alumni Atlas</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="css/tokens.css" />
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/nav.css" />
+<link rel="stylesheet" href="css/home.css" />
+
+<body data-page="home">
+
+<div id="nav-mount"></div>
+
+<div class="home-hero">
+  <h1>Camp Rising Sun:<br>Geographic Representation</h1>
+  <p class="lede"><em>Drawing on the CRS Alumni Directory, this mapping exercise visualizes where international (non-US) campers are coming from, helping to identify underrepresented regions. By country coverage, Oceania, Africa, and the Americas are the least represented continents.</em></p>
+</div>
+
+<div class="tooltip" id="tooltip"></div>
+
+<main class="scrolly">
+  <div class="scrolly-stage">
+    <div class="globe-wrap">
+      <canvas id="globe" aria-label="Interactive rotatable globe showing CRS alumni representation by continent"></canvas>
+      <div class="globe-hint">click &amp; drag to turn</div>
+    </div>
+  </div>
+
+  <div class="scrolly-steps">
+    <section class="step" data-continent="africa">
+      <div class="step-panel" data-panel></div>
+    </section>
+    <section class="step" data-continent="americas">
+      <div class="step-panel" data-panel></div>
+    </section>
+    <section class="step" data-continent="asia">
+      <div class="step-panel" data-panel></div>
+    </section>
+    <section class="step" data-continent="europe">
+      <div class="step-panel" data-panel></div>
+    </section>
+    <section class="step" data-continent="oceania">
+      <div class="step-panel" data-panel></div>
+    </section>
+  </div>
+</main>
+
+<footer class="wrap">
+  Population figures: World Bank, indicator SP.POP.TOTL, 2025 estimates. Basemap: Natural Earth 1:110m cultural vectors.
+  Camper data drawn from CRS Alumni Directory, largely from the &ldquo;Country&rdquo; and &ldquo;City&rdquo; fields. <a href="disclaimers.html">Data disclaimers &amp; caveats</a>.
+</footer>
+
+<script src="js/vendor/d3-array.js"></script>
+<script src="js/vendor/d3-geo.js"></script>
+<script src="js/vendor/versor.js"></script>
+<script src="js/data-loader.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/color-scale.js"></script>
+<script src="js/globe.js"></script>
+<script src="js/scrollytelling.js"></script>
+<script src="js/home.js"></script>
