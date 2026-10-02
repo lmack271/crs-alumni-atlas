@@ -26,4 +26,24 @@
       </ul>
     </nav>
   `;
+
+  // Home page: the nav scrolls away with the hero, so bring it back (pinned
+  // to the top of the viewport) once the reader reaches the bottom of the page.
+  if (currentPage === 'home') {
+    const nav = mount.querySelector('.site-nav');
+    const BOTTOM_SLACK = 80; // px from the very bottom that still counts as "at the bottom"
+    const update = () => {
+      const doc = document.documentElement;
+      const atBottom = window.scrollY + window.innerHeight >= doc.scrollHeight - BOTTOM_SLACK;
+      const pastNav = window.scrollY > mount.offsetHeight;
+      const reveal = atBottom && pastNav;
+      if (reveal === nav.classList.contains('site-nav--revealed')) return;
+      // Hold the nav's space in the flow so pinning it doesn't shift the page.
+      mount.style.minHeight = reveal ? `${nav.offsetHeight}px` : '';
+      nav.classList.toggle('site-nav--revealed', reveal);
+    };
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  }
 })();

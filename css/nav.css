@@ -15,6 +15,22 @@
   font-family: 'EB Garamond', serif;
 }
 
+/* Home page only: js/nav.js pins the nav back to the top of the viewport once
+   the reader has scrolled to the bottom of the page. */
+.site-nav--revealed {
+  position: fixed;
+  left: 0;
+  right: 0;
+  animation: site-nav-slide-in 0.25s ease-out;
+}
+@keyframes site-nav-slide-in {
+  from { transform: translateY(-100%); }
+  to   { transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-nav--revealed { animation: none; }
+}
+
 .site-nav__brand {
   font-family: 'Cormorant', Georgia, serif;
   font-weight: 600;
